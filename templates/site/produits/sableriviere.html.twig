@@ -1,0 +1,100 @@
+{% extends 'layout.html.twig' %}
+{% block title %} {{ "Sable rivière"|trans }} - Gracam {% endblock %}
+{% block produits %}active{% endblock %}
+{% block nav %}scrolled{% endblock %}
+{% block body %}
+
+    <div class="container-fluid">
+        <div class="container pt-5">
+            <div class="row g-5 mb-5 mt-5">
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <img src="{{ asset('images/sable_1.avif') }}" class="img-fluid" id="ProductImg"
+                                 alt="produits1">
+                        </div>
+                        <div class="col-4">
+                            <img src="{{ asset('images/sable_1.avif') }}" class="img-fluid small-img"
+                                 alt="produits1">
+                        </div>
+                        <div class="col-4">
+                            <img src="{{ asset('images/sable_2.avif') }}" class="img-fluid small-img"
+                                 alt="produits1">
+                        </div>
+                        <div class="col-4">
+                            <img src="{{ asset('images/sable_3.avif') }}" class="img-fluid small-img"
+                                 alt="produits1">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card shadow border-primaire h-100">
+                        <div class="card-header">
+                            Information du produit
+                        </div>
+                        <div class="card-body px-5">
+                            <h5 class="card-title">Sables rivieres</h5>
+                            <div class="produit-info">
+                                <h4 class="header-title">Caractéristiques</h4>
+                                <ul>
+                                    <li>
+                                        <span class="fw-bold">Granulométrie:</span> de 0 à 4 mm
+                                    </li>
+                                    <li>
+                                        <span class="fw-bold">Couleur:</span>
+                                        Ocre
+                                    </li>
+                                    <li>
+                                        <span class="fw-bold">Forme:</span> Concassé
+                                    </li>
+                                    <li>
+                                        <span class="fw-bold">Origine:</span> Sur le fleuve Sanaga
+                                    </li>
+                                </ul>
+                                <h4 class="header-title">Usages</h4>
+                                <ul>
+                                    <li>
+                                        <span class="fw-bold">Construction :</span>  Sable pour béton
+                                    </li>
+                                    <li>
+                                        <span class="fw-bold">Allée et voie d’accès:</span> Couche de finition pour vos
+                                        allées
+                                        de jardin.
+                                    </li>
+                                    <li>
+                                        <span class="fw-bold">Jardin et décoration:</span> Pose de pavage, terrain de
+                                        pétanque.
+                                    </li>
+                                </ul>
+                                <h4 class="header-title">Conditionnement</h4>
+                                <ul>
+                                    <li class="mb-2"> Sable vendu en vrac et Big Bag.</li>
+                                    <li>
+                                        <span class="fw-bold">Prix HT :</span> 4192 FCFA / Tonne
+                                    </li>
+                                    <li>
+                                        <span class="fw-bold">Prix TTC :</span> 5000 FCFA / Tonne
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+
+                </div>
+                <div class="col-lg-6">
+                    <input type="hidden" id="prixHt" value="4192"/>
+                    <input type="hidden" id="prixTTC" value="5000"/>
+                    {{ include('site/calculateurSable.html.twig') }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- item End -->
+    {% block scroll %} {% endblock %}
+{% endblock %}
+
+
+

@@ -1,0 +1,285 @@
+{% extends 'layout.html.twig' %}
+{% block title %} {{ "Produits"|trans }} -  {% endblock %}
+{% block produits %}active{% endblock %}
+{% block body %}
+    <!-- Header Start -->
+    <div class="container-fluid py-5 mb-5 page-header-produit">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-5 text-white fw-bold mt-5 mb-3 animated fadeIn">
+                        {{ "Produits"|trans }}
+                    </h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item">
+                                <a class="text-white" href="{{ path('Accueil') }}">
+                                    {{ "Accueil"|trans }}
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item text-white">
+                                {{ "Produits"|trans }}
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Produits Start -->
+    <div class="container-fluid px-5 mb-5 pt-3 pb-5">
+        <div class="sable row border-primaire mt-5 shadow">
+            <div class="col-lg-3 p-0">
+                <div class="categorie-title">
+                    SABLES
+                </div>
+            </div>
+            <div class="col-lg-9 p-5 align-items-center">
+                <div class="row g-5 justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <a href="{{ path('SablesRiviere') }}">
+                            <div class="produit">
+                                <!-- Product image-->
+                                <div class="produit-img">
+                                    <img src="{{ asset('images/sable.avif') }}"
+                                         alt="sable"/>
+                                </div>
+                                <!-- Product details-->
+                                <div class="produit-description">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">Sable Rivière</h5>
+                                        <!-- Product price-->
+                                        <span class="fw-bolder">4192F HT - 5000F TTC </span>
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gravier row border-primaire mt-5 shadow">
+            <div class="col-lg-3 p-0">
+                <div class="categorie-title">
+                    GRAVIERS
+                </div>
+            </div>
+            <div class="col-lg-9 p-5 d-flex align-items-center">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <a href="{{ path('gravier5_15') }}">
+                            <div class="produit">
+                                <!-- Product image-->
+                                <div class="produit-img">
+                                    <img src="{{ asset('images/gravier_5-15_1.avif') }}"
+                                         alt="gravier"/>
+                                </div>
+                                <!-- Product details-->
+                                <div class="produit-description">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">5/15</h5>
+                                        <!-- Product price-->
+                                        <span class="fw-bolder">6708F HT- 7000F TTC </span>
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="{{ path('gravier15_25') }}">
+                            <div class="produit">
+                                <!-- Product image-->
+                                <div class="produit-img">
+                                    <img src="{{ asset('images/gravier_15-25_1.avif') }}"
+                                         alt="gravier"/>
+                                </div>
+                                <!-- Product details-->
+                                <div class="produit-description">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">15/25</h5>
+                                        <!-- Product price-->
+                                        <span class="fw-bolder">6708F HT - 8000F TTC </span>
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="{{ path('gravier5_25') }}">
+                            <div class="produit">
+                                <!-- Product image-->
+                                <div class="produit-img">
+                                    <img src="{{ asset('images/gravier_5-25_1.avif') }}"
+                                         alt="gravier"/>
+                                </div>
+                                <!-- Product details-->
+                                <div class="produit-description">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">5/25</h5>
+                                        <!-- Product price-->
+                                        <span class="fw-bolder">5870F HT - 7000F TTC </span>
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="{{ path('gravier0_5') }}">
+                            <div class="produit">
+                                <!-- Product image-->
+                                <div class="produit-img">
+                                    <img src="{{ asset('images/gravier_0-50_1.avif') }}"
+                                         alt="gravier"/>
+                                </div>
+                                <!-- Product details-->
+                                <div class="produit-description">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">0/50</h5>
+                                        <!-- Product price-->
+                                        <span class="fw-bolder">6876F HT - 8200F TTC </span>
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="{{ path('gravier0_100') }}">
+                            <div class="produit">
+                                <!-- Product image-->
+                                <div class="produit-img">
+                                    <img src="{{ asset('images/gravier_0-100_1.avif') }}"
+                                         alt="gravier"/>
+                                </div>
+                                <!-- Product details-->
+                                <div class="produit-description">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">0/100</h5>
+                                        <!-- Product price-->
+                                        <span class="fw-bolder">6876F HT - 8200F TTC </span>
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="{{ path('ballast') }}">
+                            <div class="produit">
+                                <!-- Product image-->
+                                <div class="produit-img">
+                                    <img src="{{ asset('images/ballast.avif') }}"
+                                         alt="ballast"/>
+                                </div>
+                                <!-- Product details-->
+                                <div class="produit-description">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">Ballast</h5>
+                                        <!-- Product price-->
+                                        <span class="fw-bolder">6876F HT - 8200F TTC </span>
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pierre row border-primaire mt-5 shadow">
+            <div class="col-lg-3 p-0">
+                <div class="categorie-title">
+                    Granites
+                </div>
+            </div>
+            <div class="col-lg-9 p-5 d-flex align-items-center">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <a href="{{ path('pierreornementale') }}">
+                            <div class="produit">
+                                <!-- Product image-->
+                                <div class="produit-img">
+                                    <img src="{{ asset('images/granitevert.avif') }}"
+                                         alt="pierre"/>
+                                </div>
+                                <!-- Product details-->
+                                <div class="produit-description">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">GRANITE VERT ROSE/CHATOYANT</h5>
+                                        <!-- Product price-->
+                                        <span class="fw-bolder">7500F TTC - 6289F HT </span>
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="{{ path('moellons') }}">
+                            <div class="produit">
+                                <!-- Product image-->
+                                <div class="produit-img">
+                                    <img src="{{ asset('images/moellon_1.avif') }}"
+                                         alt="pierre"/>
+                                </div>
+                                <!-- Product details-->
+                                <div class="produit-description">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">MOELLONS</h5>
+                                        <!-- Product price-->
+                                        <span class="fw-bolder"> 6289F HT-7500F TTC </span>
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="{{ path('sterile') }}">
+                            <div class="produit">
+                                <!-- Product image-->
+                                <div class="produit-img">
+                                    <img src="{{ asset('images/graniteSterile_1.avif') }}"
+                                         alt="pierre"/>
+                                </div>
+                                <!-- Product details-->
+                                <div class="produit-description">
+                                    <div class="text-center">
+                                        <!-- Product name-->
+                                        <h5 class="fw-bolder">STERILE</h5>
+                                        <!-- Product price-->
+                                        <span class="fw-bolder">2515F HT- 3000F TTC</span>
+                                    </div>
+                                </div>
+                                <!-- Product actions-->
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Produits End -->
+
+{% endblock %}
+
+
+

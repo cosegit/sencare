@@ -1,0 +1,144 @@
+{% extends 'layout.html.twig' %}
+{% block title %} {{ "Galerie"|trans }} - Eau là là{% endblock %}
+{% block gallery %} active {% endblock %}
+{% block photobox_css %}
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/photobox/1.9.2/photobox/photobox.min.css" rel="stylesheet">
+{% endblock %}
+{% block body %}
+    <div class="container-fluid py-5 page-header-galerie">
+
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center mt-5">
+                    <h1 class="display-5 text-white fw-bold mt-5 mb-3 animated fadeIn">
+                        {{ "Galerie photo"|trans }}
+                    </h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item">
+                                <a class="text-white" href="{{ path('Gallery') }}">
+                                    {{ "Galerie"|trans }}
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item text-white">
+                                {{ "Galerie photo"|trans }}
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid p-5 h-100">
+
+        <div class="container ">
+            <div class="text-center">
+                <h1 class="service-title mt-5">
+                    Galerie photo
+                </h1>
+            </div>
+            <div class="row justify-content-center mt-5 mb-5">
+                <div id="gallery">
+                    <a href="{{ asset("../images/galerie.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_1.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_1_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_2.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_2_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_3.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_3_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_4.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_4_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_5.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_5_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_6.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_6_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_7.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_7_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_8.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_8_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_9.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_9_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_10.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_10_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_11.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_11_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_12.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_12_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_13.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_13_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_14.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_14_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_15.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_15_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_16.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_16_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_17.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_17_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_18.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_18_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_19.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_19_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_20.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_20_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_21.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_21_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_22.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_22_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_23.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_23_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_24.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_24_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_25.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_25_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_26.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_26_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_27.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_27_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_28.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_28_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_29.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_29_thumb.avif") }}" alt="">
+                    </a>
+                    <a href="{{ asset("../images/galerie_30.avif") }}" class="gallery-thumbnail">
+                        <img src="{{ asset("../images/galerie_30_thumb.avif") }}" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% block photobox_js %}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/photobox/1.9.2/photobox/jquery.photobox.min.js"></script>
+    {% endblock %}
+{% endblock %}
