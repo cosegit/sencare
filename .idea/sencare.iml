@@ -137,13 +137,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="owl-carousel" level="application" />
-    <orderEntry type="library" name="tempusdominus-bootstrap-4" level="application" />
-    <orderEntry type="library" name="waypoints" level="application" />
-    <orderEntry type="library" name="moment-timezone" level="application" />
-    <orderEntry type="library" name="moment.js" level="application" />
-    <orderEntry type="library" name="bootstrap-icons" level="application" />
-    <orderEntry type="library" name="jquery-3.4.1" level="application" />
-    <orderEntry type="library" name="jquery-3.6.0" level="application" />
   </component>
 </module>
