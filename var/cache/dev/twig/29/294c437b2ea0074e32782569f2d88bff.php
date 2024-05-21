@@ -109,14 +109,11 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row justify-content-start text-carousel position-absolute\">
                         <div class=\"col-lg-8 text-center text-lg-start\">
                             <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Welcome To Medinova</h5>
-                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">Best Healthcare Solution In Your City</h1>
-                            <div class=\"pt-2\">
-                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>
-                                <a href=\"\"
-                                   class=\"btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Appointment</a>
-                            </div>
-                        </div>
+                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez Sencare.</h5>
+                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">La meilleure solution de soins de santé près de chez vous.</h1>
+";
+        // line 32
+        yield "                        </div>
                     </div>
                 </div>
             </div>
@@ -133,14 +130,11 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row justify-content-start text-carousel position-absolute\">
                         <div class=\"col-lg-8 text-center text-lg-start\">
                             <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Welcome To Medinova</h5>
-                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">Best Healthcare Solution In Your City</h1>
-                            <div class=\"pt-2\">
-                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>
-                                <a href=\"\"
-                                   class=\"btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Appointment</a>
-                            </div>
-                        </div>
+                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez Sencare.</h5>
+                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">Votre santé entre des mains expertes et bienveillantes.</h1>
+";
+        // line 53
+        yield "                        </div>
                     </div>
                 </div>
             </div>
@@ -157,14 +151,13 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row justify-content-start text-carousel position-absolute\">
                         <div class=\"col-lg-8 text-center text-lg-start\">
                             <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Welcome To Medinova</h5>
-                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">Best Healthcare Solution In Your City</h1>
-                            <div class=\"pt-2\">
-                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>
-                                <a href=\"\"
-                                   class=\"btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Appointment</a>
-                            </div>
-                        </div>
+                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez Sencare.</h5>
+                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">
+                                Votre oasis de bien-être et de soins de santé de qualité.
+                           </h1>
+";
+        // line 76
+        yield "                        </div>
                     </div>
                 </div>
             </div>
@@ -189,7 +182,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"col-lg-5 mb-5 mb-lg-0\" style=\"min-height: 500px;\">
                     <div class=\"position-relative h-100\">
                         <img class=\"position-absolute w-100 h-100 rounded\" src=\"";
-        // line 98
+        // line 100
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/about.jpg"), "html", null, true);
         yield "\"
                              style=\"object-fit: cover;\" alt=\"\">
@@ -197,37 +190,36 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 </div>
                 <div class=\"col-lg-7\">
                     <div class=\"mb-4\">
-                        <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">About Us</h5>
-                        <h1 class=\"display-4\">Best Medical Care For Yourself and Your Family</h1>
+                            <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">A propos</h5>
+                        <h1 class=\"display-4\">Les Meilleurs Soins Médicaux Pour Vous et Votre Famille</h1>
                     </div>
-                    <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor
-                        voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum
-                        et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur
-                        takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore.
-                        Amet erat amet et magna</p>
+                    <p>
+                        Bienvenue chez Sencare, votre clinique dédiée à des soins de santé personnalisés et de haute qualité.
+                        Fondée sur les valeurs d'empathie, d'excellence médicale et d'innovation, Sencare s'engage à vous offrir une expérience de soins inégalée.
+                    </p>
                     <div class=\"row g-3 pt-3\">
                         <div class=\"col-sm-3 col-6\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-user-md text-primary mb-3\"></i>
-                                <h6 class=\"mb-0\">Qualified<small class=\"d-block text-primary\">Doctors</small></h6>
+                                <h6 class=\"mb-0\">Médecins<small class=\"d-block text-primary\">Qualifiés</small></h6>
                             </div>
                         </div>
                         <div class=\"col-sm-3 col-6\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-procedures text-primary mb-3\"></i>
-                                <h6 class=\"mb-0\">Emergency<small class=\"d-block text-primary\">Services</small></h6>
+                                <h6 class=\"mb-0\">Services<small class=\"d-block text-primary\">d'Urgence</small></h6>
                             </div>
                         </div>
                         <div class=\"col-sm-3 col-6\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-microscope text-primary mb-3\"></i>
-                                <h6 class=\"mb-0\">Accurate<small class=\"d-block text-primary\">Testing</small></h6>
+                                <h6 class=\"mb-0\">Tests<small class=\"d-block text-primary\">Précis</small></h6>
                             </div>
                         </div>
                         <div class=\"col-sm-3 col-6\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-ambulance text-primary mb-3\"></i>
-                                <h6 class=\"mb-0\">Free<small class=\"d-block text-primary\">Ambulance</small></h6>
+                                <h6 class=\"mb-0\">Ambulance<small class=\"d-block text-primary\">Gratuite</small></h6>
                             </div>
                         </div>
                     </div>
@@ -416,7 +408,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"bg-light rounded text-center\">
                     <div class=\"position-relative\">
                         <img class=\"img-fluid rounded-top\" src=\"";
-        // line 322
+        // line 323
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/price-1.jpg"), "html", null, true);
         yield "\" alt=\"\">
                         <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"
@@ -440,7 +432,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"bg-light rounded text-center\">
                     <div class=\"position-relative\">
                         <img class=\"img-fluid rounded-top\" src=\"";
-        // line 343
+        // line 344
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/price-2.jpg"), "html", null, true);
         yield "\" alt=\"\">
                         <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"
@@ -464,7 +456,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"bg-light rounded text-center\">
                     <div class=\"position-relative\">
                         <img class=\"img-fluid rounded-top\" src=\"";
-        // line 364
+        // line 365
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/price-3.jpg"), "html", null, true);
         yield "\" alt=\"\">
                         <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"
@@ -488,7 +480,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"bg-light rounded text-center\">
                     <div class=\"position-relative\">
                         <img class=\"img-fluid rounded-top\" src=\"";
-        // line 385
+        // line 386
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/price-4.jpg"), "html", null, true);
         yield "\" alt=\"\">
                         <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"
@@ -527,7 +519,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 421
+        // line 422
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -554,7 +546,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 445
+        // line 446
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -581,7 +573,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 469
+        // line 470
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -650,7 +642,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 535
+        // line 536
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-1.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -669,7 +661,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 551
+        // line 552
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-2.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -688,7 +680,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 567
+        // line 568
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-3.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -722,7 +714,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"col-xl-4 col-lg-6\">
                     <div class=\"bg-light rounded overflow-hidden\">
                         <img class=\"img-fluid w-100\" src=\"";
-        // line 598
+        // line 599
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/blog-1.jpg"), "html", null, true);
         yield "\" alt=\"\">
                         <div class=\"p-4\">
@@ -733,7 +725,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"d-flex justify-content-between border-top p-4\">
                             <div class=\"d-flex align-items-center\">
                                 <img class=\"rounded-circle me-2\" src=\"";
-        // line 606
+        // line 607
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/user.jpg"), "html", null, true);
         yield "\" width=\"25\"
                                      height=\"25\" alt=\"\">
@@ -749,7 +741,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"col-xl-4 col-lg-6\">
                     <div class=\"bg-light rounded overflow-hidden\">
                         <img class=\"img-fluid w-100\" src=\"";
-        // line 619
+        // line 620
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/blog-2.jpg"), "html", null, true);
         yield "\" alt=\"\">
                         <div class=\"p-4\">
@@ -760,7 +752,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"d-flex justify-content-between border-top p-4\">
                             <div class=\"d-flex align-items-center\">
                                 <img class=\"rounded-circle me-2\" src=\"";
-        // line 627
+        // line 628
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/user.jpg"), "html", null, true);
         yield "\" width=\"25\"
                                      height=\"25\" alt=\"\">
@@ -776,7 +768,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"col-xl-4 col-lg-6\">
                     <div class=\"bg-light rounded overflow-hidden\">
                         <img class=\"img-fluid w-100\" src=\"";
-        // line 640
+        // line 641
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/blog-3.jpg"), "html", null, true);
         yield "\" alt=\"\">
                         <div class=\"p-4\">
@@ -787,7 +779,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"d-flex justify-content-between border-top p-4\">
                             <div class=\"d-flex align-items-center\">
                                 <img class=\"rounded-circle me-2\" src=\"";
-        // line 648
+        // line 649
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/user.jpg"), "html", null, true);
         yield "\" width=\"25\"
                                      height=\"25\" alt=\"\">
@@ -837,7 +829,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  791 => 648,  780 => 640,  764 => 627,  753 => 619,  737 => 606,  726 => 598,  692 => 567,  673 => 551,  654 => 535,  585 => 469,  558 => 445,  531 => 421,  492 => 385,  468 => 364,  444 => 343,  420 => 322,  193 => 98,  152 => 60,  128 => 39,  104 => 18,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  783 => 649,  772 => 641,  756 => 628,  745 => 620,  729 => 607,  718 => 599,  684 => 568,  665 => 552,  646 => 536,  577 => 470,  550 => 446,  523 => 422,  484 => 386,  460 => 365,  436 => 344,  412 => 323,  186 => 100,  160 => 76,  146 => 60,  137 => 53,  125 => 39,  116 => 32,  104 => 18,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -866,13 +858,13 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row justify-content-start text-carousel position-absolute\">
                         <div class=\"col-lg-8 text-center text-lg-start\">
                             <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Welcome To Medinova</h5>
-                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">Best Healthcare Solution In Your City</h1>
-                            <div class=\"pt-2\">
-                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>
-                                <a href=\"\"
-                                   class=\"btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Appointment</a>
-                            </div>
+                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez Sencare.</h5>
+                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">La meilleure solution de soins de santé près de chez vous.</h1>
+{#                            <div class=\"pt-2\">#}
+{#                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>#}
+{#                                <a href=\"\"#}
+{#                                   class=\"btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Appointment</a>#}
+{#                            </div>#}
                         </div>
                     </div>
                 </div>
@@ -887,13 +879,13 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row justify-content-start text-carousel position-absolute\">
                         <div class=\"col-lg-8 text-center text-lg-start\">
                             <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Welcome To Medinova</h5>
-                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">Best Healthcare Solution In Your City</h1>
-                            <div class=\"pt-2\">
-                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>
-                                <a href=\"\"
-                                   class=\"btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Appointment</a>
-                            </div>
+                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez Sencare.</h5>
+                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">Votre santé entre des mains expertes et bienveillantes.</h1>
+{#                            <div class=\"pt-2\">#}
+{#                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>#}
+{#                                <a href=\"\"#}
+{#                                   class=\"btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Appointment</a>#}
+{#                            </div>#}
                         </div>
                     </div>
                 </div>
@@ -908,13 +900,15 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row justify-content-start text-carousel position-absolute\">
                         <div class=\"col-lg-8 text-center text-lg-start\">
                             <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Welcome To Medinova</h5>
-                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">Best Healthcare Solution In Your City</h1>
-                            <div class=\"pt-2\">
-                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>
-                                <a href=\"\"
-                                   class=\"btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Appointment</a>
-                            </div>
+                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez Sencare.</h5>
+                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">
+                                Votre oasis de bien-être et de soins de santé de qualité.
+                           </h1>
+{#                            <div class=\"pt-2\">#}
+{#                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>#}
+{#                                <a href=\"\"#}
+{#                                   class=\"btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Appointment</a>#}
+{#                            </div>#}
                         </div>
                     </div>
                 </div>
@@ -945,37 +939,36 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 </div>
                 <div class=\"col-lg-7\">
                     <div class=\"mb-4\">
-                        <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">About Us</h5>
-                        <h1 class=\"display-4\">Best Medical Care For Yourself and Your Family</h1>
+                            <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">A propos</h5>
+                        <h1 class=\"display-4\">Les Meilleurs Soins Médicaux Pour Vous et Votre Famille</h1>
                     </div>
-                    <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor
-                        voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum
-                        et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur
-                        takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore.
-                        Amet erat amet et magna</p>
+                    <p>
+                        Bienvenue chez Sencare, votre clinique dédiée à des soins de santé personnalisés et de haute qualité.
+                        Fondée sur les valeurs d'empathie, d'excellence médicale et d'innovation, Sencare s'engage à vous offrir une expérience de soins inégalée.
+                    </p>
                     <div class=\"row g-3 pt-3\">
                         <div class=\"col-sm-3 col-6\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-user-md text-primary mb-3\"></i>
-                                <h6 class=\"mb-0\">Qualified<small class=\"d-block text-primary\">Doctors</small></h6>
+                                <h6 class=\"mb-0\">Médecins<small class=\"d-block text-primary\">Qualifiés</small></h6>
                             </div>
                         </div>
                         <div class=\"col-sm-3 col-6\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-procedures text-primary mb-3\"></i>
-                                <h6 class=\"mb-0\">Emergency<small class=\"d-block text-primary\">Services</small></h6>
+                                <h6 class=\"mb-0\">Services<small class=\"d-block text-primary\">d'Urgence</small></h6>
                             </div>
                         </div>
                         <div class=\"col-sm-3 col-6\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-microscope text-primary mb-3\"></i>
-                                <h6 class=\"mb-0\">Accurate<small class=\"d-block text-primary\">Testing</small></h6>
+                                <h6 class=\"mb-0\">Tests<small class=\"d-block text-primary\">Précis</small></h6>
                             </div>
                         </div>
                         <div class=\"col-sm-3 col-6\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-ambulance text-primary mb-3\"></i>
-                                <h6 class=\"mb-0\">Free<small class=\"d-block text-primary\">Ambulance</small></h6>
+                                <h6 class=\"mb-0\">Ambulance<small class=\"d-block text-primary\">Gratuite</small></h6>
                             </div>
                         </div>
                     </div>

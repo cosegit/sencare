@@ -35,7 +35,6 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
             'service' => [$this, 'block_service'],
             'contact' => [$this, 'block_contact'],
             'body' => [$this, 'block_body'],
-            'photobox_js' => [$this, 'block_photobox_js'],
             'scroll' => [$this, 'block_scroll'],
         ];
     }
@@ -311,21 +310,7 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
     <i class=\"fa-solid fa-angles-up\"></i>
 </a>
 
-<!-- JavaScript Libraries -->
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js\"></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js\"></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js\" async></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js\"></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js\"></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js\" async></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js\" ></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js\" ></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js\" ></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone.min.js\" ></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.39.0/js/tempusdominus-bootstrap-4.min.js\" ></script>
 ";
-        // line 200
-        yield from $this->unwrap()->yieldBlock('photobox_js', $context, $blocks);
         // line 201
         yield "
 <!-- JavaScript Libraries -->
@@ -360,6 +345,10 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
 <script src=\"";
         // line 213
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/main.js"), "html", null, true);
+        yield "\"></script>
+<script src=\"";
+        // line 214
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/main.min.js"), "html", null, true);
         yield "\"></script>
 ";
         // line 215
@@ -519,26 +508,6 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
         return; yield '';
     }
 
-    // line 200
-    public function block_photobox_js($context, array $blocks = [])
-    {
-        $macros = $this->macros;
-        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
-        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "photobox_js"));
-
-        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "photobox_js"));
-
-        yield " ";
-        
-        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
-
-        
-        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
-
-        return; yield '';
-    }
-
     // line 215
     public function block_scroll($context, array $blocks = [])
     {
@@ -582,7 +551,7 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  553 => 216,  543 => 215,  523 => 200,  511 => 109,  501 => 108,  481 => 101,  461 => 93,  441 => 91,  421 => 90,  401 => 89,  381 => 30,  368 => 218,  366 => 215,  362 => 213,  357 => 211,  353 => 210,  349 => 209,  345 => 208,  341 => 207,  337 => 206,  330 => 201,  328 => 200,  294 => 168,  266 => 143,  262 => 142,  258 => 141,  254 => 140,  250 => 139,  246 => 138,  217 => 111,  215 => 108,  203 => 101,  194 => 95,  187 => 93,  180 => 91,  174 => 90,  168 => 89,  154 => 78,  111 => 37,  107 => 35,  102 => 33,  98 => 31,  96 => 30,  85 => 22,  81 => 21,  68 => 11,  56 => 2,  53 => 1,);
+        return array (  522 => 216,  512 => 215,  500 => 109,  490 => 108,  470 => 101,  450 => 93,  430 => 91,  410 => 90,  390 => 89,  370 => 30,  357 => 218,  355 => 215,  351 => 214,  347 => 213,  342 => 211,  338 => 210,  334 => 209,  330 => 208,  326 => 207,  322 => 206,  315 => 201,  293 => 168,  265 => 143,  261 => 142,  257 => 141,  253 => 140,  249 => 139,  245 => 138,  216 => 111,  214 => 108,  202 => 101,  193 => 95,  186 => 93,  179 => 91,  173 => 90,  167 => 89,  153 => 78,  110 => 37,  106 => 35,  101 => 33,  97 => 31,  95 => 30,  84 => 22,  80 => 21,  67 => 11,  55 => 2,  52 => 1,);
     }
 
     public function getSourceContext()
@@ -773,20 +742,20 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
     <i class=\"fa-solid fa-angles-up\"></i>
 </a>
 
-<!-- JavaScript Libraries -->
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js\"></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js\"></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js\" async></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js\"></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js\"></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js\" async></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js\" ></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js\" ></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js\" ></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone.min.js\" ></script>
-<script src=\"https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.39.0/js/tempusdominus-bootstrap-4.min.js\" ></script>
+{#<!-- JavaScript Libraries -->#}
+{#<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js\"></script>#}
+{#<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js\"></script>#}
+{#<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js\" async></script>#}
+{#<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js\"></script>#}
+{#<script src=\"https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js\"></script>#}
+{#<script src=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js\" async></script>#}
+{#<script src=\"https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js\" ></script>#}
+{#<script src=\"https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js\" ></script>#}
+{#<script src=\"https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js\" ></script>#}
+{#<script src=\"https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone.min.js\" ></script>#}
+{#<script src=\"https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.39.0/js/tempusdominus-bootstrap-4.min.js\" ></script>#}
 {#<script src=\"https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.8.0/countUp.min.js\"></script>#}
-{% block photobox_js %} {% endblock %}
+{#{% block photobox_js %} {% endblock %}#}
 
 <!-- JavaScript Libraries -->
 <script src=\"https://code.jquery.com/jquery-3.4.1.min.js\"></script>
@@ -800,7 +769,7 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
 <script src=\"{{ asset('lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js') }}\"></script>
 
 <script src=\"{{ asset('js/main.js') }}\"></script>
-{#<script src=\"{{ asset('js/main.min.js')}}\"></script>#}
+<script src=\"{{ asset('js/main.min.js')}}\"></script>
 {% block scroll %}
 
 {% endblock %}
