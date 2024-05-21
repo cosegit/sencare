@@ -332,26 +332,25 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <div class=\"container-fluid bg-primary my-5 py-5\">
         <div class=\"container py-5\">
             <div class=\"row gx-5\">
-                <div class=\"col-lg-6 mb-5 mb-lg-0\">
+                <div class=\"col-lg-6 mb-5 mb-lg-0 mt-5\">
                     <div class=\"mb-4\">
-                        <h5 class=\"d-inline-block text-white text-uppercase border-bottom border-5\">Appointment</h5>
-                        <h1 class=\"display-4\">Make An Appointment For Your Family</h1>
+                        <h5 class=\"d-inline-block text-white text-uppercase border-bottom border-5\">Rendez-vous !</h5>
+                        <h1 class=\"display-4\">Prendre Rendez-vous !</h1>
                     </div>
-                    <p class=\"text-white mb-5\">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum.
-                        Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero
-                        eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit.
-                        Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
-                    <a class=\"btn btn-dark rounded-pill py-3 px-5 me-3\" href=\"\">Find Doctor</a>
-                    <a class=\"btn btn-outline-dark rounded-pill py-3 px-5\" href=\"\">Read More</a>
-                </div>
+                    <p class=\"text-white mb-5\">
+                        Chez Sencare, nous offrons une gamme complète de services de santé pour répondre aux besoins de nos patients avec compassion et expertise.
+                    </p>
+";
+        // line 258
+        yield "                </div>
                 <div class=\"col-lg-6\">
                     <div class=\"bg-white text-center rounded p-5\">
-                        <h1 class=\"mb-4\">Book An Appointment</h1>
+                        <h1 class=\"mb-4\">Prendre Rendez-vous</h1>
                         <form>
                             <div class=\"row g-3\">
                                 <div class=\"col-12 col-sm-6\">
                                     <select class=\"form-select bg-light border-0\" style=\"height: 55px;\">
-                                        <option selected>Choose Department</option>
+                                        <option selected>Sélectionnez le département</option>
                                         <option value=\"1\">Department 1</option>
                                         <option value=\"2\">Department 2</option>
                                         <option value=\"3\">Department 3</option>
@@ -359,25 +358,25 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
                                     <select class=\"form-select bg-light border-0\" style=\"height: 55px;\">
-                                        <option selected>Select Doctor</option>
+                                        <option selected>Sélectionnez un docteur</option>
                                         <option value=\"1\">Doctor 1</option>
                                         <option value=\"2\">Doctor 2</option>
                                         <option value=\"3\">Doctor 3</option>
                                     </select>
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
-                                    <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"Your Name\"
+                                    <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre nom svpl...\"
                                            style=\"height: 55px;\">
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
-                                    <input type=\"email\" class=\"form-control bg-light border-0\" placeholder=\"Your Email\"
+                                    <input type=\"email\" class=\"form-control bg-light border-0\" placeholder=\"votre email svpl...\"
                                            style=\"height: 55px;\">
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
                                     <div class=\"date\" id=\"date\" data-target-input=\"nearest\">
                                         <input type=\"text\"
                                                class=\"form-control bg-light border-0 datetimepicker-input\"
-                                               placeholder=\"Date\" data-target=\"#date\" data-toggle=\"datetimepicker\"
+                                               placeholder=\"Choisissez la date\" data-target=\"#date\" data-toggle=\"datetimepicker\"
                                                style=\"height: 55px;\">
                                     </div>
                                 </div>
@@ -385,12 +384,12 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                                     <div class=\"time\" id=\"time\" data-target-input=\"nearest\">
                                         <input type=\"text\"
                                                class=\"form-control bg-light border-0 datetimepicker-input\"
-                                               placeholder=\"Time\" data-target=\"#time\" data-toggle=\"datetimepicker\"
+                                               placeholder=\"Choisissez L'heure\" data-target=\"#time\" data-toggle=\"datetimepicker\"
                                                style=\"height: 55px;\">
                                     </div>
                                 </div>
                                 <div class=\"col-12\">
-                                    <button class=\"btn btn-primary w-100 py-3\" type=\"submit\">Make An Appointment
+                                    <button class=\"btn btn-primary w-100 py-3\" type=\"submit\">Envoyer
                                     </button>
                                 </div>
                             </div>
@@ -403,129 +402,23 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <!-- Appointment End -->
 
 
-    <!-- Pricing Plan Start -->
-    <div class=\"container-fluid py-5\">
-        <div class=\"container\">
-            <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Medical Packages</h5>
-                <h1 class=\"display-4\">Awesome Medical Programs</h1>
-            </div>
-            <div class=\"owl-carousel price-carousel position-relative\" style=\"padding: 0 45px 45px 45px;\">
-                <div class=\"bg-light rounded text-center\">
-                    <div class=\"position-relative\">
-                        <img class=\"img-fluid rounded-top\" src=\"";
-        // line 329
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/price-1.jpg"), "html", null, true);
-        yield "\" alt=\"\">
-                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"
-                             style=\"background: rgba(29, 42, 77, .8);\">
-                            <h3 class=\"text-white\">Pregnancy Care</h3>
-                            <h1 class=\"display-4 text-white mb-0\">
-                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>49<small
-                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/
-                                    Year</small>
-                            </h1>
-                        </div>
-                    </div>
-                    <div class=\"text-center py-5\">
-                        <p>Emergency Medical Treatment</p>
-                        <p>Highly Experienced Doctors</p>
-                        <p>Highest Success Rate</p>
-                        <p>Telephone Service</p>
-                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>
-                    </div>
-                </div>
-                <div class=\"bg-light rounded text-center\">
-                    <div class=\"position-relative\">
-                        <img class=\"img-fluid rounded-top\" src=\"";
-        // line 350
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/price-2.jpg"), "html", null, true);
-        yield "\" alt=\"\">
-                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"
-                             style=\"background: rgba(29, 42, 77, .8);\">
-                            <h3 class=\"text-white\">Health Checkup</h3>
-                            <h1 class=\"display-4 text-white mb-0\">
-                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>99<small
-                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/
-                                    Year</small>
-                            </h1>
-                        </div>
-                    </div>
-                    <div class=\"text-center py-5\">
-                        <p>Emergency Medical Treatment</p>
-                        <p>Highly Experienced Doctors</p>
-                        <p>Highest Success Rate</p>
-                        <p>Telephone Service</p>
-                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>
-                    </div>
-                </div>
-                <div class=\"bg-light rounded text-center\">
-                    <div class=\"position-relative\">
-                        <img class=\"img-fluid rounded-top\" src=\"";
-        // line 371
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/price-3.jpg"), "html", null, true);
-        yield "\" alt=\"\">
-                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"
-                             style=\"background: rgba(29, 42, 77, .8);\">
-                            <h3 class=\"text-white\">Dental Care</h3>
-                            <h1 class=\"display-4 text-white mb-0\">
-                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>149<small
-                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/
-                                    Year</small>
-                            </h1>
-                        </div>
-                    </div>
-                    <div class=\"text-center py-5\">
-                        <p>Emergency Medical Treatment</p>
-                        <p>Highly Experienced Doctors</p>
-                        <p>Highest Success Rate</p>
-                        <p>Telephone Service</p>
-                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>
-                    </div>
-                </div>
-                <div class=\"bg-light rounded text-center\">
-                    <div class=\"position-relative\">
-                        <img class=\"img-fluid rounded-top\" src=\"";
-        // line 392
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/price-4.jpg"), "html", null, true);
-        yield "\" alt=\"\">
-                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"
-                             style=\"background: rgba(29, 42, 77, .8);\">
-                            <h3 class=\"text-white\">Operation & Surgery</h3>
-                            <h1 class=\"display-4 text-white mb-0\">
-                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>199<small
-                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/
-                                    Year</small>
-                            </h1>
-                        </div>
-                    </div>
-                    <div class=\"text-center py-5\">
-                        <p>Emergency Medical Treatment</p>
-                        <p>Highly Experienced Doctors</p>
-                        <p>Highest Success Rate</p>
-                        <p>Telephone Service</p>
-                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Pricing Plan End -->
-
+";
+        // line 414
+        yield "
 
     <!-- Team Start -->
     <div class=\"container-fluid py-5\">
         <div class=\"container\">
             <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Our Doctors</h5>
-                <h1 class=\"display-4\">Qualified Healthcare Professionals</h1>
+                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Docteurs</h5>
+                <h1 class=\"display-4\">Professionnels de Santé Qualifiés.</h1>
             </div>
             <div class=\"owl-carousel team-carousel position-relative\">
                 <div class=\"team-item\">
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 428
+        // line 427
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -552,7 +445,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 452
+        // line 451
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -579,7 +472,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 476
+        // line 475
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -608,30 +501,6 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <!-- Team End -->
 
 
-    <!-- Search Start -->
-    <div class=\"container-fluid bg-primary my-5 py-5\">
-        <div class=\"container py-5\">
-            <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-white text-uppercase border-bottom border-5\">Find A Doctor</h5>
-                <h1 class=\"display-4 mb-4\">Find A Healthcare Professionals</h1>
-                <h5 class=\"text-white fw-normal\">Duo ipsum erat stet dolor sea ut nonumy tempor. Tempor duo lorem eos
-                    sit sed ipsum takimata ipsum sit est. Ipsum ea voluptua ipsum sit justo</h5>
-            </div>
-            <div class=\"mx-auto\" style=\"width: 100%; max-width: 600px;\">
-                <div class=\"input-group\">
-                    <select class=\"form-select border-primary w-25\" style=\"height: 60px;\">
-                        <option selected>Department</option>
-                        <option value=\"1\">Department 1</option>
-                        <option value=\"2\">Department 2</option>
-                        <option value=\"3\">Department 3</option>
-                    </select>
-                    <input type=\"text\" class=\"form-control border-primary w-50\" placeholder=\"Keyword\">
-                    <button class=\"btn btn-dark border-0 w-25\">Search</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Search End -->
 
 
     <!-- Testimonial Start -->
@@ -639,7 +508,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
         <div class=\"container\">
             <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
                 <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Testimonial</h5>
-                <h1 class=\"display-4\">Patients Say About Our Services</h1>
+                <h1 class=\"display-4\">Ce que les patients disent de nous</h1>
             </div>
             <div class=\"row justify-content-center\">
                 <div class=\"col-lg-8\">
@@ -648,7 +517,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 542
+        // line 517
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-1.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -667,7 +536,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 558
+        // line 533
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-2.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -686,7 +555,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 574
+        // line 549
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-3.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -707,102 +576,6 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
         </div>
     </div>
     <!-- Testimonial End -->
-
-
-    <!-- Blog Start -->
-    <div class=\"container-fluid py-5\">
-        <div class=\"container\">
-            <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Blog Post</h5>
-                <h1 class=\"display-4\">Our Latest Medical Blog Posts</h1>
-            </div>
-            <div class=\"row g-5\">
-                <div class=\"col-xl-4 col-lg-6\">
-                    <div class=\"bg-light rounded overflow-hidden\">
-                        <img class=\"img-fluid w-100\" src=\"";
-        // line 605
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/blog-1.jpg"), "html", null, true);
-        yield "\" alt=\"\">
-                        <div class=\"p-4\">
-                            <a class=\"h3 d-block mb-3\" href=\"\">Dolor clita vero elitr sea stet dolor justo diam</a>
-                            <p class=\"m-0\">Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna
-                                rebum clita rebum dolor stet amet justo</p>
-                        </div>
-                        <div class=\"d-flex justify-content-between border-top p-4\">
-                            <div class=\"d-flex align-items-center\">
-                                <img class=\"rounded-circle me-2\" src=\"";
-        // line 613
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/user.jpg"), "html", null, true);
-        yield "\" width=\"25\"
-                                     height=\"25\" alt=\"\">
-                                <small>John Doe</small>
-                            </div>
-                            <div class=\"d-flex align-items-center\">
-                                <small class=\"ms-3\"><i class=\"far fa-eye text-primary me-1\"></i>12345</small>
-                                <small class=\"ms-3\"><i class=\"far fa-comment text-primary me-1\"></i>123</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"col-xl-4 col-lg-6\">
-                    <div class=\"bg-light rounded overflow-hidden\">
-                        <img class=\"img-fluid w-100\" src=\"";
-        // line 626
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/blog-2.jpg"), "html", null, true);
-        yield "\" alt=\"\">
-                        <div class=\"p-4\">
-                            <a class=\"h3 d-block mb-3\" href=\"\">Dolor clita vero elitr sea stet dolor justo diam</a>
-                            <p class=\"m-0\">Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna
-                                rebum clita rebum dolor stet amet justo</p>
-                        </div>
-                        <div class=\"d-flex justify-content-between border-top p-4\">
-                            <div class=\"d-flex align-items-center\">
-                                <img class=\"rounded-circle me-2\" src=\"";
-        // line 634
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/user.jpg"), "html", null, true);
-        yield "\" width=\"25\"
-                                     height=\"25\" alt=\"\">
-                                <small>John Doe</small>
-                            </div>
-                            <div class=\"d-flex align-items-center\">
-                                <small class=\"ms-3\"><i class=\"far fa-eye text-primary me-1\"></i>12345</small>
-                                <small class=\"ms-3\"><i class=\"far fa-comment text-primary me-1\"></i>123</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"col-xl-4 col-lg-6\">
-                    <div class=\"bg-light rounded overflow-hidden\">
-                        <img class=\"img-fluid w-100\" src=\"";
-        // line 647
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/blog-3.jpg"), "html", null, true);
-        yield "\" alt=\"\">
-                        <div class=\"p-4\">
-                            <a class=\"h3 d-block mb-3\" href=\"\">Dolor clita vero elitr sea stet dolor justo diam</a>
-                            <p class=\"m-0\">Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna
-                                rebum clita rebum dolor stet amet justo</p>
-                        </div>
-                        <div class=\"d-flex justify-content-between border-top p-4\">
-                            <div class=\"d-flex align-items-center\">
-                                <img class=\"rounded-circle me-2\" src=\"";
-        // line 655
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/user.jpg"), "html", null, true);
-        yield "\" width=\"25\"
-                                     height=\"25\" alt=\"\">
-                                <small>John Doe</small>
-                            </div>
-                            <div class=\"d-flex align-items-center\">
-                                <small class=\"ms-3\"><i class=\"far fa-eye text-primary me-1\"></i>12345</small>
-                                <small class=\"ms-3\"><i class=\"far fa-comment text-primary me-1\"></i>123</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Blog End -->
-
 
 ";
         
@@ -835,7 +608,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  789 => 655,  778 => 647,  762 => 634,  751 => 626,  735 => 613,  724 => 605,  690 => 574,  671 => 558,  652 => 542,  583 => 476,  556 => 452,  529 => 428,  490 => 392,  466 => 371,  442 => 350,  418 => 329,  186 => 100,  160 => 76,  146 => 60,  137 => 53,  125 => 39,  116 => 32,  104 => 18,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  559 => 549,  540 => 533,  521 => 517,  476 => 475,  449 => 451,  422 => 427,  407 => 414,  345 => 258,  186 => 100,  160 => 76,  146 => 60,  137 => 53,  125 => 39,  116 => 32,  104 => 18,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -1087,26 +860,25 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <div class=\"container-fluid bg-primary my-5 py-5\">
         <div class=\"container py-5\">
             <div class=\"row gx-5\">
-                <div class=\"col-lg-6 mb-5 mb-lg-0\">
+                <div class=\"col-lg-6 mb-5 mb-lg-0 mt-5\">
                     <div class=\"mb-4\">
-                        <h5 class=\"d-inline-block text-white text-uppercase border-bottom border-5\">Appointment</h5>
-                        <h1 class=\"display-4\">Make An Appointment For Your Family</h1>
+                        <h5 class=\"d-inline-block text-white text-uppercase border-bottom border-5\">Rendez-vous !</h5>
+                        <h1 class=\"display-4\">Prendre Rendez-vous !</h1>
                     </div>
-                    <p class=\"text-white mb-5\">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum.
-                        Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero
-                        eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit.
-                        Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
-                    <a class=\"btn btn-dark rounded-pill py-3 px-5 me-3\" href=\"\">Find Doctor</a>
-                    <a class=\"btn btn-outline-dark rounded-pill py-3 px-5\" href=\"\">Read More</a>
+                    <p class=\"text-white mb-5\">
+                        Chez Sencare, nous offrons une gamme complète de services de santé pour répondre aux besoins de nos patients avec compassion et expertise.
+                    </p>
+{#                    <a class=\"btn btn-dark rounded-pill py-3 px-5 me-3\" href=\"\">Find Doctor</a>#}
+{#                    <a class=\"btn btn-outline-dark rounded-pill py-3 px-5\" href=\"\">Read More</a>#}
                 </div>
                 <div class=\"col-lg-6\">
                     <div class=\"bg-white text-center rounded p-5\">
-                        <h1 class=\"mb-4\">Book An Appointment</h1>
+                        <h1 class=\"mb-4\">Prendre Rendez-vous</h1>
                         <form>
                             <div class=\"row g-3\">
                                 <div class=\"col-12 col-sm-6\">
                                     <select class=\"form-select bg-light border-0\" style=\"height: 55px;\">
-                                        <option selected>Choose Department</option>
+                                        <option selected>Sélectionnez le département</option>
                                         <option value=\"1\">Department 1</option>
                                         <option value=\"2\">Department 2</option>
                                         <option value=\"3\">Department 3</option>
@@ -1114,25 +886,25 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
                                     <select class=\"form-select bg-light border-0\" style=\"height: 55px;\">
-                                        <option selected>Select Doctor</option>
+                                        <option selected>Sélectionnez un docteur</option>
                                         <option value=\"1\">Doctor 1</option>
                                         <option value=\"2\">Doctor 2</option>
                                         <option value=\"3\">Doctor 3</option>
                                     </select>
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
-                                    <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"Your Name\"
+                                    <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre nom svpl...\"
                                            style=\"height: 55px;\">
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
-                                    <input type=\"email\" class=\"form-control bg-light border-0\" placeholder=\"Your Email\"
+                                    <input type=\"email\" class=\"form-control bg-light border-0\" placeholder=\"votre email svpl...\"
                                            style=\"height: 55px;\">
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
                                     <div class=\"date\" id=\"date\" data-target-input=\"nearest\">
                                         <input type=\"text\"
                                                class=\"form-control bg-light border-0 datetimepicker-input\"
-                                               placeholder=\"Date\" data-target=\"#date\" data-toggle=\"datetimepicker\"
+                                               placeholder=\"Choisissez la date\" data-target=\"#date\" data-toggle=\"datetimepicker\"
                                                style=\"height: 55px;\">
                                     </div>
                                 </div>
@@ -1140,12 +912,12 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                                     <div class=\"time\" id=\"time\" data-target-input=\"nearest\">
                                         <input type=\"text\"
                                                class=\"form-control bg-light border-0 datetimepicker-input\"
-                                               placeholder=\"Time\" data-target=\"#time\" data-toggle=\"datetimepicker\"
+                                               placeholder=\"Choisissez L'heure\" data-target=\"#time\" data-toggle=\"datetimepicker\"
                                                style=\"height: 55px;\">
                                     </div>
                                 </div>
                                 <div class=\"col-12\">
-                                    <button class=\"btn btn-primary w-100 py-3\" type=\"submit\">Make An Appointment
+                                    <button class=\"btn btn-primary w-100 py-3\" type=\"submit\">Envoyer
                                     </button>
                                 </div>
                             </div>
@@ -1158,110 +930,110 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <!-- Appointment End -->
 
 
-    <!-- Pricing Plan Start -->
-    <div class=\"container-fluid py-5\">
-        <div class=\"container\">
-            <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Medical Packages</h5>
-                <h1 class=\"display-4\">Awesome Medical Programs</h1>
-            </div>
-            <div class=\"owl-carousel price-carousel position-relative\" style=\"padding: 0 45px 45px 45px;\">
-                <div class=\"bg-light rounded text-center\">
-                    <div class=\"position-relative\">
-                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-1.jpg') }}\" alt=\"\">
-                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"
-                             style=\"background: rgba(29, 42, 77, .8);\">
-                            <h3 class=\"text-white\">Pregnancy Care</h3>
-                            <h1 class=\"display-4 text-white mb-0\">
-                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>49<small
-                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/
-                                    Year</small>
-                            </h1>
-                        </div>
-                    </div>
-                    <div class=\"text-center py-5\">
-                        <p>Emergency Medical Treatment</p>
-                        <p>Highly Experienced Doctors</p>
-                        <p>Highest Success Rate</p>
-                        <p>Telephone Service</p>
-                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>
-                    </div>
-                </div>
-                <div class=\"bg-light rounded text-center\">
-                    <div class=\"position-relative\">
-                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-2.jpg') }}\" alt=\"\">
-                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"
-                             style=\"background: rgba(29, 42, 77, .8);\">
-                            <h3 class=\"text-white\">Health Checkup</h3>
-                            <h1 class=\"display-4 text-white mb-0\">
-                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>99<small
-                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/
-                                    Year</small>
-                            </h1>
-                        </div>
-                    </div>
-                    <div class=\"text-center py-5\">
-                        <p>Emergency Medical Treatment</p>
-                        <p>Highly Experienced Doctors</p>
-                        <p>Highest Success Rate</p>
-                        <p>Telephone Service</p>
-                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>
-                    </div>
-                </div>
-                <div class=\"bg-light rounded text-center\">
-                    <div class=\"position-relative\">
-                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-3.jpg') }}\" alt=\"\">
-                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"
-                             style=\"background: rgba(29, 42, 77, .8);\">
-                            <h3 class=\"text-white\">Dental Care</h3>
-                            <h1 class=\"display-4 text-white mb-0\">
-                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>149<small
-                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/
-                                    Year</small>
-                            </h1>
-                        </div>
-                    </div>
-                    <div class=\"text-center py-5\">
-                        <p>Emergency Medical Treatment</p>
-                        <p>Highly Experienced Doctors</p>
-                        <p>Highest Success Rate</p>
-                        <p>Telephone Service</p>
-                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>
-                    </div>
-                </div>
-                <div class=\"bg-light rounded text-center\">
-                    <div class=\"position-relative\">
-                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-4.jpg') }}\" alt=\"\">
-                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"
-                             style=\"background: rgba(29, 42, 77, .8);\">
-                            <h3 class=\"text-white\">Operation & Surgery</h3>
-                            <h1 class=\"display-4 text-white mb-0\">
-                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>199<small
-                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/
-                                    Year</small>
-                            </h1>
-                        </div>
-                    </div>
-                    <div class=\"text-center py-5\">
-                        <p>Emergency Medical Treatment</p>
-                        <p>Highly Experienced Doctors</p>
-                        <p>Highest Success Rate</p>
-                        <p>Telephone Service</p>
-                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Pricing Plan End -->
+{#    <!-- Pricing Plan Start -->#}
+{#    <div class=\"container-fluid py-5\">#}
+{#        <div class=\"container\">#}
+{#            <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">#}
+{#                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Medical Packages</h5>#}
+{#                <h1 class=\"display-4\">Awesome Medical Programs</h1>#}
+{#            </div>#}
+{#            <div class=\"owl-carousel price-carousel position-relative\" style=\"padding: 0 45px 45px 45px;\">#}
+{#                <div class=\"bg-light rounded text-center\">#}
+{#                    <div class=\"position-relative\">#}
+{#                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-1.jpg') }}\" alt=\"\">#}
+{#                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"#}
+{#                             style=\"background: rgba(29, 42, 77, .8);\">#}
+{#                            <h3 class=\"text-white\">Pregnancy Care</h3>#}
+{#                            <h1 class=\"display-4 text-white mb-0\">#}
+{#                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>49<small#}
+{#                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/#}
+{#                                    Year</small>#}
+{#                            </h1>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                    <div class=\"text-center py-5\">#}
+{#                        <p>Emergency Medical Treatment</p>#}
+{#                        <p>Highly Experienced Doctors</p>#}
+{#                        <p>Highest Success Rate</p>#}
+{#                        <p>Telephone Service</p>#}
+{#                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>#}
+{#                    </div>#}
+{#                </div>#}
+{#                <div class=\"bg-light rounded text-center\">#}
+{#                    <div class=\"position-relative\">#}
+{#                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-2.jpg') }}\" alt=\"\">#}
+{#                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"#}
+{#                             style=\"background: rgba(29, 42, 77, .8);\">#}
+{#                            <h3 class=\"text-white\">Health Checkup</h3>#}
+{#                            <h1 class=\"display-4 text-white mb-0\">#}
+{#                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>99<small#}
+{#                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/#}
+{#                                    Year</small>#}
+{#                            </h1>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                    <div class=\"text-center py-5\">#}
+{#                        <p>Emergency Medical Treatment</p>#}
+{#                        <p>Highly Experienced Doctors</p>#}
+{#                        <p>Highest Success Rate</p>#}
+{#                        <p>Telephone Service</p>#}
+{#                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>#}
+{#                    </div>#}
+{#                </div>#}
+{#                <div class=\"bg-light rounded text-center\">#}
+{#                    <div class=\"position-relative\">#}
+{#                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-3.jpg') }}\" alt=\"\">#}
+{#                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"#}
+{#                             style=\"background: rgba(29, 42, 77, .8);\">#}
+{#                            <h3 class=\"text-white\">Dental Care</h3>#}
+{#                            <h1 class=\"display-4 text-white mb-0\">#}
+{#                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>149<small#}
+{#                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/#}
+{#                                    Year</small>#}
+{#                            </h1>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                    <div class=\"text-center py-5\">#}
+{#                        <p>Emergency Medical Treatment</p>#}
+{#                        <p>Highly Experienced Doctors</p>#}
+{#                        <p>Highest Success Rate</p>#}
+{#                        <p>Telephone Service</p>#}
+{#                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>#}
+{#                    </div>#}
+{#                </div>#}
+{#                <div class=\"bg-light rounded text-center\">#}
+{#                    <div class=\"position-relative\">#}
+{#                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-4.jpg') }}\" alt=\"\">#}
+{#                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"#}
+{#                             style=\"background: rgba(29, 42, 77, .8);\">#}
+{#                            <h3 class=\"text-white\">Operation & Surgery</h3>#}
+{#                            <h1 class=\"display-4 text-white mb-0\">#}
+{#                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>199<small#}
+{#                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/#}
+{#                                    Year</small>#}
+{#                            </h1>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                    <div class=\"text-center py-5\">#}
+{#                        <p>Emergency Medical Treatment</p>#}
+{#                        <p>Highly Experienced Doctors</p>#}
+{#                        <p>Highest Success Rate</p>#}
+{#                        <p>Telephone Service</p>#}
+{#                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{#    <!-- Pricing Plan End -->#}
 
 
     <!-- Team Start -->
     <div class=\"container-fluid py-5\">
         <div class=\"container\">
             <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Our Doctors</h5>
-                <h1 class=\"display-4\">Qualified Healthcare Professionals</h1>
+                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Docteurs</h5>
+                <h1 class=\"display-4\">Professionnels de Santé Qualifiés.</h1>
             </div>
             <div class=\"owl-carousel team-carousel position-relative\">
                 <div class=\"team-item\">
@@ -1342,30 +1114,6 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <!-- Team End -->
 
 
-    <!-- Search Start -->
-    <div class=\"container-fluid bg-primary my-5 py-5\">
-        <div class=\"container py-5\">
-            <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-white text-uppercase border-bottom border-5\">Find A Doctor</h5>
-                <h1 class=\"display-4 mb-4\">Find A Healthcare Professionals</h1>
-                <h5 class=\"text-white fw-normal\">Duo ipsum erat stet dolor sea ut nonumy tempor. Tempor duo lorem eos
-                    sit sed ipsum takimata ipsum sit est. Ipsum ea voluptua ipsum sit justo</h5>
-            </div>
-            <div class=\"mx-auto\" style=\"width: 100%; max-width: 600px;\">
-                <div class=\"input-group\">
-                    <select class=\"form-select border-primary w-25\" style=\"height: 60px;\">
-                        <option selected>Department</option>
-                        <option value=\"1\">Department 1</option>
-                        <option value=\"2\">Department 2</option>
-                        <option value=\"3\">Department 3</option>
-                    </select>
-                    <input type=\"text\" class=\"form-control border-primary w-50\" placeholder=\"Keyword\">
-                    <button class=\"btn btn-dark border-0 w-25\">Search</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Search End -->
 
 
     <!-- Testimonial Start -->
@@ -1373,7 +1121,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
         <div class=\"container\">
             <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
                 <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Testimonial</h5>
-                <h1 class=\"display-4\">Patients Say About Our Services</h1>
+                <h1 class=\"display-4\">Ce que les patients disent de nous</h1>
             </div>
             <div class=\"row justify-content-center\">
                 <div class=\"col-lg-8\">
@@ -1432,84 +1180,6 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
         </div>
     </div>
     <!-- Testimonial End -->
-
-
-    <!-- Blog Start -->
-    <div class=\"container-fluid py-5\">
-        <div class=\"container\">
-            <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Blog Post</h5>
-                <h1 class=\"display-4\">Our Latest Medical Blog Posts</h1>
-            </div>
-            <div class=\"row g-5\">
-                <div class=\"col-xl-4 col-lg-6\">
-                    <div class=\"bg-light rounded overflow-hidden\">
-                        <img class=\"img-fluid w-100\" src=\"{{ asset('images/blog-1.jpg') }}\" alt=\"\">
-                        <div class=\"p-4\">
-                            <a class=\"h3 d-block mb-3\" href=\"\">Dolor clita vero elitr sea stet dolor justo diam</a>
-                            <p class=\"m-0\">Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna
-                                rebum clita rebum dolor stet amet justo</p>
-                        </div>
-                        <div class=\"d-flex justify-content-between border-top p-4\">
-                            <div class=\"d-flex align-items-center\">
-                                <img class=\"rounded-circle me-2\" src=\"{{ asset('images/user.jpg') }}\" width=\"25\"
-                                     height=\"25\" alt=\"\">
-                                <small>John Doe</small>
-                            </div>
-                            <div class=\"d-flex align-items-center\">
-                                <small class=\"ms-3\"><i class=\"far fa-eye text-primary me-1\"></i>12345</small>
-                                <small class=\"ms-3\"><i class=\"far fa-comment text-primary me-1\"></i>123</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"col-xl-4 col-lg-6\">
-                    <div class=\"bg-light rounded overflow-hidden\">
-                        <img class=\"img-fluid w-100\" src=\"{{ asset('images/blog-2.jpg') }}\" alt=\"\">
-                        <div class=\"p-4\">
-                            <a class=\"h3 d-block mb-3\" href=\"\">Dolor clita vero elitr sea stet dolor justo diam</a>
-                            <p class=\"m-0\">Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna
-                                rebum clita rebum dolor stet amet justo</p>
-                        </div>
-                        <div class=\"d-flex justify-content-between border-top p-4\">
-                            <div class=\"d-flex align-items-center\">
-                                <img class=\"rounded-circle me-2\" src=\"{{ asset('images/user.jpg') }}\" width=\"25\"
-                                     height=\"25\" alt=\"\">
-                                <small>John Doe</small>
-                            </div>
-                            <div class=\"d-flex align-items-center\">
-                                <small class=\"ms-3\"><i class=\"far fa-eye text-primary me-1\"></i>12345</small>
-                                <small class=\"ms-3\"><i class=\"far fa-comment text-primary me-1\"></i>123</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"col-xl-4 col-lg-6\">
-                    <div class=\"bg-light rounded overflow-hidden\">
-                        <img class=\"img-fluid w-100\" src=\"{{ asset('images/blog-3.jpg') }}\" alt=\"\">
-                        <div class=\"p-4\">
-                            <a class=\"h3 d-block mb-3\" href=\"\">Dolor clita vero elitr sea stet dolor justo diam</a>
-                            <p class=\"m-0\">Dolor lorem eos dolor duo et eirmod sea. Dolor sit magna
-                                rebum clita rebum dolor stet amet justo</p>
-                        </div>
-                        <div class=\"d-flex justify-content-between border-top p-4\">
-                            <div class=\"d-flex align-items-center\">
-                                <img class=\"rounded-circle me-2\" src=\"{{ asset('images/user.jpg') }}\" width=\"25\"
-                                     height=\"25\" alt=\"\">
-                                <small>John Doe</small>
-                            </div>
-                            <div class=\"d-flex align-items-center\">
-                                <small class=\"ms-3\"><i class=\"far fa-eye text-primary me-1\"></i>12345</small>
-                                <small class=\"ms-3\"><i class=\"far fa-comment text-primary me-1\"></i>123</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Blog End -->
-
 
 {% endblock %}", "site/accueil.html.twig", "C:\\wamp64\\www\\sencare\\templates\\site\\accueil.html.twig");
     }
