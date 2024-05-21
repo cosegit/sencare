@@ -190,7 +190,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 </div>
                 <div class=\"col-lg-7\">
                     <div class=\"mb-4\">
-                            <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">A propos</h5>
+                            <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">A propos de nous!</h5>
                         <h1 class=\"display-4\">Les Meilleurs Soins Médicaux Pour Vous et Votre Famille</h1>
                     </div>
                     <p>
@@ -234,8 +234,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <div class=\"container-fluid py-5\">
         <div class=\"container\">
             <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Services</h5>
-                <h1 class=\"display-4\">Excellent Medical Services</h1>
+                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Services</h5>
+                <h1 class=\"display-4\">Services Médicaux d'Excellence</h1>
             </div>
             <div class=\"row g-5\">
                 <div class=\"col-lg-4 col-md-6\">
@@ -243,9 +243,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-user-md text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Emergency Care</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo
-                            elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Soins Généraux</h4>
+                        <p class=\"m-0\">
+                            Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé quotidiens.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -256,9 +257,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-procedures text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Operation & Surgery</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo
-                            elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Soins Palliatifsy</h4>
+                        <p class=\"m-0\">
+                            Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des patients atteints de maladies graves, en leur apportant confort et soutien.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -269,9 +271,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-stethoscope text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Outdoor Checkup</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo
-                            elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Pansement</h4>
+                        <p class=\"m-0\">
+                            Nos professionnels de santé sont experts dans le changement et la gestion des pansements pour assurer une guérison optimale.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -282,9 +285,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-ambulance text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Ambulance Service</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo
-                            elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Retour à Domicile</h4>
+                        <p class=\"m-0\">
+                            Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un suivi médical approprié.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -295,9 +299,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-pills text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Medicine & Pharmacy</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo
-                            elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Prévenir la Perte d’Autonomie</h4>
+                        <p class=\"m-0\">
+                            Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte d'autonomie chez nos patients âgés.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -308,9 +313,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-microscope text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Blood Testing</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo
-                            elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Injection et Perfusion</h4>
+                        <p class=\"m-0\">
+                            Nous offrons des services d'injections et de perfusions administrés par des infirmières qualifiées, en toute sécurité et confort.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -408,7 +414,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"bg-light rounded text-center\">
                     <div class=\"position-relative\">
                         <img class=\"img-fluid rounded-top\" src=\"";
-        // line 323
+        // line 329
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/price-1.jpg"), "html", null, true);
         yield "\" alt=\"\">
                         <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"
@@ -432,7 +438,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"bg-light rounded text-center\">
                     <div class=\"position-relative\">
                         <img class=\"img-fluid rounded-top\" src=\"";
-        // line 344
+        // line 350
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/price-2.jpg"), "html", null, true);
         yield "\" alt=\"\">
                         <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"
@@ -456,7 +462,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"bg-light rounded text-center\">
                     <div class=\"position-relative\">
                         <img class=\"img-fluid rounded-top\" src=\"";
-        // line 365
+        // line 371
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/price-3.jpg"), "html", null, true);
         yield "\" alt=\"\">
                         <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"
@@ -480,7 +486,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"bg-light rounded text-center\">
                     <div class=\"position-relative\">
                         <img class=\"img-fluid rounded-top\" src=\"";
-        // line 386
+        // line 392
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/price-4.jpg"), "html", null, true);
         yield "\" alt=\"\">
                         <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"
@@ -519,7 +525,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 422
+        // line 428
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -546,7 +552,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 446
+        // line 452
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -573,7 +579,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 470
+        // line 476
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -642,7 +648,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 536
+        // line 542
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-1.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -661,7 +667,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 552
+        // line 558
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-2.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -680,7 +686,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 568
+        // line 574
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-3.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -714,7 +720,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"col-xl-4 col-lg-6\">
                     <div class=\"bg-light rounded overflow-hidden\">
                         <img class=\"img-fluid w-100\" src=\"";
-        // line 599
+        // line 605
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/blog-1.jpg"), "html", null, true);
         yield "\" alt=\"\">
                         <div class=\"p-4\">
@@ -725,7 +731,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"d-flex justify-content-between border-top p-4\">
                             <div class=\"d-flex align-items-center\">
                                 <img class=\"rounded-circle me-2\" src=\"";
-        // line 607
+        // line 613
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/user.jpg"), "html", null, true);
         yield "\" width=\"25\"
                                      height=\"25\" alt=\"\">
@@ -741,7 +747,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"col-xl-4 col-lg-6\">
                     <div class=\"bg-light rounded overflow-hidden\">
                         <img class=\"img-fluid w-100\" src=\"";
-        // line 620
+        // line 626
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/blog-2.jpg"), "html", null, true);
         yield "\" alt=\"\">
                         <div class=\"p-4\">
@@ -752,7 +758,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"d-flex justify-content-between border-top p-4\">
                             <div class=\"d-flex align-items-center\">
                                 <img class=\"rounded-circle me-2\" src=\"";
-        // line 628
+        // line 634
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/user.jpg"), "html", null, true);
         yield "\" width=\"25\"
                                      height=\"25\" alt=\"\">
@@ -768,7 +774,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"col-xl-4 col-lg-6\">
                     <div class=\"bg-light rounded overflow-hidden\">
                         <img class=\"img-fluid w-100\" src=\"";
-        // line 641
+        // line 647
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/blog-3.jpg"), "html", null, true);
         yield "\" alt=\"\">
                         <div class=\"p-4\">
@@ -779,7 +785,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"d-flex justify-content-between border-top p-4\">
                             <div class=\"d-flex align-items-center\">
                                 <img class=\"rounded-circle me-2\" src=\"";
-        // line 649
+        // line 655
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/user.jpg"), "html", null, true);
         yield "\" width=\"25\"
                                      height=\"25\" alt=\"\">
@@ -829,7 +835,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  783 => 649,  772 => 641,  756 => 628,  745 => 620,  729 => 607,  718 => 599,  684 => 568,  665 => 552,  646 => 536,  577 => 470,  550 => 446,  523 => 422,  484 => 386,  460 => 365,  436 => 344,  412 => 323,  186 => 100,  160 => 76,  146 => 60,  137 => 53,  125 => 39,  116 => 32,  104 => 18,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  789 => 655,  778 => 647,  762 => 634,  751 => 626,  735 => 613,  724 => 605,  690 => 574,  671 => 558,  652 => 542,  583 => 476,  556 => 452,  529 => 428,  490 => 392,  466 => 371,  442 => 350,  418 => 329,  186 => 100,  160 => 76,  146 => 60,  137 => 53,  125 => 39,  116 => 32,  104 => 18,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -939,7 +945,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 </div>
                 <div class=\"col-lg-7\">
                     <div class=\"mb-4\">
-                            <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">A propos</h5>
+                            <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">A propos de nous!</h5>
                         <h1 class=\"display-4\">Les Meilleurs Soins Médicaux Pour Vous et Votre Famille</h1>
                     </div>
                     <p>
@@ -983,8 +989,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <div class=\"container-fluid py-5\">
         <div class=\"container\">
             <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Services</h5>
-                <h1 class=\"display-4\">Excellent Medical Services</h1>
+                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Services</h5>
+                <h1 class=\"display-4\">Services Médicaux d'Excellence</h1>
             </div>
             <div class=\"row g-5\">
                 <div class=\"col-lg-4 col-md-6\">
@@ -992,9 +998,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-user-md text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Emergency Care</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo
-                            elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Soins Généraux</h4>
+                        <p class=\"m-0\">
+                            Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé quotidiens.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -1005,9 +1012,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-procedures text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Operation & Surgery</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo
-                            elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Soins Palliatifsy</h4>
+                        <p class=\"m-0\">
+                            Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des patients atteints de maladies graves, en leur apportant confort et soutien.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -1018,9 +1026,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-stethoscope text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Outdoor Checkup</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo
-                            elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Pansement</h4>
+                        <p class=\"m-0\">
+                            Nos professionnels de santé sont experts dans le changement et la gestion des pansements pour assurer une guérison optimale.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -1031,9 +1040,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-ambulance text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Ambulance Service</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo
-                            elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Retour à Domicile</h4>
+                        <p class=\"m-0\">
+                            Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un suivi médical approprié.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -1044,9 +1054,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-pills text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Medicine & Pharmacy</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo
-                            elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Prévenir la Perte d’Autonomie</h4>
+                        <p class=\"m-0\">
+                            Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte d'autonomie chez nos patients âgés.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -1057,9 +1068,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-microscope text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Blood Testing</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo
-                            elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Injection et Perfusion</h4>
+                        <p class=\"m-0\">
+                            Nous offrons des services d'injections et de perfusions administrés par des infirmières qualifiées, en toute sécurité et confort.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
