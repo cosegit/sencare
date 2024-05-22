@@ -93,8 +93,8 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
     <div class=\"container-fluid py-5\">
         <div class=\"container\">
             <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Services</h5>
-                <h1 class=\"display-4\">Excellent Medical Services</h1>
+                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Services</h5>
+                <h1 class=\"display-4\">Services Médicaux d'Excellence</h1>
             </div>
             <div class=\"row g-5\">
                 <div class=\"col-lg-4 col-md-6\">
@@ -102,8 +102,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-user-md text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Emergency Care</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Soins Généraux</h4>
+                        <p class=\"m-0\">
+                            Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé quotidiens.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -114,8 +116,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-procedures text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Operation & Surgery</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Soins Palliatif</h4>
+                        <p class=\"m-0\">
+                            Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des patients atteints de maladies graves, en leur apportant confort et soutien.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -126,8 +130,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-stethoscope text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Outdoor Checkup</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Pansement</h4>
+                        <p class=\"m-0\">
+                            Nos professionnels de santé sont experts dans le changement et la gestion des pansements pour assurer une guérison optimale.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -138,8 +144,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-ambulance text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Ambulance Service</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Retour à Domicile</h4>
+                        <p class=\"m-0\">
+                            Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un suivi médical approprié.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -150,8 +158,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-pills text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Medicine & Pharmacy</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Prévenir la Perte d’Autonomie</h4>
+                        <p class=\"m-0\">
+                            Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte d'autonomie chez nos patients âgés.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -162,8 +172,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-microscope text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Blood Testing</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Injection et Perfusion</h4>
+                        <p class=\"m-0\">
+                            Nous offrons des services d'injections et de perfusions administrés par des infirmières qualifiées, en toute sécurité et confort.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -222,8 +234,8 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
     <div class=\"container-fluid py-5\">
         <div class=\"container\">
             <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Services</h5>
-                <h1 class=\"display-4\">Excellent Medical Services</h1>
+                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Services</h5>
+                <h1 class=\"display-4\">Services Médicaux d'Excellence</h1>
             </div>
             <div class=\"row g-5\">
                 <div class=\"col-lg-4 col-md-6\">
@@ -231,8 +243,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-user-md text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Emergency Care</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Soins Généraux</h4>
+                        <p class=\"m-0\">
+                            Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé quotidiens.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -243,8 +257,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-procedures text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Operation & Surgery</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Soins Palliatif</h4>
+                        <p class=\"m-0\">
+                            Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des patients atteints de maladies graves, en leur apportant confort et soutien.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -255,8 +271,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-stethoscope text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Outdoor Checkup</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Pansement</h4>
+                        <p class=\"m-0\">
+                            Nos professionnels de santé sont experts dans le changement et la gestion des pansements pour assurer une guérison optimale.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -267,8 +285,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-ambulance text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Ambulance Service</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Retour à Domicile</h4>
+                        <p class=\"m-0\">
+                            Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un suivi médical approprié.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -279,8 +299,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-pills text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Medicine & Pharmacy</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Prévenir la Perte d’Autonomie</h4>
+                        <p class=\"m-0\">
+                            Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte d'autonomie chez nos patients âgés.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
@@ -291,8 +313,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-microscope text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Blood Testing</h4>
-                        <p class=\"m-0\">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <h4 class=\"mb-3\">Injection et Perfusion</h4>
+                        <p class=\"m-0\">
+                            Nous offrons des services d'injections et de perfusions administrés par des infirmières qualifiées, en toute sécurité et confort.
+                        </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>

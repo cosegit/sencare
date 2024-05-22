@@ -194,8 +194,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <h1 class=\"display-4\">Les Meilleurs Soins Médicaux Pour Vous et Votre Famille</h1>
                     </div>
                     <p>
-                        Bienvenue chez Sencare, votre clinique dédiée à des soins de santé personnalisés et de haute qualité.
-                        Fondée sur les valeurs d'empathie, d'excellence médicale et d'innovation, Sencare s'engage à vous offrir une expérience de soins inégalée.
+                        SEN'Care, c'est bien plus qu'un simple service médical à domicile. En effet, il incarne une véritable passerelle vers le bien-être, offrant aux patients la possibilité de maintenir leur traitement prescrit dans le confort de leur foyer. Grâce à une équipe dévouée et compétente, nous assurons une continuité des soins, qu'il s'agisse d'un suivi régulier ou d'une assistance ponctuelle.
                     </p>
                     <div class=\"row g-3 pt-3\">
                         <div class=\"col-sm-3 col-6\">
@@ -257,7 +256,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-procedures text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Soins Palliatifsy</h4>
+                        <h4 class=\"mb-3\">Soins Palliatif</h4>
                         <p class=\"m-0\">
                             Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des patients atteints de maladies graves, en leur apportant confort et soutien.
                         </p>
@@ -341,7 +340,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         Chez Sencare, nous offrons une gamme complète de services de santé pour répondre aux besoins de nos patients avec compassion et expertise.
                     </p>
 ";
-        // line 258
+        // line 257
         yield "                </div>
                 <div class=\"col-lg-6\">
                     <div class=\"bg-white text-center rounded p-5\">
@@ -403,7 +402,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
 
 
 ";
-        // line 414
+        // line 413
         yield "
 
     <!-- Team Start -->
@@ -418,7 +417,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 427
+        // line 426
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -445,7 +444,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 451
+        // line 450
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -472,7 +471,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 475
+        // line 474
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -517,7 +516,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 517
+        // line 516
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-1.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -536,7 +535,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 533
+        // line 532
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-2.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -555,7 +554,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 549
+        // line 548
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-3.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -608,7 +607,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  559 => 549,  540 => 533,  521 => 517,  476 => 475,  449 => 451,  422 => 427,  407 => 414,  345 => 258,  186 => 100,  160 => 76,  146 => 60,  137 => 53,  125 => 39,  116 => 32,  104 => 18,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  558 => 548,  539 => 532,  520 => 516,  475 => 474,  448 => 450,  421 => 426,  406 => 413,  344 => 257,  186 => 100,  160 => 76,  146 => 60,  137 => 53,  125 => 39,  116 => 32,  104 => 18,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -722,8 +721,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <h1 class=\"display-4\">Les Meilleurs Soins Médicaux Pour Vous et Votre Famille</h1>
                     </div>
                     <p>
-                        Bienvenue chez Sencare, votre clinique dédiée à des soins de santé personnalisés et de haute qualité.
-                        Fondée sur les valeurs d'empathie, d'excellence médicale et d'innovation, Sencare s'engage à vous offrir une expérience de soins inégalée.
+                        SEN'Care, c'est bien plus qu'un simple service médical à domicile. En effet, il incarne une véritable passerelle vers le bien-être, offrant aux patients la possibilité de maintenir leur traitement prescrit dans le confort de leur foyer. Grâce à une équipe dévouée et compétente, nous assurons une continuité des soins, qu'il s'agisse d'un suivi régulier ou d'une assistance ponctuelle.
                     </p>
                     <div class=\"row g-3 pt-3\">
                         <div class=\"col-sm-3 col-6\">
@@ -785,7 +783,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"service-icon mb-4\">
                             <i class=\"fa fa-2x fa-procedures text-white\"></i>
                         </div>
-                        <h4 class=\"mb-3\">Soins Palliatifsy</h4>
+                        <h4 class=\"mb-3\">Soins Palliatif</h4>
                         <p class=\"m-0\">
                             Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des patients atteints de maladies graves, en leur apportant confort et soutien.
                         </p>
