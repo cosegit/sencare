@@ -220,48 +220,40 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
     <div class=\"container py-5\">
         <div class=\"row g-5\">
             <div class=\"col-lg-3 col-md-6\">
-                <h4 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4\">Get In Touch</h4>
-                <p class=\"mb-4\">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor</p>
-                <p class=\"mb-2\"><i class=\"fa fa-map-marker-alt text-primary me-3\"></i>123 Street, New York, USA</p>
-                <p class=\"mb-2\"><i class=\"fa fa-envelope text-primary me-3\"></i>info@example.com</p>
-                <p class=\"mb-0\"><i class=\"fa fa-phone-alt text-primary me-3\"></i>+012 345 67890</p>
-            </div>
-            <div class=\"col-lg-3 col-md-6\">
-                <h4 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4\">Quick Links</h4>
-                <div class=\"d-flex flex-column justify-content-start\">
-                    <a class=\"text-light mb-2\" href=\"#\"><i class=\"fa fa-angle-right me-2\"></i>Home</a>
-                    <a class=\"text-light mb-2\" href=\"#\"><i class=\"fa fa-angle-right me-2\"></i>About Us</a>
-                    <a class=\"text-light mb-2\" href=\"#\"><i class=\"fa fa-angle-right me-2\"></i>Our Services</a>
-                    <a class=\"text-light mb-2\" href=\"#\"><i class=\"fa fa-angle-right me-2\"></i>Meet The Team</a>
-                    <a class=\"text-light mb-2\" href=\"#\"><i class=\"fa fa-angle-right me-2\"></i>Latest Blog</a>
-                    <a class=\"text-light\" href=\"#\"><i class=\"fa fa-angle-right me-2\"></i>Contact Us</a>
-                </div>
+                <h4 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4\">SenCare</h4>
+                <p class=\"mb-4\">Ameliorer la prise en charge medical.</p>
+                <p class=\"mb-2\"><i class=\"fa fa-map-marker-alt text-primary me-3\"></i>Almadie 2, Rufisque</p>
+                <p class=\"mb-2\"><i class=\"fa fa-envelope text-primary me-3\"></i>sencare@gmail.com</p>
+                <p class=\"mb-0\"><i class=\"fa fa-phone-alt text-primary me-3\"></i>+221 77 781 29 06</p>
             </div>
             <div class=\"col-lg-3 col-md-6\">
                 <h4 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4\">Lien Utiles</h4>
                 <div class=\"d-flex flex-column justify-content-start\">
+                    <a class=\"text-light mb-2\" href=\"#\"><i class=\"fa fa-angle-right me-2\"></i>Rendez-vous</a>
+                    <a class=\"text-light mb-2\" href=\"#\"><i class=\"fa fa-angle-right me-2\"></i>Urgences</a>
+                </div>
+            </div>
+            <div class=\"col-lg-3 col-md-6\">
+                <h4 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4\">Menu</h4>
+                <div class=\"d-flex flex-column justify-content-start\">
                     <a class=\"text-light mb-2\" href=\"";
-        // line 138
+        // line 134
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Accueil");
         yield "\"><i class=\"fa fa-angle-right me-2\"></i>Accueil</a>
                     <a class=\"text-light mb-2\" href=\"";
-        // line 139
+        // line 135
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("About");
         yield "\"><i class=\"fa fa-angle-right me-2\"></i>A propos</a>
                     <a class=\"text-light mb-2\" href=\"";
-        // line 140
+        // line 136
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Specialistes");
         yield "\"><i class=\"fa fa-angle-right me-2\"></i>Specialistes</a>
                     <a class=\"text-light mb-2\" href=\"";
-        // line 141
+        // line 137
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Service");
         yield "\"><i class=\"fa fa-angle-right me-2\"></i>Services</a>
-                    <a class=\"text-light mb-2\" href=\"";
-        // line 142
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Consultation");
-        yield "\"><i class=\"fa fa-angle-right me-2\"></i>Consultation</a>
                     <a class=\"text-light\" href=\"";
-        // line 143
+        // line 138
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Contact");
         yield "\"><i class=\"fa fa-angle-right me-2\"></i>Contact</a>
                 </div>
@@ -270,11 +262,11 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
                 <h4 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4\">Newsletter</h4>
                 <form action=\"\">
                     <div class=\"input-group\">
-                        <input type=\"text\" class=\"form-control p-3 border-0\" placeholder=\"Your Email Address\">
-                        <button class=\"btn btn-primary\">Sign Up</button>
+                        <input type=\"mail\" class=\"form-control p-3 border-0\" placeholder=\"Votre Mail\">
+                        <button class=\"btn btn-primary\">Envoyer</button>
                     </div>
                 </form>
-                <h6 class=\"text-primary text-uppercase mt-5 mb-5\">Follow Us</h6>
+                <h6 class=\"text-primary text-uppercase mt-5 mb-5\">Suivez nous sur nos reseaux </h6>
                 <div class=\"d-flex\">
                     <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-2\" href=\"#\"><i class=\"fab fa-twitter\"></i></a>
                     <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-2\" href=\"#\"><i class=\"fab fa-facebook-f\"></i></a>
@@ -289,7 +281,7 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
     <div class=\"d-flex flex-column flex-md-row justify-content-between\">
         <div class=\"py-4 px-5 text-center text-md-start text-light\">
             <p class=\"mb-0\">&copy; 2024 Sencare, ";
-        // line 168
+        // line 163
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Tout droits réservés."), "html", null, true);
         yield "</p>
         </div>
@@ -311,49 +303,49 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
 </a>
 
 ";
-        // line 201
+        // line 196
         yield "
 <!-- JavaScript Libraries -->
 <script src=\"https://code.jquery.com/jquery-3.4.1.min.js\"></script>
 <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js\"></script>
 <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js\"></script>
 <script src=\"";
-        // line 206
+        // line 201
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("lib/easing/easing.min.js"), "html", null, true);
         yield "\"></script>
 <script src=\"";
-        // line 207
+        // line 202
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("lib/waypoints/waypoints.min.js"), "html", null, true);
         yield "\"></script>
 <script src=\"";
-        // line 208
+        // line 203
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("lib/owlcarousel/owl.carousel.js"), "html", null, true);
         yield "\"></script>
 <script src=\"";
-        // line 209
+        // line 204
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("lib/tempusdominus/js/moment.min.js"), "html", null, true);
         yield "\"></script>
 <script src=\"";
-        // line 210
+        // line 205
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("lib/tempusdominus/js/moment-timezone.min.js"), "html", null, true);
         yield "\"></script>
 <script src=\"";
-        // line 211
+        // line 206
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"), "html", null, true);
         yield "\"></script>
 
 <script src=\"";
-        // line 213
+        // line 208
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/main.js"), "html", null, true);
         yield "\"></script>
 <script src=\"";
-        // line 214
+        // line 209
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/main.min.js"), "html", null, true);
         yield "\"></script>
 ";
-        // line 215
+        // line 210
         yield from $this->unwrap()->yieldBlock('scroll', $context, $blocks);
-        // line 218
+        // line 213
         yield "
 </body>
 </html>";
@@ -508,7 +500,7 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
         return; yield '';
     }
 
-    // line 215
+    // line 210
     public function block_scroll($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -518,7 +510,7 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "scroll"));
 
-        // line 216
+        // line 211
         yield "
 ";
         
@@ -551,7 +543,7 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  522 => 216,  512 => 215,  500 => 109,  490 => 108,  470 => 101,  450 => 93,  430 => 91,  410 => 90,  390 => 89,  370 => 30,  357 => 218,  355 => 215,  351 => 214,  347 => 213,  342 => 211,  338 => 210,  334 => 209,  330 => 208,  326 => 207,  322 => 206,  315 => 201,  293 => 168,  265 => 143,  261 => 142,  257 => 141,  253 => 140,  249 => 139,  245 => 138,  216 => 111,  214 => 108,  202 => 101,  193 => 95,  186 => 93,  179 => 91,  173 => 90,  167 => 89,  153 => 78,  110 => 37,  106 => 35,  101 => 33,  97 => 31,  95 => 30,  84 => 22,  80 => 21,  67 => 11,  55 => 2,  52 => 1,);
+        return array (  514 => 211,  504 => 210,  492 => 109,  482 => 108,  462 => 101,  442 => 93,  422 => 91,  402 => 90,  382 => 89,  362 => 30,  349 => 213,  347 => 210,  343 => 209,  339 => 208,  334 => 206,  330 => 205,  326 => 204,  322 => 203,  318 => 202,  314 => 201,  307 => 196,  285 => 163,  257 => 138,  253 => 137,  249 => 136,  245 => 135,  241 => 134,  216 => 111,  214 => 108,  202 => 101,  193 => 95,  186 => 93,  179 => 91,  173 => 90,  167 => 89,  153 => 78,  110 => 37,  106 => 35,  101 => 33,  97 => 31,  95 => 30,  84 => 22,  80 => 21,  67 => 11,  55 => 2,  52 => 1,);
     }
 
     public function getSourceContext()
@@ -673,31 +665,26 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
     <div class=\"container py-5\">
         <div class=\"row g-5\">
             <div class=\"col-lg-3 col-md-6\">
-                <h4 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4\">Get In Touch</h4>
-                <p class=\"mb-4\">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor</p>
-                <p class=\"mb-2\"><i class=\"fa fa-map-marker-alt text-primary me-3\"></i>123 Street, New York, USA</p>
-                <p class=\"mb-2\"><i class=\"fa fa-envelope text-primary me-3\"></i>info@example.com</p>
-                <p class=\"mb-0\"><i class=\"fa fa-phone-alt text-primary me-3\"></i>+012 345 67890</p>
-            </div>
-            <div class=\"col-lg-3 col-md-6\">
-                <h4 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4\">Quick Links</h4>
-                <div class=\"d-flex flex-column justify-content-start\">
-                    <a class=\"text-light mb-2\" href=\"#\"><i class=\"fa fa-angle-right me-2\"></i>Home</a>
-                    <a class=\"text-light mb-2\" href=\"#\"><i class=\"fa fa-angle-right me-2\"></i>About Us</a>
-                    <a class=\"text-light mb-2\" href=\"#\"><i class=\"fa fa-angle-right me-2\"></i>Our Services</a>
-                    <a class=\"text-light mb-2\" href=\"#\"><i class=\"fa fa-angle-right me-2\"></i>Meet The Team</a>
-                    <a class=\"text-light mb-2\" href=\"#\"><i class=\"fa fa-angle-right me-2\"></i>Latest Blog</a>
-                    <a class=\"text-light\" href=\"#\"><i class=\"fa fa-angle-right me-2\"></i>Contact Us</a>
-                </div>
+                <h4 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4\">SenCare</h4>
+                <p class=\"mb-4\">Ameliorer la prise en charge medical.</p>
+                <p class=\"mb-2\"><i class=\"fa fa-map-marker-alt text-primary me-3\"></i>Almadie 2, Rufisque</p>
+                <p class=\"mb-2\"><i class=\"fa fa-envelope text-primary me-3\"></i>sencare@gmail.com</p>
+                <p class=\"mb-0\"><i class=\"fa fa-phone-alt text-primary me-3\"></i>+221 77 781 29 06</p>
             </div>
             <div class=\"col-lg-3 col-md-6\">
                 <h4 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4\">Lien Utiles</h4>
+                <div class=\"d-flex flex-column justify-content-start\">
+                    <a class=\"text-light mb-2\" href=\"#\"><i class=\"fa fa-angle-right me-2\"></i>Rendez-vous</a>
+                    <a class=\"text-light mb-2\" href=\"#\"><i class=\"fa fa-angle-right me-2\"></i>Urgences</a>
+                </div>
+            </div>
+            <div class=\"col-lg-3 col-md-6\">
+                <h4 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4\">Menu</h4>
                 <div class=\"d-flex flex-column justify-content-start\">
                     <a class=\"text-light mb-2\" href=\"{{ path('Accueil') }}\"><i class=\"fa fa-angle-right me-2\"></i>Accueil</a>
                     <a class=\"text-light mb-2\" href=\"{{ path('About') }}\"><i class=\"fa fa-angle-right me-2\"></i>A propos</a>
                     <a class=\"text-light mb-2\" href=\"{{ path('Specialistes') }}\"><i class=\"fa fa-angle-right me-2\"></i>Specialistes</a>
                     <a class=\"text-light mb-2\" href=\"{{ path('Service') }}\"><i class=\"fa fa-angle-right me-2\"></i>Services</a>
-                    <a class=\"text-light mb-2\" href=\"{{ path('Consultation') }}\"><i class=\"fa fa-angle-right me-2\"></i>Consultation</a>
                     <a class=\"text-light\" href=\"{{ path('Contact') }}\"><i class=\"fa fa-angle-right me-2\"></i>Contact</a>
                 </div>
             </div>
@@ -705,11 +692,11 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
                 <h4 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4\">Newsletter</h4>
                 <form action=\"\">
                     <div class=\"input-group\">
-                        <input type=\"text\" class=\"form-control p-3 border-0\" placeholder=\"Your Email Address\">
-                        <button class=\"btn btn-primary\">Sign Up</button>
+                        <input type=\"mail\" class=\"form-control p-3 border-0\" placeholder=\"Votre Mail\">
+                        <button class=\"btn btn-primary\">Envoyer</button>
                     </div>
                 </form>
-                <h6 class=\"text-primary text-uppercase mt-5 mb-5\">Follow Us</h6>
+                <h6 class=\"text-primary text-uppercase mt-5 mb-5\">Suivez nous sur nos reseaux </h6>
                 <div class=\"d-flex\">
                     <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-2\" href=\"#\"><i class=\"fab fa-twitter\"></i></a>
                     <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-2\" href=\"#\"><i class=\"fab fa-facebook-f\"></i></a>

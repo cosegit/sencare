@@ -188,6 +188,18 @@ a7b739,127.0.0.1,GET,http://localhost:8000/Specialistes,1716386229,,200,request
 4943cd,::1,GET,http://localhost:8000/,1716386184,,200,request
 440a64,::1,GET,http://localhost:8000/,1716386191,,200,request
 c78b23,::1,GET,http://localhost:8000/Specialistes,1716386220,,200,request
+c159ad,::1,GET,http://localhost:8000/Specialistes,1716386713,,200,request
+d44761,::1,GET,http://localhost:8000/Contact,1716388214,,200,request
+6494c9,::1,GET,http://localhost:8000/Contact,1716388324,,200,request
+ffe89a,::1,GET,http://localhost:8000/Contact,1716388514,,200,request
+01ded6,::1,GET,http://localhost:8000/Contact,1716389050,,200,request
+ffa421,::1,GET,http://localhost:8000/Contact,1716389514,,200,request
+60732e,::1,GET,http://localhost:8000/,1716390340,,200,request
+55f21e,::1,GET,http://localhost:8000/,1716390371,,200,request
+0c3350,::1,GET,http://localhost:8000/,1716390390,,200,request
+892aca,::1,GET,http://localhost:8000/,1716390559,,200,request
+1af28a,::1,GET,http://localhost:8000/,1716391210,,200,request
+eb9e2a,::1,GET,http://localhost:8000/,1716391219,,200,request
 889732,127.0.0.1,GET,http://localhost:8000/Specialistes,1716386504,,200,request
 613947,127.0.0.1,GET,http://localhost:8000/About,1716386537,,200,request
 65b2b6,127.0.0.1,GET,http://localhost:8000/Specialistes,1716386547,,200,request
@@ -249,6 +261,7 @@ b3a11a,127.0.0.1,GET,http://localhost:8000/,1716390569,,200,request
 96e613,127.0.0.1,GET,http://localhost:8000/,1716390590,,200,request
 7bd13a,127.0.0.1,GET,http://localhost:8000/,1716390639,,200,request
 dae894,127.0.0.1,GET,http://localhost:8000/,1716390696,,200,request
+996de5,::1,GET,http://localhost:8000/,1716391241,,200,request
 8aa2c3,127.0.0.1,GET,http://localhost:8000/,1716391358,,200,request
 d650e0,127.0.0.1,GET,http://localhost:8000/,1716391490,,200,request
 f1728f,127.0.0.1,GET,http://localhost:8000/,1716391537,,200,request
@@ -261,3 +274,4 @@ fc80c0,127.0.0.1,GET,http://localhost:8000/,1716391858,,200,request
 10244d,127.0.0.1,GET,http://localhost:8000/About,1716391977,,200,request
 f4c0a7,127.0.0.1,GET,http://localhost:8000/,1716391982,,200,request
 c25344,127.0.0.1,GET,http://localhost:8000/,1716392012,,200,request
+0c2e91,::1,GET,http://localhost:8000/,1716393555,,200,request
