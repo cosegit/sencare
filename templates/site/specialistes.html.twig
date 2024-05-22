@@ -3,7 +3,29 @@
 {% block specialistes %}active{% endblock %}
 
 {% block body %}
-
+    <div class="container-fluid py-5 mb-5 page-header-care">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn">
+                        {{ "Produits"|trans }}
+                    </h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item">
+                                <a class="" href="{{ path('Accueil') }}">
+                                    {{ "Accueil"|trans }}
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item text-primary">
+                                {{ "Produits"|trans }}
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <h1>
     <div class="container-fluid py-5">

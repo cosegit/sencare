@@ -10,6 +10,14 @@
     --noir-rgb: 12, 12, 12;
 
 }
+.page-header-care{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/sale.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
 .carousel-overlay {
     background: linear-gradient(90deg, rgba(var(--noir-rgb), 0.5), transparent);
     top: 0;

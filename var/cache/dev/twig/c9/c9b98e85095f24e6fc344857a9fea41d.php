@@ -87,7 +87,41 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
+        yield "    <div class=\"container-fluid py-5 mb-5 page-header-care\">
+        <div class=\"container py-5\">
+            <div class=\"row justify-content-center\">
+                <div class=\"col-lg-10 text-center\">
+                    <h1 class=\"display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn\">
+                        ";
+        // line 11
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Produits"), "html", null, true);
         yield "
+                    </h1>
+                    <nav aria-label=\"breadcrumb\">
+                        <ol class=\"breadcrumb justify-content-center\">
+                            <li class=\"breadcrumb-item\">
+                                <a class=\"\" href=\"";
+        // line 16
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Accueil");
+        yield "\">
+                                    ";
+        // line 17
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Accueil"), "html", null, true);
+        yield "
+                                </a>
+                            </li>
+                            <li class=\"breadcrumb-item text-primary\">
+                                ";
+        // line 21
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Produits"), "html", null, true);
+        yield "
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <h1>
     <div class=\"container-fluid py-5\">
@@ -101,7 +135,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 19
+        // line 41
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -127,7 +161,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 42
+        // line 64
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -153,7 +187,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 65
+        // line 87
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -211,7 +245,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  157 => 65,  131 => 42,  105 => 19,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  191 => 87,  165 => 64,  139 => 41,  116 => 21,  109 => 17,  105 => 16,  97 => 11,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -221,7 +255,29 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
 {% block specialistes %}active{% endblock %}
 
 {% block body %}
-
+    <div class=\"container-fluid py-5 mb-5 page-header-care\">
+        <div class=\"container py-5\">
+            <div class=\"row justify-content-center\">
+                <div class=\"col-lg-10 text-center\">
+                    <h1 class=\"display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn\">
+                        {{ \"Produits\"|trans }}
+                    </h1>
+                    <nav aria-label=\"breadcrumb\">
+                        <ol class=\"breadcrumb justify-content-center\">
+                            <li class=\"breadcrumb-item\">
+                                <a class=\"\" href=\"{{ path('Accueil') }}\">
+                                    {{ \"Accueil\"|trans }}
+                                </a>
+                            </li>
+                            <li class=\"breadcrumb-item text-primary\">
+                                {{ \"Produits\"|trans }}
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <h1>
     <div class=\"container-fluid py-5\">

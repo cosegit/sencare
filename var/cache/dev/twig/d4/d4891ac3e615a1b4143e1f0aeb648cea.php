@@ -87,7 +87,43 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
+        yield "    <!-- Header Start -->
+    <div class=\"container-fluid py-5 mb-5 page-header-care\">
+        <div class=\"container py-5\">
+            <div class=\"row justify-content-center\">
+                <div class=\"col-lg-10 text-center\">
+                    <h1 class=\"display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn\">
+                        ";
+        // line 10
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("A propos"), "html", null, true);
         yield "
+                    </h1>
+                    <nav aria-label=\"breadcrumb\">
+                        <ol class=\"breadcrumb justify-content-center\">
+                            <li class=\"breadcrumb-item\">
+                                <a class=\"\" href=\"";
+        // line 15
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Accueil");
+        yield "\">
+                                    ";
+        // line 16
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Accueil"), "html", null, true);
+        yield "
+                                </a>
+                            </li>
+                            <li class=\"breadcrumb-item text-primary\">
+                                ";
+        // line 20
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("A propos"), "html", null, true);
+        yield "
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
 
     <!-- About Start -->
     <div class=\"container-fluid py-5\">
@@ -96,7 +132,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
                 <div class=\"col-lg-5 mb-5 mb-lg-0\" style=\"min-height: 500px;\">
                     <div class=\"position-relative h-100\">
                         <img class=\"position-absolute w-100 h-100 rounded\" src=\"";
-        // line 12
+        // line 36
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/snc.jpg"), "html", null, true);
         yield "\" style=\"object-fit: cover;\">
                     </div>
@@ -110,7 +146,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
                     <div class=\"row g-3 pt-3\">
                         <div class=\"col-sm-3 col-6\">
                             <a href=\"";
-        // line 23
+        // line 47
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Specialistes");
         yield "\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
@@ -129,7 +165,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
                         </div>
                         <div class=\"col-sm-3 col-6\">
                             <a href=\"";
-        // line 39
+        // line 63
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Accueil");
         yield "\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
@@ -140,7 +176,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
                         </div>
                         <div class=\"col-sm-3 col-6\">
                             <a href=\"";
-        // line 47
+        // line 71
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Accueil");
         yield "\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
@@ -167,7 +203,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
                 <h5 class=\"text-white fw-normal\">Notre mission est de fournir des services médicaux de haute qualité en mettant l'accent sur la commodité, l'accessibilité et la confidentialité pour nos patients. Nous nous engageons à faciliter la vie de nos patients en offrant des solutions innovantes telles que la prise de rendez-vous en ligne et la numérisation des dossiers médicaux.</h5>
             </div>
 ";
-        // line 83
+        // line 107
         yield "        </div>
     </div>
     <!-- Search End -->
@@ -206,7 +242,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
      */
     public function getDebugInfo()
     {
-        return array (  171 => 83,  144 => 47,  133 => 39,  114 => 23,  100 => 12,  90 => 4,  80 => 3,  60 => 2,  37 => 1,);
+        return array (  207 => 107,  180 => 71,  169 => 63,  150 => 47,  136 => 36,  117 => 20,  110 => 16,  106 => 15,  98 => 10,  90 => 4,  80 => 3,  60 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -214,7 +250,31 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
         return new Source("{% extends 'layout.html.twig' %}
 {% block About %}active{% endblock %}
 {% block body %}
-
+    <!-- Header Start -->
+    <div class=\"container-fluid py-5 mb-5 page-header-care\">
+        <div class=\"container py-5\">
+            <div class=\"row justify-content-center\">
+                <div class=\"col-lg-10 text-center\">
+                    <h1 class=\"display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn\">
+                        {{ \"A propos\"|trans }}
+                    </h1>
+                    <nav aria-label=\"breadcrumb\">
+                        <ol class=\"breadcrumb justify-content-center\">
+                            <li class=\"breadcrumb-item\">
+                                <a class=\"\" href=\"{{ path('Accueil') }}\">
+                                    {{ \"Accueil\"|trans }}
+                                </a>
+                            </li>
+                            <li class=\"breadcrumb-item text-primary\">
+                                {{ \"A propos\"|trans }}
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
 
     <!-- About Start -->
     <div class=\"container-fluid py-5\">

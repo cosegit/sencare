@@ -87,9 +87,43 @@ class __TwigTemplate_a6ea28fe069808864605f757bebd8b43 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
+        yield "    <!-- Header Start -->
+    <div class=\"container-fluid py-5 mb-5 page-header-care\">
+        <div class=\"container py-5\">
+            <div class=\"row justify-content-center\">
+                <div class=\"col-lg-10 text-center\">
+                    <h1 class=\"display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn\">
+                        ";
+        // line 10
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Contact"), "html", null, true);
         yield "
-
-
+                    </h1>
+                    <nav aria-label=\"breadcrumb\">
+                        <ol class=\"breadcrumb justify-content-center\">
+                            <li class=\"breadcrumb-item\">
+                                <a class=\"\" href=\"";
+        // line 15
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Accueil");
+        yield "\">
+                                    ";
+        // line 16
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Accueil"), "html", null, true);
+        yield "
+                                </a>
+                            </li>
+                            <li class=\"breadcrumb-item text-primary\">
+                                ";
+        // line 20
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Contact"), "html", null, true);
+        yield "
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
     <!-- Contact Start -->
     <div class=\"container-fluid pt-5\">
         <div class=\"container\">
@@ -126,7 +160,9 @@ class __TwigTemplate_a6ea28fe069808864605f757bebd8b43 extends Template
             <div class=\"row\">
                 <div class=\"col-12\" style=\"height: 500px;\">
                     <div class=\"position-relative h-100\">
-                        <iframe  class=\"position-relative w-100 h-100\" src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15434.037743651617!2d-17.275554806591764!3d14.740304907000539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2ssn!4v1716388713046!5m2!1sfr!2ssn\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>
+";
+        // line 69
+        yield "                        <iframe  class=\"position-relative w-100 h-100\" src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15434.037743651617!2d-17.275554806591764!3d14.740304907000539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2ssn!4v1716388713046!5m2!1sfr!2ssn\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>
                     </div>
                 </div>
             </div>
@@ -193,7 +229,7 @@ class __TwigTemplate_a6ea28fe069808864605f757bebd8b43 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  90 => 4,  80 => 3,  60 => 2,  37 => 1,);
+        return array (  165 => 69,  117 => 20,  110 => 16,  106 => 15,  98 => 10,  90 => 4,  80 => 3,  60 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -201,9 +237,31 @@ class __TwigTemplate_a6ea28fe069808864605f757bebd8b43 extends Template
         return new Source("{% extends 'layout.html.twig' %}
 {% block contact %}active{% endblock %}
 {% block body %}
-
-
-
+    <!-- Header Start -->
+    <div class=\"container-fluid py-5 mb-5 page-header-care\">
+        <div class=\"container py-5\">
+            <div class=\"row justify-content-center\">
+                <div class=\"col-lg-10 text-center\">
+                    <h1 class=\"display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn\">
+                        {{ \"Contact\"|trans }}
+                    </h1>
+                    <nav aria-label=\"breadcrumb\">
+                        <ol class=\"breadcrumb justify-content-center\">
+                            <li class=\"breadcrumb-item\">
+                                <a class=\"\" href=\"{{ path('Accueil') }}\">
+                                    {{ \"Accueil\"|trans }}
+                                </a>
+                            </li>
+                            <li class=\"breadcrumb-item text-primary\">
+                                {{ \"Contact\"|trans }}
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
     <!-- Contact Start -->
     <div class=\"container-fluid pt-5\">
         <div class=\"container\">
