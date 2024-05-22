@@ -115,9 +115,9 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
         <div class=\"row\">
             <div class=\"col-md-6 text-center text-lg-start mb-2 mb-lg-0\">
                 <div class=\"d-inline-flex align-items-center\">
-                    <a class=\"text-decoration-none text-body pe-3\" href=\"\"><i class=\"bi bi-telephone me-2\"></i>+012 345 6789</a>
+                    <a class=\"text-decoration-none text-body pe-3\" href=\"\"><i class=\"bi bi-telephone me-2\"></i>+221 78 190 26 26</a>
                     <span class=\"text-body\">|</span>
-                    <a class=\"text-decoration-none text-body px-3\" href=\"\"><i class=\"bi bi-envelope me-2\"></i>info@example.com</a>
+                    <a class=\"text-decoration-none text-body px-3\" href=\"\"><i class=\"bi bi-envelope me-2\"></i>sencare@gmail.com</a>
                 </div>
             </div>
             <div class=\"col-md-6 text-center text-lg-end\">
@@ -600,9 +600,9 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
         <div class=\"row\">
             <div class=\"col-md-6 text-center text-lg-start mb-2 mb-lg-0\">
                 <div class=\"d-inline-flex align-items-center\">
-                    <a class=\"text-decoration-none text-body pe-3\" href=\"\"><i class=\"bi bi-telephone me-2\"></i>+012 345 6789</a>
+                    <a class=\"text-decoration-none text-body pe-3\" href=\"\"><i class=\"bi bi-telephone me-2\"></i>+221 78 190 26 26</a>
                     <span class=\"text-body\">|</span>
-                    <a class=\"text-decoration-none text-body px-3\" href=\"\"><i class=\"bi bi-envelope me-2\"></i>info@example.com</a>
+                    <a class=\"text-decoration-none text-body px-3\" href=\"\"><i class=\"bi bi-envelope me-2\"></i>sencare@gmail.com</a>
                 </div>
             </div>
             <div class=\"col-md-6 text-center text-lg-end\">

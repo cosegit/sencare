@@ -104,33 +104,53 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
                 <div class=\"col-lg-7\">
                     <div class=\"mb-4\">
                         <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">A propos de nous</h5>
-                        <h1 class=\"display-4\">Nous sommes la pour vos soins medicaux a domicile</h1>
+                        <h1 class=\"display-4\">Nous sommes la pour vos soins medicaux à domicile</h1>
                     </div>
                     <p>SEN'Care, c'est bien plus qu'un simple service médical à domicile. En effet, il incarne une véritable passerelle vers le bien-être, offrant aux patients la possibilité de maintenir leur traitement prescrit dans le confort de leur foyer. Grâce à une équipe dévouée et compétente, nous assurons une continuité des soins, qu'il s'agisse d'un suivi régulier ou d'une assistance ponctuelle. Notre mission va au-delà de la simple prise en charge médicale ; nous aspirons à créer une communauté solidaire, où chaque individu peut s'épanouir dans un environnement propice à sa santé et à son épanouissement personnel. Avec SEN'Care, nous façonnons un avenir où le bien-être est accessible à tous, où la santé devient une priorité partagée par chacun.</p>
                     <div class=\"row g-3 pt-3\">
                         <div class=\"col-sm-3 col-6\">
+                            <a href=\"";
+        // line 23
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Specialistes");
+        yield "\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-user-md text-primary mb-3\"></i>
                                 <h6 class=\"mb-0\">Qualifier<small class=\"d-block text-primary\">Docteurs</small></h6>
                             </div>
+                            </a>
                         </div>
                         <div class=\"col-sm-3 col-6\">
+                            <a href=\"";
+        // line 31
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Accueil");
+        yield "\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-procedures text-primary mb-3\"></i>
                                 <h6 class=\"mb-0\">Urgences<small class=\"d-block text-primary\">Services</small></h6>
                             </div>
+                            </a>
                         </div>
                         <div class=\"col-sm-3 col-6\">
+                            <a href=\"";
+        // line 39
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Accueil");
+        yield "\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-microscope text-primary mb-3\"></i>
                                 <h6 class=\"mb-0\">Adapte<small class=\"d-block text-primary\">Materiel</small></h6>
                             </div>
+                            </a>
                         </div>
                         <div class=\"col-sm-3 col-6\">
+                            <a href=\"";
+        // line 47
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Accueil");
+        yield "\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-ambulance text-primary mb-3\"></i>
                                 <h6 class=\"mb-0\">Libre<small class=\"d-block text-primary\">Ambulance</small></h6>
                             </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -150,90 +170,13 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
                 <h5 class=\"text-white fw-normal\">Notre mission est de fournir des services médicaux de haute qualité en mettant l'accent sur la commodité, l'accessibilité et la confidentialité pour nos patients. Nous nous engageons à faciliter la vie de nos patients en offrant des solutions innovantes telles que la prise de rendez-vous en ligne et la numérisation des dossiers médicaux.</h5>
             </div>
 ";
-        // line 75
+        // line 83
         yield "        </div>
     </div>
     <!-- Search End -->
 
 
-    <!-- Team Start -->
-    <div class=\"container-fluid py-5\">
-        <div class=\"container\">
-            <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Our Doctors</h5>
-                <h1 class=\"display-4\">Qualified Healthcare Professionals</h1>
-            </div>
-            <div class=\"owl-carousel team-carousel position-relative\">
-                <div class=\"team-item\">
-                    <div class=\"row g-0 bg-light rounded overflow-hidden\">
-                        <div class=\"col-12 col-sm-5 h-100\">
-                            <img class=\"img-fluid h-100\" src=\"";
-        // line 91
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.jpg"), "html", null, true);
-        yield "\" style=\"object-fit: cover;\">
-                        </div>
-                        <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
-                            <div class=\"mt-auto p-4\">
-                                <h3>Doctor Name</h3>
-                                <h6 class=\"fw-normal fst-italic text-primary mb-4\">Cardiology Specialist</h6>
-                                <p class=\"m-0\">Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor</p>
-                            </div>
-                            <div class=\"d-flex mt-auto border-top p-4\">
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i class=\"fab fa-twitter\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i class=\"fab fa-facebook-f\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i class=\"fab fa-linkedin-in\"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"team-item\">
-                    <div class=\"row g-0 bg-light rounded overflow-hidden\">
-                        <div class=\"col-12 col-sm-5 h-100\">
-                            <img class=\"img-fluid h-100\" src=\"";
-        // line 110
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.jpg"), "html", null, true);
-        yield "\" style=\"object-fit: cover;\">
-                        </div>
-                        <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
-                            <div class=\"mt-auto p-4\">
-                                <h3>Doctor Name</h3>
-                                <h6 class=\"fw-normal fst-italic text-primary mb-4\">Cardiology Specialist</h6>
-                                <p class=\"m-0\">Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor</p>
-                            </div>
-                            <div class=\"d-flex mt-auto border-top p-4\">
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i class=\"fab fa-twitter\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i class=\"fab fa-facebook-f\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i class=\"fab fa-linkedin-in\"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"team-item\">
-                    <div class=\"row g-0 bg-light rounded overflow-hidden\">
-                        <div class=\"col-12 col-sm-5 h-100\">
-                            <img class=\"img-fluid h-100\" src=\"";
-        // line 129
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.jpg"), "html", null, true);
-        yield "\" style=\"object-fit: cover;\">
-                        </div>
-                        <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
-                            <div class=\"mt-auto p-4\">
-                                <h3>Doctor Name</h3>
-                                <h6 class=\"fw-normal fst-italic text-primary mb-4\">Cardiology Specialist</h6>
-                                <p class=\"m-0\">Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor</p>
-                            </div>
-                            <div class=\"d-flex mt-auto border-top p-4\">
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i class=\"fab fa-twitter\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i class=\"fab fa-facebook-f\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i class=\"fab fa-linkedin-in\"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
+
 
 ";
         
@@ -266,7 +209,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
      */
     public function getDebugInfo()
     {
-        return array (  216 => 129,  194 => 110,  172 => 91,  154 => 75,  100 => 12,  90 => 4,  80 => 3,  60 => 2,  37 => 1,);
+        return array (  174 => 83,  147 => 47,  136 => 39,  125 => 31,  114 => 23,  100 => 12,  90 => 4,  80 => 3,  60 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -288,33 +231,41 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
                 <div class=\"col-lg-7\">
                     <div class=\"mb-4\">
                         <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">A propos de nous</h5>
-                        <h1 class=\"display-4\">Nous sommes la pour vos soins medicaux a domicile</h1>
+                        <h1 class=\"display-4\">Nous sommes la pour vos soins medicaux à domicile</h1>
                     </div>
                     <p>SEN'Care, c'est bien plus qu'un simple service médical à domicile. En effet, il incarne une véritable passerelle vers le bien-être, offrant aux patients la possibilité de maintenir leur traitement prescrit dans le confort de leur foyer. Grâce à une équipe dévouée et compétente, nous assurons une continuité des soins, qu'il s'agisse d'un suivi régulier ou d'une assistance ponctuelle. Notre mission va au-delà de la simple prise en charge médicale ; nous aspirons à créer une communauté solidaire, où chaque individu peut s'épanouir dans un environnement propice à sa santé et à son épanouissement personnel. Avec SEN'Care, nous façonnons un avenir où le bien-être est accessible à tous, où la santé devient une priorité partagée par chacun.</p>
                     <div class=\"row g-3 pt-3\">
                         <div class=\"col-sm-3 col-6\">
+                            <a href=\"{{ path('Specialistes') }}\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-user-md text-primary mb-3\"></i>
                                 <h6 class=\"mb-0\">Qualifier<small class=\"d-block text-primary\">Docteurs</small></h6>
                             </div>
+                            </a>
                         </div>
                         <div class=\"col-sm-3 col-6\">
+                            <a href=\"{{ path('Accueil') }}\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-procedures text-primary mb-3\"></i>
                                 <h6 class=\"mb-0\">Urgences<small class=\"d-block text-primary\">Services</small></h6>
                             </div>
+                            </a>
                         </div>
                         <div class=\"col-sm-3 col-6\">
+                            <a href=\"{{ path('Accueil') }}\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-microscope text-primary mb-3\"></i>
                                 <h6 class=\"mb-0\">Adapte<small class=\"d-block text-primary\">Materiel</small></h6>
                             </div>
+                            </a>
                         </div>
                         <div class=\"col-sm-3 col-6\">
+                            <a href=\"{{ path('Accueil') }}\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-ambulance text-primary mb-3\"></i>
                                 <h6 class=\"mb-0\">Libre<small class=\"d-block text-primary\">Ambulance</small></h6>
                             </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -350,75 +301,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
     <!-- Search End -->
 
 
-    <!-- Team Start -->
-    <div class=\"container-fluid py-5\">
-        <div class=\"container\">
-            <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Our Doctors</h5>
-                <h1 class=\"display-4\">Qualified Healthcare Professionals</h1>
-            </div>
-            <div class=\"owl-carousel team-carousel position-relative\">
-                <div class=\"team-item\">
-                    <div class=\"row g-0 bg-light rounded overflow-hidden\">
-                        <div class=\"col-12 col-sm-5 h-100\">
-                            <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-1.jpg') }}\" style=\"object-fit: cover;\">
-                        </div>
-                        <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
-                            <div class=\"mt-auto p-4\">
-                                <h3>Doctor Name</h3>
-                                <h6 class=\"fw-normal fst-italic text-primary mb-4\">Cardiology Specialist</h6>
-                                <p class=\"m-0\">Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor</p>
-                            </div>
-                            <div class=\"d-flex mt-auto border-top p-4\">
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i class=\"fab fa-twitter\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i class=\"fab fa-facebook-f\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i class=\"fab fa-linkedin-in\"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"team-item\">
-                    <div class=\"row g-0 bg-light rounded overflow-hidden\">
-                        <div class=\"col-12 col-sm-5 h-100\">
-                            <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-2.jpg') }}\" style=\"object-fit: cover;\">
-                        </div>
-                        <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
-                            <div class=\"mt-auto p-4\">
-                                <h3>Doctor Name</h3>
-                                <h6 class=\"fw-normal fst-italic text-primary mb-4\">Cardiology Specialist</h6>
-                                <p class=\"m-0\">Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor</p>
-                            </div>
-                            <div class=\"d-flex mt-auto border-top p-4\">
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i class=\"fab fa-twitter\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i class=\"fab fa-facebook-f\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i class=\"fab fa-linkedin-in\"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"team-item\">
-                    <div class=\"row g-0 bg-light rounded overflow-hidden\">
-                        <div class=\"col-12 col-sm-5 h-100\">
-                            <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-3.jpg') }}\" style=\"object-fit: cover;\">
-                        </div>
-                        <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
-                            <div class=\"mt-auto p-4\">
-                                <h3>Doctor Name</h3>
-                                <h6 class=\"fw-normal fst-italic text-primary mb-4\">Cardiology Specialist</h6>
-                                <p class=\"m-0\">Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor</p>
-                            </div>
-                            <div class=\"d-flex mt-auto border-top p-4\">
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i class=\"fab fa-twitter\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i class=\"fab fa-facebook-f\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i class=\"fab fa-linkedin-in\"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
+
 
 {% endblock %}
 ", "site/about.html.twig", "C:\\wamp64\\www\\sencare\\templates\\site\\about.html.twig");
