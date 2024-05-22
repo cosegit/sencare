@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
     --primaire: #13C5DD;
-    --text-primaire: #0D6EFD;
+    --text-primaire: #1d2a4d;
     --secondaire: #354F8E;
     --tertiaire: #e7205f;
     --light: #EFF5F9;
@@ -12,6 +12,38 @@
 }
 .page-header-care{
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/sale.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+.page-header-contact{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/sale_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+.page-header-specialite{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/header_specialite.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+.page-header-about{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/header_about.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+.page-header-service{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/header_service.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -94,7 +94,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                     <h1 class=\"display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn\">
                         ";
         // line 11
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Produits"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Spécialistes"), "html", null, true);
         yield "
                     </h1>
                     <nav aria-label=\"breadcrumb\">
@@ -113,7 +113,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                             <li class=\"breadcrumb-item text-primary\">
                                 ";
         // line 21
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Produits"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Spécialistes"), "html", null, true);
         yield "
                             </li>
                         </ol>
@@ -260,7 +260,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
             <div class=\"row justify-content-center\">
                 <div class=\"col-lg-10 text-center\">
                     <h1 class=\"display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn\">
-                        {{ \"Produits\"|trans }}
+                        {{ \"Spécialistes\"|trans }}
                     </h1>
                     <nav aria-label=\"breadcrumb\">
                         <ol class=\"breadcrumb justify-content-center\">
@@ -270,7 +270,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                                 </a>
                             </li>
                             <li class=\"breadcrumb-item text-primary\">
-                                {{ \"Produits\"|trans }}
+                                {{ \"Spécialistes\"|trans }}
                             </li>
                         </ol>
                     </nav>

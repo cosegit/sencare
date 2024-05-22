@@ -464,199 +464,22 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <!-- Appointment End -->
 
 
-    ";
-        // line 355
-        yield "    ";
-        // line 356
-        yield "    ";
-        // line 357
-        yield "    ";
-        // line 358
-        yield "    ";
-        // line 359
-        yield "    ";
-        // line 360
-        yield "    ";
-        // line 361
-        yield "    ";
-        // line 362
-        yield "    ";
-        // line 363
-        yield "    ";
-        // line 364
-        yield "    ";
-        // line 365
-        yield "    ";
-        // line 366
-        yield "    ";
-        // line 367
-        yield "    ";
-        // line 368
-        yield "    ";
-        // line 369
-        yield "    ";
-        // line 370
-        yield "    ";
-        // line 371
-        yield "    ";
-        // line 372
-        yield "    ";
-        // line 373
-        yield "    ";
-        // line 374
-        yield "    ";
-        // line 375
-        yield "    ";
-        // line 376
-        yield "    ";
-        // line 377
-        yield "    ";
-        // line 378
-        yield "    ";
-        // line 379
-        yield "    ";
-        // line 380
-        yield "    ";
-        // line 381
-        yield "    ";
-        // line 382
-        yield "    ";
-        // line 383
-        yield "    ";
-        // line 384
-        yield "    ";
-        // line 385
-        yield "    ";
-        // line 386
-        yield "    ";
-        // line 387
-        yield "    ";
-        // line 388
-        yield "    ";
-        // line 389
-        yield "    ";
-        // line 390
-        yield "    ";
-        // line 391
-        yield "    ";
-        // line 392
-        yield "    ";
-        // line 393
-        yield "    ";
-        // line 394
-        yield "    ";
-        // line 395
-        yield "    ";
-        // line 396
-        yield "    ";
-        // line 397
-        yield "    ";
-        // line 398
-        yield "    ";
-        // line 399
-        yield "    ";
-        // line 400
-        yield "    ";
-        // line 401
-        yield "    ";
-        // line 402
-        yield "    ";
-        // line 403
-        yield "    ";
-        // line 404
-        yield "    ";
-        // line 405
-        yield "    ";
-        // line 406
-        yield "    ";
-        // line 407
-        yield "    ";
-        // line 408
-        yield "    ";
-        // line 409
-        yield "    ";
-        // line 410
-        yield "    ";
-        // line 411
-        yield "    ";
-        // line 412
-        yield "    ";
-        // line 413
-        yield "    ";
-        // line 414
-        yield "    ";
-        // line 415
-        yield "    ";
-        // line 416
-        yield "    ";
-        // line 417
-        yield "    ";
-        // line 418
-        yield "    ";
-        // line 419
-        yield "    ";
-        // line 420
-        yield "    ";
-        // line 421
-        yield "    ";
-        // line 422
-        yield "    ";
-        // line 423
-        yield "    ";
-        // line 424
-        yield "    ";
-        // line 425
-        yield "    ";
-        // line 426
-        yield "    ";
-        // line 427
-        yield "    ";
-        // line 428
-        yield "    ";
-        // line 429
-        yield "    ";
-        // line 430
-        yield "    ";
-        // line 431
-        yield "    ";
-        // line 432
-        yield "    ";
-        // line 433
-        yield "    ";
-        // line 434
-        yield "    ";
-        // line 435
-        yield "    ";
-        // line 436
-        yield "    ";
-        // line 437
-        yield "    ";
-        // line 438
-        yield "    ";
-        // line 439
-        yield "    ";
-        // line 440
-        yield "    ";
-        // line 441
-        yield "    ";
-        // line 442
-        yield "    ";
-        // line 443
-        yield "    ";
-        // line 444
-        yield "    ";
-        // line 445
-        yield "    ";
-        // line 446
-        yield "    ";
-        // line 447
-        yield "    ";
-        // line 448
-        yield "    ";
-        // line 449
-        yield "    ";
-        // line 450
-        yield "
+        <!-- Pricing Plan Start -->
+        <div class=\"container-fluid py-5\">
+            <div class=\"container py-5\">
+                <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
+                    <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Demande d'urgence</h5>
+                    <h1 class=\"display-4\">Formulaire demande d'urgence</h1>
+                </div>
+                <div class=\"row gx-5\">
+                    <div class=\"col-lg-6 mb-5 mb-lg-0 mt-5\">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pricing Plan End -->
+
 
     <!-- Team Start -->
     <div class=\"container-fluid py-5\">
@@ -670,7 +493,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 463
+        // line 382
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -697,7 +520,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 487
+        // line 406
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -724,7 +547,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 511
+        // line 430
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -769,7 +592,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 553
+        // line 472
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-1.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -788,7 +611,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 569
+        // line 488
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-2.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -807,7 +630,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 585
+        // line 504
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-3.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -860,7 +683,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  811 => 585,  792 => 569,  773 => 553,  728 => 511,  701 => 487,  674 => 463,  659 => 450,  657 => 449,  655 => 448,  653 => 447,  651 => 446,  649 => 445,  647 => 444,  645 => 443,  643 => 442,  641 => 441,  639 => 440,  637 => 439,  635 => 438,  633 => 437,  631 => 436,  629 => 435,  627 => 434,  625 => 433,  623 => 432,  621 => 431,  619 => 430,  617 => 429,  615 => 428,  613 => 427,  611 => 426,  609 => 425,  607 => 424,  605 => 423,  603 => 422,  601 => 421,  599 => 420,  597 => 419,  595 => 418,  593 => 417,  591 => 416,  589 => 415,  587 => 414,  585 => 413,  583 => 412,  581 => 411,  579 => 410,  577 => 409,  575 => 408,  573 => 407,  571 => 406,  569 => 405,  567 => 404,  565 => 403,  563 => 402,  561 => 401,  559 => 400,  557 => 399,  555 => 398,  553 => 397,  551 => 396,  549 => 395,  547 => 394,  545 => 393,  543 => 392,  541 => 391,  539 => 390,  537 => 389,  535 => 388,  533 => 387,  531 => 386,  529 => 385,  527 => 384,  525 => 383,  523 => 382,  521 => 381,  519 => 380,  517 => 379,  515 => 378,  513 => 377,  511 => 376,  509 => 375,  507 => 374,  505 => 373,  503 => 372,  501 => 371,  499 => 370,  497 => 369,  495 => 368,  493 => 367,  491 => 366,  489 => 365,  487 => 364,  485 => 363,  483 => 362,  481 => 361,  479 => 360,  477 => 359,  475 => 358,  473 => 357,  471 => 356,  469 => 355,  403 => 290,  401 => 289,  231 => 121,  202 => 94,  200 => 93,  198 => 92,  196 => 91,  194 => 90,  177 => 75,  167 => 67,  165 => 66,  163 => 65,  161 => 64,  159 => 63,  142 => 48,  132 => 40,  130 => 39,  128 => 38,  126 => 37,  124 => 36,  108 => 22,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  634 => 504,  615 => 488,  596 => 472,  551 => 430,  524 => 406,  497 => 382,  403 => 290,  401 => 289,  231 => 121,  202 => 94,  200 => 93,  198 => 92,  196 => 91,  194 => 90,  177 => 75,  167 => 67,  165 => 66,  163 => 65,  161 => 64,  159 => 63,  142 => 48,  132 => 40,  130 => 39,  128 => 38,  126 => 37,  124 => 36,  108 => 22,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -1218,102 +1041,21 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <!-- Appointment End -->
 
 
-    {#    <!-- Pricing Plan Start -->#}
-    {#    <div class=\"container-fluid py-5\">#}
-    {#        <div class=\"container\">#}
-    {#            <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">#}
-    {#                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Medical Packages</h5>#}
-    {#                <h1 class=\"display-4\">Awesome Medical Programs</h1>#}
-    {#            </div>#}
-    {#            <div class=\"owl-carousel price-carousel position-relative\" style=\"padding: 0 45px 45px 45px;\">#}
-    {#                <div class=\"bg-light rounded text-center\">#}
-    {#                    <div class=\"position-relative\">#}
-    {#                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-1.jpg') }}\" alt=\"\">#}
-    {#                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"#}
-    {#                             style=\"background: rgba(29, 42, 77, .8);\">#}
-    {#                            <h3 class=\"text-white\">Pregnancy Care</h3>#}
-    {#                            <h1 class=\"display-4 text-white mb-0\">#}
-    {#                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>49<small#}
-    {#                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/#}
-    {#                                    Year</small>#}
-    {#                            </h1>#}
-    {#                        </div>#}
-    {#                    </div>#}
-    {#                    <div class=\"text-center py-5\">#}
-    {#                        <p>Emergency Medical Treatment</p>#}
-    {#                        <p>Highly Experienced Doctors</p>#}
-    {#                        <p>Highest Success Rate</p>#}
-    {#                        <p>Telephone Service</p>#}
-    {#                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>#}
-    {#                    </div>#}
-    {#                </div>#}
-    {#                <div class=\"bg-light rounded text-center\">#}
-    {#                    <div class=\"position-relative\">#}
-    {#                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-2.jpg') }}\" alt=\"\">#}
-    {#                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"#}
-    {#                             style=\"background: rgba(29, 42, 77, .8);\">#}
-    {#                            <h3 class=\"text-white\">Health Checkup</h3>#}
-    {#                            <h1 class=\"display-4 text-white mb-0\">#}
-    {#                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>99<small#}
-    {#                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/#}
-    {#                                    Year</small>#}
-    {#                            </h1>#}
-    {#                        </div>#}
-    {#                    </div>#}
-    {#                    <div class=\"text-center py-5\">#}
-    {#                        <p>Emergency Medical Treatment</p>#}
-    {#                        <p>Highly Experienced Doctors</p>#}
-    {#                        <p>Highest Success Rate</p>#}
-    {#                        <p>Telephone Service</p>#}
-    {#                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>#}
-    {#                    </div>#}
-    {#                </div>#}
-    {#                <div class=\"bg-light rounded text-center\">#}
-    {#                    <div class=\"position-relative\">#}
-    {#                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-3.jpg') }}\" alt=\"\">#}
-    {#                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"#}
-    {#                             style=\"background: rgba(29, 42, 77, .8);\">#}
-    {#                            <h3 class=\"text-white\">Dental Care</h3>#}
-    {#                            <h1 class=\"display-4 text-white mb-0\">#}
-    {#                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>149<small#}
-    {#                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/#}
-    {#                                    Year</small>#}
-    {#                            </h1>#}
-    {#                        </div>#}
-    {#                    </div>#}
-    {#                    <div class=\"text-center py-5\">#}
-    {#                        <p>Emergency Medical Treatment</p>#}
-    {#                        <p>Highly Experienced Doctors</p>#}
-    {#                        <p>Highest Success Rate</p>#}
-    {#                        <p>Telephone Service</p>#}
-    {#                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>#}
-    {#                    </div>#}
-    {#                </div>#}
-    {#                <div class=\"bg-light rounded text-center\">#}
-    {#                    <div class=\"position-relative\">#}
-    {#                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-4.jpg') }}\" alt=\"\">#}
-    {#                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"#}
-    {#                             style=\"background: rgba(29, 42, 77, .8);\">#}
-    {#                            <h3 class=\"text-white\">Operation & Surgery</h3>#}
-    {#                            <h1 class=\"display-4 text-white mb-0\">#}
-    {#                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>199<small#}
-    {#                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/#}
-    {#                                    Year</small>#}
-    {#                            </h1>#}
-    {#                        </div>#}
-    {#                    </div>#}
-    {#                    <div class=\"text-center py-5\">#}
-    {#                        <p>Emergency Medical Treatment</p>#}
-    {#                        <p>Highly Experienced Doctors</p>#}
-    {#                        <p>Highest Success Rate</p>#}
-    {#                        <p>Telephone Service</p>#}
-    {#                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>#}
-    {#                    </div>#}
-    {#                </div>#}
-    {#            </div>#}
-    {#        </div>#}
-    {#    </div>#}
-    {#    <!-- Pricing Plan End -->#}
+        <!-- Pricing Plan Start -->
+        <div class=\"container-fluid py-5\">
+            <div class=\"container py-5\">
+                <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
+                    <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Demande d'urgence</h5>
+                    <h1 class=\"display-4\">Formulaire demande d'urgence</h1>
+                </div>
+                <div class=\"row gx-5\">
+                    <div class=\"col-lg-6 mb-5 mb-lg-0 mt-5\">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pricing Plan End -->
 
 
     <!-- Team Start -->

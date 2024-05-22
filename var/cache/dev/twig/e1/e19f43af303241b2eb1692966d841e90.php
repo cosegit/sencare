@@ -87,8 +87,43 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
+        yield "    <!-- Header Start -->
+    <div class=\"container-fluid py-5 mb-5 page-header-service\">
+        <div class=\"container py-5\">
+            <div class=\"row justify-content-center\">
+                <div class=\"col-lg-10 text-center\">
+                    <h1 class=\"display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn\">
+                        ";
+        // line 12
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Services"), "html", null, true);
         yield "
-
+                    </h1>
+                    <nav aria-label=\"breadcrumb\">
+                        <ol class=\"breadcrumb justify-content-center\">
+                            <li class=\"breadcrumb-item\">
+                                <a class=\"\" href=\"";
+        // line 17
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Accueil");
+        yield "\">
+                                    ";
+        // line 18
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Accueil"), "html", null, true);
+        yield "
+                                </a>
+                            </li>
+                            <li class=\"breadcrumb-item text-primary\">
+                                ";
+        // line 22
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Services"), "html", null, true);
+        yield "
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
     <!-- Services Start -->
     <div class=\"container-fluid py-5\">
         <div class=\"container\">
@@ -218,7 +253,7 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
      */
     public function getDebugInfo()
     {
-        return array (  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  117 => 22,  110 => 18,  106 => 17,  98 => 12,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -228,8 +263,31 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
 {% block service %}active{% endblock %}
 
 {% block body %}
-
-
+    <!-- Header Start -->
+    <div class=\"container-fluid py-5 mb-5 page-header-service\">
+        <div class=\"container py-5\">
+            <div class=\"row justify-content-center\">
+                <div class=\"col-lg-10 text-center\">
+                    <h1 class=\"display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn\">
+                        {{ \"Services\"|trans }}
+                    </h1>
+                    <nav aria-label=\"breadcrumb\">
+                        <ol class=\"breadcrumb justify-content-center\">
+                            <li class=\"breadcrumb-item\">
+                                <a class=\"\" href=\"{{ path('Accueil') }}\">
+                                    {{ \"Accueil\"|trans }}
+                                </a>
+                            </li>
+                            <li class=\"breadcrumb-item text-primary\">
+                                {{ \"Services\"|trans }}
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
     <!-- Services Start -->
     <div class=\"container-fluid py-5\">
         <div class=\"container\">

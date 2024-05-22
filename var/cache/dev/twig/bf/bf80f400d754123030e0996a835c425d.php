@@ -186,17 +186,10 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Service");
         yield "\" class=\"nav-link ";
         yield from $this->unwrap()->yieldBlock('service', $context, $blocks);
-        yield "\">Service</a>
-                            <div class=\"dropdown-menu m-0\">
-                                <a href=\"";
-        // line 95
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Consultation");
-        yield "\" class=\"dropdown-item\">Consultation</a>
-                                <a href=\"#\" class=\"dropdown-item\">Traitement</a>
-                                <a href=\"#\" class=\"dropdown-item\">Opérations</a>
-                                <a href=\"#\" class=\"dropdown-item\">Rendez vous</a>
-                            </div>
-                        </div>
+        yield "\">Services</a>
+";
+        // line 100
+        yield "                        </div>
                         <a href=\"";
         // line 101
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Contact");
@@ -543,7 +536,7 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  514 => 211,  504 => 210,  492 => 109,  482 => 108,  462 => 101,  442 => 93,  422 => 91,  402 => 90,  382 => 89,  362 => 30,  349 => 213,  347 => 210,  343 => 209,  339 => 208,  334 => 206,  330 => 205,  326 => 204,  322 => 203,  318 => 202,  314 => 201,  307 => 196,  285 => 163,  257 => 138,  253 => 137,  249 => 136,  245 => 135,  241 => 134,  216 => 111,  214 => 108,  202 => 101,  193 => 95,  186 => 93,  179 => 91,  173 => 90,  167 => 89,  153 => 78,  110 => 37,  106 => 35,  101 => 33,  97 => 31,  95 => 30,  84 => 22,  80 => 21,  67 => 11,  55 => 2,  52 => 1,);
+        return array (  507 => 211,  497 => 210,  485 => 109,  475 => 108,  455 => 101,  435 => 93,  415 => 91,  395 => 90,  375 => 89,  355 => 30,  342 => 213,  340 => 210,  336 => 209,  332 => 208,  327 => 206,  323 => 205,  319 => 204,  315 => 203,  311 => 202,  307 => 201,  300 => 196,  278 => 163,  250 => 138,  246 => 137,  242 => 136,  238 => 135,  234 => 134,  209 => 111,  207 => 108,  195 => 101,  192 => 100,  186 => 93,  179 => 91,  173 => 90,  167 => 89,  153 => 78,  110 => 37,  106 => 35,  101 => 33,  97 => 31,  95 => 30,  84 => 22,  80 => 21,  67 => 11,  55 => 2,  52 => 1,);
     }
 
     public function getSourceContext()
@@ -640,13 +633,13 @@ class __TwigTemplate_1132169dedbb75d9066b2a75d3de1f93 extends Template
                         <a href=\"{{ path('About') }}\" class=\"nav-link {% block About %} {% endblock %}\">A propos</a>
                         <a href=\"{{ path('Specialistes') }}\" class=\"nav-link {% block specialistes %} {% endblock %}\">Spécialistes</a>
                         <div class=\"nav-item dropdown\">
-                            <a href=\"{{ path('Service') }}\" class=\"nav-link {% block service %} {% endblock %}\">Service</a>
-                            <div class=\"dropdown-menu m-0\">
-                                <a href=\"{{ path('Consultation') }}\" class=\"dropdown-item\">Consultation</a>
-                                <a href=\"#\" class=\"dropdown-item\">Traitement</a>
-                                <a href=\"#\" class=\"dropdown-item\">Opérations</a>
-                                <a href=\"#\" class=\"dropdown-item\">Rendez vous</a>
-                            </div>
+                            <a href=\"{{ path('Service') }}\" class=\"nav-link {% block service %} {% endblock %}\">Services</a>
+{#                            <div class=\"dropdown-menu m-0\">#}
+{#                                <a href=\"{{ path('Consultation') }}\" class=\"dropdown-item\">Consultation</a>#}
+{#                                <a href=\"#\" class=\"dropdown-item\">Traitement</a>#}
+{#                                <a href=\"#\" class=\"dropdown-item\">Opérations</a>#}
+{#                                <a href=\"#\" class=\"dropdown-item\">Rendez vous</a>#}
+{#                            </div>#}
                         </div>
                         <a href=\"{{ path('Contact') }}\" class=\"nav-link {% block contact %} {% endblock %}\">Contact</a>
                 </div>
