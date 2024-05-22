@@ -120,10 +120,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
                             </a>
                         </div>
                         <div class=\"col-sm-3 col-6\">
-                            <a href=\"";
-        // line 31
-        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Accueil");
-        yield "\">
+                            <a href=\"urgence\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-procedures text-primary mb-3\"></i>
                                 <h6 class=\"mb-0\">Urgences<small class=\"d-block text-primary\">Services</small></h6>
@@ -209,7 +206,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
      */
     public function getDebugInfo()
     {
-        return array (  174 => 83,  147 => 47,  136 => 39,  125 => 31,  114 => 23,  100 => 12,  90 => 4,  80 => 3,  60 => 2,  37 => 1,);
+        return array (  171 => 83,  144 => 47,  133 => 39,  114 => 23,  100 => 12,  90 => 4,  80 => 3,  60 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -244,7 +241,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
                             </a>
                         </div>
                         <div class=\"col-sm-3 col-6\">
-                            <a href=\"{{ path('Accueil') }}\">
+                            <a href=\"urgence\">
                             <div class=\"bg-light text-center rounded-circle py-4\">
                                 <i class=\"fa fa-3x fa-procedures text-primary mb-3\"></i>
                                 <h6 class=\"mb-0\">Urgences<small class=\"d-block text-primary\">Services</small></h6>

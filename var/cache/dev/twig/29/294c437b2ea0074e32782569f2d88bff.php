@@ -90,84 +90,128 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
         yield "
 
     <!-- Hero Start -->
-    <div id=\"carouselExampleCaptions\" class=\"carousel carousel-fade slide\" data-bs-ride=\"carousel\" data-bs-pause=\"false\">
-    <div class=\"carousel-indicators\">
-        <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"0\" class=\"active\" aria-current=\"true\" aria-label=\"Slide 1\"></button>
-        <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"1\" aria-label=\"Slide 2\"></button>
-        <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"2\" aria-label=\"Slide 3\"></button>
-    </div>
-    <div class=\"carousel-inner\">
-        <div class=\"carousel-item position-relative active\" data-bs-interval=\"5000\">
-            <div class=\"carousel-img\">
-                <img src=\"";
-        // line 18
+    <div id=\"carouselExampleCaptions\" class=\"carousel carousel-fade slide\" data-bs-ride=\"carousel\"
+         data-bs-pause=\"false\">
+        <div class=\"carousel-indicators\">
+            <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"0\" class=\"active\"
+                    aria-current=\"true\" aria-label=\"Slide 1\"></button>
+            <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"1\"
+                    aria-label=\"Slide 2\"></button>
+            <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"2\"
+                    aria-label=\"Slide 3\"></button>
+        </div>
+        <div class=\"carousel-inner\">
+            <div class=\"carousel-item position-relative active\" data-bs-interval=\"5000\">
+                <div class=\"carousel-img\">
+                    <img src=\"";
+        // line 22
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/slide_1.jpg"), "html", null, true);
-        yield "\" alt=\"\" class=\"img-fluid w-100 animated fadIn position-absolute\">
-            </div>
-            <div class=\"container-fluid py-5\">
-                <div class=\"container py-5\">
-                    <div class=\"row justify-content-start text-carousel position-absolute\">
-                        <div class=\"col-lg-8 text-center text-lg-start\">
-                            <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez Sencare.</h5>
-                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">La meilleure solution de soins de santé près de chez vous.</h1>
-";
-        // line 32
-        yield "                        </div>
+        yield "\" alt=\"\"
+                         class=\"img-fluid w-100 animated fadIn position-absolute\">
+                </div>
+                <div class=\"container-fluid py-5\">
+                    <div class=\"carousel-overlay\">
+                        <div class=\"container py-5\">
+                            <div class=\"row justify-content-start text-carousel position-absolute\">
+                                <div class=\"col-lg-8 text-center text-lg-start\">
+                                    <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
+                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
+                                        Sencare.</h5>
+                                    <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">La meilleure
+                                        solution de soins de santé près de chez vous.</h1>
+                                    ";
+        // line 36
+        yield "                                    ";
+        // line 37
+        yield "                                    ";
+        // line 38
+        yield "                                    ";
+        // line 39
+        yield "                                    ";
+        // line 40
+        yield "                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class=\"carousel-item position-relative\" data-bs-interval=\"5000\">
-            <div class=\"carousel-img\">
-                <img src=\"";
-        // line 39
+            <div class=\"carousel-item position-relative\" data-bs-interval=\"5000\">
+                <div class=\"carousel-img\">
+                    <img src=\"";
+        // line 48
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/slide_2.jpg"), "html", null, true);
         yield "\" alt=\"\" class=\"img-fluid position-absolute w-100\">
-            </div>
-            <div class=\"container-fluid py-5\">
-                <div class=\"container py-5\">
-                    <div class=\"row justify-content-start text-carousel position-absolute\">
-                        <div class=\"col-lg-8 text-center text-lg-start\">
-                            <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez Sencare.</h5>
-                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">Votre santé entre des mains expertes et bienveillantes.</h1>
-";
-        // line 53
-        yield "                        </div>
+                </div>
+                <div class=\"carousel-overlay\">
+                    <div class=\"container-fluid py-5\">
+                        <div class=\"container py-5\">
+                            <div class=\"row justify-content-start text-carousel position-absolute\">
+                                <div class=\"col-lg-8 text-center text-lg-start\">
+                                    <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
+                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
+                                        Sencare.</h5>
+                                    <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">Votre santé entre
+                                        des
+                                        mains expertes et bienveillantes.</h1>
+                                    ";
+        // line 62
+        yield "                                    ";
+        // line 63
+        yield "                                    ";
+        // line 64
+        yield "                                    ";
+        // line 65
+        yield "                                    ";
+        // line 66
+        yield "                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class=\"carousel-item position-relative\" data-bs-interval=\"5000\">
-            <div class=\"carousel-img\">
-                <img src=\"";
-        // line 60
+            <div class=\"carousel-item position-relative\" data-bs-interval=\"5000\">
+                <div class=\"carousel-img\">
+                    <img src=\"";
+        // line 74
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/slide_3.jpg"), "html", null, true);
-        yield "\" alt=\"\" class=\"img-fluid position-absolute animated fadIn w-100\">
-            </div>
-            <div class=\"container-fluid py-5\">
-                <div class=\"container py-5\">
-                    <div class=\"row justify-content-start text-carousel position-absolute\">
-                        <div class=\"col-lg-8 text-center text-lg-start\">
-                            <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez Sencare.</h5>
-                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">
-                                Votre oasis de bien-être et de soins de santé de qualité.
-                           </h1>
-";
-        // line 76
-        yield "                        </div>
+        yield "\" alt=\"\"
+                         class=\"img-fluid position-absolute animated fadIn w-100\">
+                </div>
+                <div class=\"carousel-overlay\">
+                    <div class=\"container-fluid py-5\">
+                        <div class=\"container py-5\">
+                            <div class=\"row justify-content-start text-carousel position-absolute\">
+                                <div class=\"col-lg-8 text-center text-lg-start\">
+                                    <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
+                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
+                                        Sencare.</h5>
+                                    <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">
+                                        Votre oasis de bien-être et de soins de santé de qualité.
+                                    </h1>
+                                    ";
+        // line 89
+        yield "                                    ";
+        // line 90
+        yield "                                    ";
+        // line 91
+        yield "                                    ";
+        // line 92
+        yield "                                    ";
+        // line 93
+        yield "                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-        <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide=\"prev\">
+        <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#carouselExampleCaptions\"
+                data-bs-slide=\"prev\">
             <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>
             <span class=\"visually-hidden\">Previous</span>
         </button>
-        <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide=\"next\">
+        <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#carouselExampleCaptions\"
+                data-bs-slide=\"next\">
             <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>
             <span class=\"visually-hidden\">Next</span>
         </button>
@@ -182,7 +226,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"col-lg-5 mb-5 mb-lg-0\" style=\"min-height: 500px;\">
                     <div class=\"position-relative h-100\">
                         <img class=\"position-absolute w-100 h-100 rounded\" src=\"";
-        // line 100
+        // line 120
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/snc.jpg"), "html", null, true);
         yield "\"
                              style=\"object-fit: cover;\" alt=\"\">
@@ -190,11 +234,16 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 </div>
                 <div class=\"col-lg-7\">
                     <div class=\"mb-4\">
-                            <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">A propos de nous!</h5>
+                        <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">A propos de
+                            nous!</h5>
                         <h1 class=\"display-4\">Les Meilleurs Soins Médicaux Pour Vous et Votre Famille</h1>
                     </div>
                     <p>
-                        SEN'Care, c'est bien plus qu'un simple service médical à domicile. En effet, il incarne une véritable passerelle vers le bien-être, offrant aux patients la possibilité de maintenir leur traitement prescrit dans le confort de leur foyer. Grâce à une équipe dévouée et compétente, nous assurons une continuité des soins, qu'il s'agisse d'un suivi régulier ou d'une assistance ponctuelle.
+                        SEN'Care, c'est bien plus qu'un simple service médical à domicile. En effet, il incarne une
+                        véritable passerelle vers le bien-être, offrant aux patients la possibilité de maintenir leur
+                        traitement prescrit dans le confort de leur foyer. Grâce à une équipe dévouée et compétente,
+                        nous assurons une continuité des soins, qu'il s'agisse d'un suivi régulier ou d'une assistance
+                        ponctuelle.
                     </p>
                     <div class=\"row g-3 pt-3\">
                         <div class=\"col-sm-3 col-6\">
@@ -244,7 +293,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         </div>
                         <h4 class=\"mb-3\">Soins Généraux</h4>
                         <p class=\"m-0\">
-                            Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé quotidiens.
+                            Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé
+                            quotidiens.
                         </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
@@ -258,7 +308,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         </div>
                         <h4 class=\"mb-3\">Soins Palliatif</h4>
                         <p class=\"m-0\">
-                            Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des patients atteints de maladies graves, en leur apportant confort et soutien.
+                            Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des
+                            patients atteints de maladies graves, en leur apportant confort et soutien.
                         </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
@@ -272,7 +323,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         </div>
                         <h4 class=\"mb-3\">Pansement</h4>
                         <p class=\"m-0\">
-                            Nos professionnels de santé sont experts dans le changement et la gestion des pansements pour assurer une guérison optimale.
+                            Nos professionnels de santé sont experts dans le changement et la gestion des pansements
+                            pour assurer une guérison optimale.
                         </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
@@ -286,7 +338,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         </div>
                         <h4 class=\"mb-3\">Retour à Domicile</h4>
                         <p class=\"m-0\">
-                            Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un suivi médical approprié.
+                            Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un
+                            suivi médical approprié.
                         </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
@@ -300,7 +353,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         </div>
                         <h4 class=\"mb-3\">Prévenir la Perte d’Autonomie</h4>
                         <p class=\"m-0\">
-                            Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte d'autonomie chez nos patients âgés.
+                            Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte
+                            d'autonomie chez nos patients âgés.
                         </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
@@ -314,7 +368,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         </div>
                         <h4 class=\"mb-3\">Injection et Perfusion</h4>
                         <p class=\"m-0\">
-                            Nous offrons des services d'injections et de perfusions administrés par des infirmières qualifiées, en toute sécurité et confort.
+                            Nous offrons des services d'injections et de perfusions administrés par des infirmières
+                            qualifiées, en toute sécurité et confort.
                         </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
@@ -337,12 +392,15 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <h1 class=\"display-4\">Prendre Rendez-vous !</h1>
                     </div>
                     <p class=\"text-white mb-5\">
-                        Chez Sencare, nous offrons une gamme complète de services de santé pour répondre aux besoins de nos patients avec compassion et expertise.
+                        Chez Sencare, nous offrons une gamme complète de services de santé pour répondre aux besoins de
+                        nos patients avec compassion et expertise.
                     </p>
-";
-        // line 257
+                    ";
+        // line 288
+        yield "                    ";
+        // line 289
         yield "                </div>
-                <div class=\"col-lg-6\">
+                <div class=\"col-lg-6\" id=\"urgence\">
                     <div class=\"bg-white text-center rounded p-5\">
                         <h1 class=\"mb-4\">Prendre Rendez-vous</h1>
                         <form>
@@ -364,18 +422,21 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                                     </select>
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
-                                    <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre nom svpl...\"
+                                    <input type=\"text\" class=\"form-control bg-light border-0\"
+                                           placeholder=\"votre nom svpl...\"
                                            style=\"height: 55px;\">
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
-                                    <input type=\"email\" class=\"form-control bg-light border-0\" placeholder=\"votre email svpl...\"
+                                    <input type=\"email\" class=\"form-control bg-light border-0\"
+                                           placeholder=\"votre email svpl...\"
                                            style=\"height: 55px;\">
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
                                     <div class=\"date\" id=\"date\" data-target-input=\"nearest\">
                                         <input type=\"text\"
                                                class=\"form-control bg-light border-0 datetimepicker-input\"
-                                               placeholder=\"Choisissez la date\" data-target=\"#date\" data-toggle=\"datetimepicker\"
+                                               placeholder=\"Choisissez la date\" data-target=\"#date\"
+                                               data-toggle=\"datetimepicker\"
                                                style=\"height: 55px;\">
                                     </div>
                                 </div>
@@ -383,7 +444,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                                     <div class=\"time\" id=\"time\" data-target-input=\"nearest\">
                                         <input type=\"text\"
                                                class=\"form-control bg-light border-0 datetimepicker-input\"
-                                               placeholder=\"Choisissez L'heure\" data-target=\"#time\" data-toggle=\"datetimepicker\"
+                                               placeholder=\"Choisissez L'heure\" data-target=\"#time\"
+                                               data-toggle=\"datetimepicker\"
                                                style=\"height: 55px;\">
                                     </div>
                                 </div>
@@ -401,8 +463,198 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <!-- Appointment End -->
 
 
-";
+    ";
+        // line 354
+        yield "    ";
+        // line 355
+        yield "    ";
+        // line 356
+        yield "    ";
+        // line 357
+        yield "    ";
+        // line 358
+        yield "    ";
+        // line 359
+        yield "    ";
+        // line 360
+        yield "    ";
+        // line 361
+        yield "    ";
+        // line 362
+        yield "    ";
+        // line 363
+        yield "    ";
+        // line 364
+        yield "    ";
+        // line 365
+        yield "    ";
+        // line 366
+        yield "    ";
+        // line 367
+        yield "    ";
+        // line 368
+        yield "    ";
+        // line 369
+        yield "    ";
+        // line 370
+        yield "    ";
+        // line 371
+        yield "    ";
+        // line 372
+        yield "    ";
+        // line 373
+        yield "    ";
+        // line 374
+        yield "    ";
+        // line 375
+        yield "    ";
+        // line 376
+        yield "    ";
+        // line 377
+        yield "    ";
+        // line 378
+        yield "    ";
+        // line 379
+        yield "    ";
+        // line 380
+        yield "    ";
+        // line 381
+        yield "    ";
+        // line 382
+        yield "    ";
+        // line 383
+        yield "    ";
+        // line 384
+        yield "    ";
+        // line 385
+        yield "    ";
+        // line 386
+        yield "    ";
+        // line 387
+        yield "    ";
+        // line 388
+        yield "    ";
+        // line 389
+        yield "    ";
+        // line 390
+        yield "    ";
+        // line 391
+        yield "    ";
+        // line 392
+        yield "    ";
+        // line 393
+        yield "    ";
+        // line 394
+        yield "    ";
+        // line 395
+        yield "    ";
+        // line 396
+        yield "    ";
+        // line 397
+        yield "    ";
+        // line 398
+        yield "    ";
+        // line 399
+        yield "    ";
+        // line 400
+        yield "    ";
+        // line 401
+        yield "    ";
+        // line 402
+        yield "    ";
+        // line 403
+        yield "    ";
+        // line 404
+        yield "    ";
+        // line 405
+        yield "    ";
+        // line 406
+        yield "    ";
+        // line 407
+        yield "    ";
+        // line 408
+        yield "    ";
+        // line 409
+        yield "    ";
+        // line 410
+        yield "    ";
+        // line 411
+        yield "    ";
+        // line 412
+        yield "    ";
         // line 413
+        yield "    ";
+        // line 414
+        yield "    ";
+        // line 415
+        yield "    ";
+        // line 416
+        yield "    ";
+        // line 417
+        yield "    ";
+        // line 418
+        yield "    ";
+        // line 419
+        yield "    ";
+        // line 420
+        yield "    ";
+        // line 421
+        yield "    ";
+        // line 422
+        yield "    ";
+        // line 423
+        yield "    ";
+        // line 424
+        yield "    ";
+        // line 425
+        yield "    ";
+        // line 426
+        yield "    ";
+        // line 427
+        yield "    ";
+        // line 428
+        yield "    ";
+        // line 429
+        yield "    ";
+        // line 430
+        yield "    ";
+        // line 431
+        yield "    ";
+        // line 432
+        yield "    ";
+        // line 433
+        yield "    ";
+        // line 434
+        yield "    ";
+        // line 435
+        yield "    ";
+        // line 436
+        yield "    ";
+        // line 437
+        yield "    ";
+        // line 438
+        yield "    ";
+        // line 439
+        yield "    ";
+        // line 440
+        yield "    ";
+        // line 441
+        yield "    ";
+        // line 442
+        yield "    ";
+        // line 443
+        yield "    ";
+        // line 444
+        yield "    ";
+        // line 445
+        yield "    ";
+        // line 446
+        yield "    ";
+        // line 447
+        yield "    ";
+        // line 448
+        yield "    ";
+        // line 449
         yield "
 
     <!-- Team Start -->
@@ -417,7 +669,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 426
+        // line 462
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -444,7 +696,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 450
+        // line 486
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -471,7 +723,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 474
+        // line 510
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -516,7 +768,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 516
+        // line 552
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-1.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -535,7 +787,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 532
+        // line 568
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-2.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -554,7 +806,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 548
+        // line 584
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-3.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -607,7 +859,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  558 => 548,  539 => 532,  520 => 516,  475 => 474,  448 => 450,  421 => 426,  406 => 413,  344 => 257,  186 => 100,  160 => 76,  146 => 60,  137 => 53,  125 => 39,  116 => 32,  104 => 18,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  810 => 584,  791 => 568,  772 => 552,  727 => 510,  700 => 486,  673 => 462,  658 => 449,  656 => 448,  654 => 447,  652 => 446,  650 => 445,  648 => 444,  646 => 443,  644 => 442,  642 => 441,  640 => 440,  638 => 439,  636 => 438,  634 => 437,  632 => 436,  630 => 435,  628 => 434,  626 => 433,  624 => 432,  622 => 431,  620 => 430,  618 => 429,  616 => 428,  614 => 427,  612 => 426,  610 => 425,  608 => 424,  606 => 423,  604 => 422,  602 => 421,  600 => 420,  598 => 419,  596 => 418,  594 => 417,  592 => 416,  590 => 415,  588 => 414,  586 => 413,  584 => 412,  582 => 411,  580 => 410,  578 => 409,  576 => 408,  574 => 407,  572 => 406,  570 => 405,  568 => 404,  566 => 403,  564 => 402,  562 => 401,  560 => 400,  558 => 399,  556 => 398,  554 => 397,  552 => 396,  550 => 395,  548 => 394,  546 => 393,  544 => 392,  542 => 391,  540 => 390,  538 => 389,  536 => 388,  534 => 387,  532 => 386,  530 => 385,  528 => 384,  526 => 383,  524 => 382,  522 => 381,  520 => 380,  518 => 379,  516 => 378,  514 => 377,  512 => 376,  510 => 375,  508 => 374,  506 => 373,  504 => 372,  502 => 371,  500 => 370,  498 => 369,  496 => 368,  494 => 367,  492 => 366,  490 => 365,  488 => 364,  486 => 363,  484 => 362,  482 => 361,  480 => 360,  478 => 359,  476 => 358,  474 => 357,  472 => 356,  470 => 355,  468 => 354,  402 => 289,  400 => 288,  230 => 120,  201 => 93,  199 => 92,  197 => 91,  195 => 90,  193 => 89,  176 => 74,  166 => 66,  164 => 65,  162 => 64,  160 => 63,  158 => 62,  142 => 48,  132 => 40,  130 => 39,  128 => 38,  126 => 37,  124 => 36,  108 => 22,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -620,84 +872,104 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
 
 
     <!-- Hero Start -->
-    <div id=\"carouselExampleCaptions\" class=\"carousel carousel-fade slide\" data-bs-ride=\"carousel\" data-bs-pause=\"false\">
-    <div class=\"carousel-indicators\">
-        <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"0\" class=\"active\" aria-current=\"true\" aria-label=\"Slide 1\"></button>
-        <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"1\" aria-label=\"Slide 2\"></button>
-        <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"2\" aria-label=\"Slide 3\"></button>
-    </div>
-    <div class=\"carousel-inner\">
-        <div class=\"carousel-item position-relative active\" data-bs-interval=\"5000\">
-            <div class=\"carousel-img\">
-                <img src=\"{{ asset('images/slide_1.jpg') }}\" alt=\"\" class=\"img-fluid w-100 animated fadIn position-absolute\">
+    <div id=\"carouselExampleCaptions\" class=\"carousel carousel-fade slide\" data-bs-ride=\"carousel\"
+         data-bs-pause=\"false\">
+        <div class=\"carousel-indicators\">
+            <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"0\" class=\"active\"
+                    aria-current=\"true\" aria-label=\"Slide 1\"></button>
+            <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"1\"
+                    aria-label=\"Slide 2\"></button>
+            <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"2\"
+                    aria-label=\"Slide 3\"></button>
+        </div>
+        <div class=\"carousel-inner\">
+            <div class=\"carousel-item position-relative active\" data-bs-interval=\"5000\">
+                <div class=\"carousel-img\">
+                    <img src=\"{{ asset('images/slide_1.jpg') }}\" alt=\"\"
+                         class=\"img-fluid w-100 animated fadIn position-absolute\">
+                </div>
+                <div class=\"container-fluid py-5\">
+                    <div class=\"carousel-overlay\">
+                        <div class=\"container py-5\">
+                            <div class=\"row justify-content-start text-carousel position-absolute\">
+                                <div class=\"col-lg-8 text-center text-lg-start\">
+                                    <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
+                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
+                                        Sencare.</h5>
+                                    <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">La meilleure
+                                        solution de soins de santé près de chez vous.</h1>
+                                    {#                            <div class=\"pt-2\">#}
+                                    {#                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>#}
+                                    {#                                <a href=\"\"#}
+                                    {#                                   class=\"btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Appointment</a>#}
+                                    {#                            </div>#}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class=\"container-fluid py-5\">
-                <div class=\"container py-5\">
-                    <div class=\"row justify-content-start text-carousel position-absolute\">
-                        <div class=\"col-lg-8 text-center text-lg-start\">
-                            <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez Sencare.</h5>
-                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">La meilleure solution de soins de santé près de chez vous.</h1>
-{#                            <div class=\"pt-2\">#}
-{#                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>#}
-{#                                <a href=\"\"#}
-{#                                   class=\"btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Appointment</a>#}
-{#                            </div>#}
+            <div class=\"carousel-item position-relative\" data-bs-interval=\"5000\">
+                <div class=\"carousel-img\">
+                    <img src=\"{{ asset('images/slide_2.jpg') }}\" alt=\"\" class=\"img-fluid position-absolute w-100\">
+                </div>
+                <div class=\"carousel-overlay\">
+                    <div class=\"container-fluid py-5\">
+                        <div class=\"container py-5\">
+                            <div class=\"row justify-content-start text-carousel position-absolute\">
+                                <div class=\"col-lg-8 text-center text-lg-start\">
+                                    <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
+                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
+                                        Sencare.</h5>
+                                    <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">Votre santé entre
+                                        des
+                                        mains expertes et bienveillantes.</h1>
+                                    {#                            <div class=\"pt-2\">#}
+                                    {#                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>#}
+                                    {#                                <a href=\"\"#}
+                                    {#                                   class=\"btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Appointment</a>#}
+                                    {#                            </div>#}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=\"carousel-item position-relative\" data-bs-interval=\"5000\">
+                <div class=\"carousel-img\">
+                    <img src=\"{{ asset('images/slide_3.jpg') }}\" alt=\"\"
+                         class=\"img-fluid position-absolute animated fadIn w-100\">
+                </div>
+                <div class=\"carousel-overlay\">
+                    <div class=\"container-fluid py-5\">
+                        <div class=\"container py-5\">
+                            <div class=\"row justify-content-start text-carousel position-absolute\">
+                                <div class=\"col-lg-8 text-center text-lg-start\">
+                                    <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
+                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
+                                        Sencare.</h5>
+                                    <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">
+                                        Votre oasis de bien-être et de soins de santé de qualité.
+                                    </h1>
+                                    {#                            <div class=\"pt-2\">#}
+                                    {#                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>#}
+                                    {#                                <a href=\"\"#}
+                                    {#                                   class=\"btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Appointment</a>#}
+                                    {#                            </div>#}
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class=\"carousel-item position-relative\" data-bs-interval=\"5000\">
-            <div class=\"carousel-img\">
-                <img src=\"{{ asset('images/slide_2.jpg') }}\" alt=\"\" class=\"img-fluid position-absolute w-100\">
-            </div>
-            <div class=\"container-fluid py-5\">
-                <div class=\"container py-5\">
-                    <div class=\"row justify-content-start text-carousel position-absolute\">
-                        <div class=\"col-lg-8 text-center text-lg-start\">
-                            <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez Sencare.</h5>
-                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">Votre santé entre des mains expertes et bienveillantes.</h1>
-{#                            <div class=\"pt-2\">#}
-{#                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>#}
-{#                                <a href=\"\"#}
-{#                                   class=\"btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Appointment</a>#}
-{#                            </div>#}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class=\"carousel-item position-relative\" data-bs-interval=\"5000\">
-            <div class=\"carousel-img\">
-                <img src=\"{{ asset('images/slide_3.jpg') }}\" alt=\"\" class=\"img-fluid position-absolute animated fadIn w-100\">
-            </div>
-            <div class=\"container-fluid py-5\">
-                <div class=\"container py-5\">
-                    <div class=\"row justify-content-start text-carousel position-absolute\">
-                        <div class=\"col-lg-8 text-center text-lg-start\">
-                            <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez Sencare.</h5>
-                            <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">
-                                Votre oasis de bien-être et de soins de santé de qualité.
-                           </h1>
-{#                            <div class=\"pt-2\">#}
-{#                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>#}
-{#                                <a href=\"\"#}
-{#                                   class=\"btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Appointment</a>#}
-{#                            </div>#}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide=\"prev\">
+        <button class=\"carousel-control-prev\" type=\"button\" data-bs-target=\"#carouselExampleCaptions\"
+                data-bs-slide=\"prev\">
             <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>
             <span class=\"visually-hidden\">Previous</span>
         </button>
-        <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide=\"next\">
+        <button class=\"carousel-control-next\" type=\"button\" data-bs-target=\"#carouselExampleCaptions\"
+                data-bs-slide=\"next\">
             <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>
             <span class=\"visually-hidden\">Next</span>
         </button>
@@ -717,11 +989,16 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 </div>
                 <div class=\"col-lg-7\">
                     <div class=\"mb-4\">
-                            <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">A propos de nous!</h5>
+                        <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">A propos de
+                            nous!</h5>
                         <h1 class=\"display-4\">Les Meilleurs Soins Médicaux Pour Vous et Votre Famille</h1>
                     </div>
                     <p>
-                        SEN'Care, c'est bien plus qu'un simple service médical à domicile. En effet, il incarne une véritable passerelle vers le bien-être, offrant aux patients la possibilité de maintenir leur traitement prescrit dans le confort de leur foyer. Grâce à une équipe dévouée et compétente, nous assurons une continuité des soins, qu'il s'agisse d'un suivi régulier ou d'une assistance ponctuelle.
+                        SEN'Care, c'est bien plus qu'un simple service médical à domicile. En effet, il incarne une
+                        véritable passerelle vers le bien-être, offrant aux patients la possibilité de maintenir leur
+                        traitement prescrit dans le confort de leur foyer. Grâce à une équipe dévouée et compétente,
+                        nous assurons une continuité des soins, qu'il s'agisse d'un suivi régulier ou d'une assistance
+                        ponctuelle.
                     </p>
                     <div class=\"row g-3 pt-3\">
                         <div class=\"col-sm-3 col-6\">
@@ -771,7 +1048,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         </div>
                         <h4 class=\"mb-3\">Soins Généraux</h4>
                         <p class=\"m-0\">
-                            Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé quotidiens.
+                            Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé
+                            quotidiens.
                         </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
@@ -785,7 +1063,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         </div>
                         <h4 class=\"mb-3\">Soins Palliatif</h4>
                         <p class=\"m-0\">
-                            Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des patients atteints de maladies graves, en leur apportant confort et soutien.
+                            Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des
+                            patients atteints de maladies graves, en leur apportant confort et soutien.
                         </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
@@ -799,7 +1078,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         </div>
                         <h4 class=\"mb-3\">Pansement</h4>
                         <p class=\"m-0\">
-                            Nos professionnels de santé sont experts dans le changement et la gestion des pansements pour assurer une guérison optimale.
+                            Nos professionnels de santé sont experts dans le changement et la gestion des pansements
+                            pour assurer une guérison optimale.
                         </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
@@ -813,7 +1093,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         </div>
                         <h4 class=\"mb-3\">Retour à Domicile</h4>
                         <p class=\"m-0\">
-                            Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un suivi médical approprié.
+                            Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un
+                            suivi médical approprié.
                         </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
@@ -827,7 +1108,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         </div>
                         <h4 class=\"mb-3\">Prévenir la Perte d’Autonomie</h4>
                         <p class=\"m-0\">
-                            Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte d'autonomie chez nos patients âgés.
+                            Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte
+                            d'autonomie chez nos patients âgés.
                         </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
@@ -841,7 +1123,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         </div>
                         <h4 class=\"mb-3\">Injection et Perfusion</h4>
                         <p class=\"m-0\">
-                            Nous offrons des services d'injections et de perfusions administrés par des infirmières qualifiées, en toute sécurité et confort.
+                            Nous offrons des services d'injections et de perfusions administrés par des infirmières
+                            qualifiées, en toute sécurité et confort.
                         </p>
                         <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
                             <i class=\"bi bi-arrow-right\"></i>
@@ -864,12 +1147,13 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <h1 class=\"display-4\">Prendre Rendez-vous !</h1>
                     </div>
                     <p class=\"text-white mb-5\">
-                        Chez Sencare, nous offrons une gamme complète de services de santé pour répondre aux besoins de nos patients avec compassion et expertise.
+                        Chez Sencare, nous offrons une gamme complète de services de santé pour répondre aux besoins de
+                        nos patients avec compassion et expertise.
                     </p>
-{#                    <a class=\"btn btn-dark rounded-pill py-3 px-5 me-3\" href=\"\">Find Doctor</a>#}
-{#                    <a class=\"btn btn-outline-dark rounded-pill py-3 px-5\" href=\"\">Read More</a>#}
+                    {#                    <a class=\"btn btn-dark rounded-pill py-3 px-5 me-3\" href=\"\">Find Doctor</a>#}
+                    {#                    <a class=\"btn btn-outline-dark rounded-pill py-3 px-5\" href=\"\">Read More</a>#}
                 </div>
-                <div class=\"col-lg-6\">
+                <div class=\"col-lg-6\" id=\"urgence\">
                     <div class=\"bg-white text-center rounded p-5\">
                         <h1 class=\"mb-4\">Prendre Rendez-vous</h1>
                         <form>
@@ -891,18 +1175,21 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                                     </select>
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
-                                    <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre nom svpl...\"
+                                    <input type=\"text\" class=\"form-control bg-light border-0\"
+                                           placeholder=\"votre nom svpl...\"
                                            style=\"height: 55px;\">
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
-                                    <input type=\"email\" class=\"form-control bg-light border-0\" placeholder=\"votre email svpl...\"
+                                    <input type=\"email\" class=\"form-control bg-light border-0\"
+                                           placeholder=\"votre email svpl...\"
                                            style=\"height: 55px;\">
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
                                     <div class=\"date\" id=\"date\" data-target-input=\"nearest\">
                                         <input type=\"text\"
                                                class=\"form-control bg-light border-0 datetimepicker-input\"
-                                               placeholder=\"Choisissez la date\" data-target=\"#date\" data-toggle=\"datetimepicker\"
+                                               placeholder=\"Choisissez la date\" data-target=\"#date\"
+                                               data-toggle=\"datetimepicker\"
                                                style=\"height: 55px;\">
                                     </div>
                                 </div>
@@ -910,7 +1197,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                                     <div class=\"time\" id=\"time\" data-target-input=\"nearest\">
                                         <input type=\"text\"
                                                class=\"form-control bg-light border-0 datetimepicker-input\"
-                                               placeholder=\"Choisissez L'heure\" data-target=\"#time\" data-toggle=\"datetimepicker\"
+                                               placeholder=\"Choisissez L'heure\" data-target=\"#time\"
+                                               data-toggle=\"datetimepicker\"
                                                style=\"height: 55px;\">
                                     </div>
                                 </div>
@@ -928,102 +1216,102 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <!-- Appointment End -->
 
 
-{#    <!-- Pricing Plan Start -->#}
-{#    <div class=\"container-fluid py-5\">#}
-{#        <div class=\"container\">#}
-{#            <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">#}
-{#                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Medical Packages</h5>#}
-{#                <h1 class=\"display-4\">Awesome Medical Programs</h1>#}
-{#            </div>#}
-{#            <div class=\"owl-carousel price-carousel position-relative\" style=\"padding: 0 45px 45px 45px;\">#}
-{#                <div class=\"bg-light rounded text-center\">#}
-{#                    <div class=\"position-relative\">#}
-{#                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-1.jpg') }}\" alt=\"\">#}
-{#                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"#}
-{#                             style=\"background: rgba(29, 42, 77, .8);\">#}
-{#                            <h3 class=\"text-white\">Pregnancy Care</h3>#}
-{#                            <h1 class=\"display-4 text-white mb-0\">#}
-{#                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>49<small#}
-{#                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/#}
-{#                                    Year</small>#}
-{#                            </h1>#}
-{#                        </div>#}
-{#                    </div>#}
-{#                    <div class=\"text-center py-5\">#}
-{#                        <p>Emergency Medical Treatment</p>#}
-{#                        <p>Highly Experienced Doctors</p>#}
-{#                        <p>Highest Success Rate</p>#}
-{#                        <p>Telephone Service</p>#}
-{#                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>#}
-{#                    </div>#}
-{#                </div>#}
-{#                <div class=\"bg-light rounded text-center\">#}
-{#                    <div class=\"position-relative\">#}
-{#                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-2.jpg') }}\" alt=\"\">#}
-{#                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"#}
-{#                             style=\"background: rgba(29, 42, 77, .8);\">#}
-{#                            <h3 class=\"text-white\">Health Checkup</h3>#}
-{#                            <h1 class=\"display-4 text-white mb-0\">#}
-{#                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>99<small#}
-{#                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/#}
-{#                                    Year</small>#}
-{#                            </h1>#}
-{#                        </div>#}
-{#                    </div>#}
-{#                    <div class=\"text-center py-5\">#}
-{#                        <p>Emergency Medical Treatment</p>#}
-{#                        <p>Highly Experienced Doctors</p>#}
-{#                        <p>Highest Success Rate</p>#}
-{#                        <p>Telephone Service</p>#}
-{#                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>#}
-{#                    </div>#}
-{#                </div>#}
-{#                <div class=\"bg-light rounded text-center\">#}
-{#                    <div class=\"position-relative\">#}
-{#                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-3.jpg') }}\" alt=\"\">#}
-{#                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"#}
-{#                             style=\"background: rgba(29, 42, 77, .8);\">#}
-{#                            <h3 class=\"text-white\">Dental Care</h3>#}
-{#                            <h1 class=\"display-4 text-white mb-0\">#}
-{#                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>149<small#}
-{#                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/#}
-{#                                    Year</small>#}
-{#                            </h1>#}
-{#                        </div>#}
-{#                    </div>#}
-{#                    <div class=\"text-center py-5\">#}
-{#                        <p>Emergency Medical Treatment</p>#}
-{#                        <p>Highly Experienced Doctors</p>#}
-{#                        <p>Highest Success Rate</p>#}
-{#                        <p>Telephone Service</p>#}
-{#                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>#}
-{#                    </div>#}
-{#                </div>#}
-{#                <div class=\"bg-light rounded text-center\">#}
-{#                    <div class=\"position-relative\">#}
-{#                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-4.jpg') }}\" alt=\"\">#}
-{#                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"#}
-{#                             style=\"background: rgba(29, 42, 77, .8);\">#}
-{#                            <h3 class=\"text-white\">Operation & Surgery</h3>#}
-{#                            <h1 class=\"display-4 text-white mb-0\">#}
-{#                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>199<small#}
-{#                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/#}
-{#                                    Year</small>#}
-{#                            </h1>#}
-{#                        </div>#}
-{#                    </div>#}
-{#                    <div class=\"text-center py-5\">#}
-{#                        <p>Emergency Medical Treatment</p>#}
-{#                        <p>Highly Experienced Doctors</p>#}
-{#                        <p>Highest Success Rate</p>#}
-{#                        <p>Telephone Service</p>#}
-{#                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>#}
-{#                    </div>#}
-{#                </div>#}
-{#            </div>#}
-{#        </div>#}
-{#    </div>#}
-{#    <!-- Pricing Plan End -->#}
+    {#    <!-- Pricing Plan Start -->#}
+    {#    <div class=\"container-fluid py-5\">#}
+    {#        <div class=\"container\">#}
+    {#            <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">#}
+    {#                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Medical Packages</h5>#}
+    {#                <h1 class=\"display-4\">Awesome Medical Programs</h1>#}
+    {#            </div>#}
+    {#            <div class=\"owl-carousel price-carousel position-relative\" style=\"padding: 0 45px 45px 45px;\">#}
+    {#                <div class=\"bg-light rounded text-center\">#}
+    {#                    <div class=\"position-relative\">#}
+    {#                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-1.jpg') }}\" alt=\"\">#}
+    {#                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"#}
+    {#                             style=\"background: rgba(29, 42, 77, .8);\">#}
+    {#                            <h3 class=\"text-white\">Pregnancy Care</h3>#}
+    {#                            <h1 class=\"display-4 text-white mb-0\">#}
+    {#                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>49<small#}
+    {#                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/#}
+    {#                                    Year</small>#}
+    {#                            </h1>#}
+    {#                        </div>#}
+    {#                    </div>#}
+    {#                    <div class=\"text-center py-5\">#}
+    {#                        <p>Emergency Medical Treatment</p>#}
+    {#                        <p>Highly Experienced Doctors</p>#}
+    {#                        <p>Highest Success Rate</p>#}
+    {#                        <p>Telephone Service</p>#}
+    {#                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class=\"bg-light rounded text-center\">#}
+    {#                    <div class=\"position-relative\">#}
+    {#                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-2.jpg') }}\" alt=\"\">#}
+    {#                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"#}
+    {#                             style=\"background: rgba(29, 42, 77, .8);\">#}
+    {#                            <h3 class=\"text-white\">Health Checkup</h3>#}
+    {#                            <h1 class=\"display-4 text-white mb-0\">#}
+    {#                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>99<small#}
+    {#                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/#}
+    {#                                    Year</small>#}
+    {#                            </h1>#}
+    {#                        </div>#}
+    {#                    </div>#}
+    {#                    <div class=\"text-center py-5\">#}
+    {#                        <p>Emergency Medical Treatment</p>#}
+    {#                        <p>Highly Experienced Doctors</p>#}
+    {#                        <p>Highest Success Rate</p>#}
+    {#                        <p>Telephone Service</p>#}
+    {#                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class=\"bg-light rounded text-center\">#}
+    {#                    <div class=\"position-relative\">#}
+    {#                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-3.jpg') }}\" alt=\"\">#}
+    {#                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"#}
+    {#                             style=\"background: rgba(29, 42, 77, .8);\">#}
+    {#                            <h3 class=\"text-white\">Dental Care</h3>#}
+    {#                            <h1 class=\"display-4 text-white mb-0\">#}
+    {#                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>149<small#}
+    {#                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/#}
+    {#                                    Year</small>#}
+    {#                            </h1>#}
+    {#                        </div>#}
+    {#                    </div>#}
+    {#                    <div class=\"text-center py-5\">#}
+    {#                        <p>Emergency Medical Treatment</p>#}
+    {#                        <p>Highly Experienced Doctors</p>#}
+    {#                        <p>Highest Success Rate</p>#}
+    {#                        <p>Telephone Service</p>#}
+    {#                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class=\"bg-light rounded text-center\">#}
+    {#                    <div class=\"position-relative\">#}
+    {#                        <img class=\"img-fluid rounded-top\" src=\"{{ asset('images/price-4.jpg') }}\" alt=\"\">#}
+    {#                        <div class=\"position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center\"#}
+    {#                             style=\"background: rgba(29, 42, 77, .8);\">#}
+    {#                            <h3 class=\"text-white\">Operation & Surgery</h3>#}
+    {#                            <h1 class=\"display-4 text-white mb-0\">#}
+    {#                                <small class=\"align-top fw-normal\" style=\"font-size: 22px; line-height: 45px;\">\$</small>199<small#}
+    {#                                        class=\"align-bottom fw-normal\" style=\"font-size: 16px; line-height: 40px;\">/#}
+    {#                                    Year</small>#}
+    {#                            </h1>#}
+    {#                        </div>#}
+    {#                    </div>#}
+    {#                    <div class=\"text-center py-5\">#}
+    {#                        <p>Emergency Medical Treatment</p>#}
+    {#                        <p>Highly Experienced Doctors</p>#}
+    {#                        <p>Highest Success Rate</p>#}
+    {#                        <p>Telephone Service</p>#}
+    {#                        <a href=\"\" class=\"btn btn-primary rounded-pill py-3 px-5 my-2\">Apply Now</a>#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#            </div>#}
+    {#        </div>#}
+    {#    </div>#}
+    {#    <!-- Pricing Plan End -->#}
 
 
     <!-- Team Start -->

@@ -6,84 +6,104 @@
 
 
     <!-- Hero Start -->
-    <div id="carouselExampleCaptions" class="carousel carousel-fade slide" data-bs-ride="carousel" data-bs-pause="false">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-        <div class="carousel-item position-relative active" data-bs-interval="5000">
-            <div class="carousel-img">
-                <img src="{{ asset('images/slide_1.jpg') }}" alt="" class="img-fluid w-100 animated fadIn position-absolute">
+    <div id="carouselExampleCaptions" class="carousel carousel-fade slide" data-bs-ride="carousel"
+         data-bs-pause="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item position-relative active" data-bs-interval="5000">
+                <div class="carousel-img">
+                    <img src="{{ asset('images/slide_1.jpg') }}" alt=""
+                         class="img-fluid w-100 animated fadIn position-absolute">
+                </div>
+                <div class="container-fluid py-5">
+                    <div class="carousel-overlay">
+                        <div class="container py-5">
+                            <div class="row justify-content-start text-carousel position-absolute">
+                                <div class="col-lg-8 text-center text-lg-start">
+                                    <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s"
+                                        style="border-color: rgba(256, 256, 256, .3) !important;">Bienvenu chez
+                                        Sencare.</h5>
+                                    <h1 class="display-1 text-white mb-md-4 animated zoomIn delay-1s">La meilleure
+                                        solution de soins de santé près de chez vous.</h1>
+                                    {#                            <div class="pt-2">#}
+                                    {#                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Find Doctor</a>#}
+                                    {#                                <a href=""#}
+                                    {#                                   class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Appointment</a>#}
+                                    {#                            </div>#}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="container-fluid py-5">
-                <div class="container py-5">
-                    <div class="row justify-content-start text-carousel position-absolute">
-                        <div class="col-lg-8 text-center text-lg-start">
-                            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s"
-                                style="border-color: rgba(256, 256, 256, .3) !important;">Bienvenu chez Sencare.</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn delay-1s">La meilleure solution de soins de santé près de chez vous.</h1>
-{#                            <div class="pt-2">#}
-{#                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Find Doctor</a>#}
-{#                                <a href=""#}
-{#                                   class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Appointment</a>#}
-{#                            </div>#}
+            <div class="carousel-item position-relative" data-bs-interval="5000">
+                <div class="carousel-img">
+                    <img src="{{ asset('images/slide_2.jpg') }}" alt="" class="img-fluid position-absolute w-100">
+                </div>
+                <div class="carousel-overlay">
+                    <div class="container-fluid py-5">
+                        <div class="container py-5">
+                            <div class="row justify-content-start text-carousel position-absolute">
+                                <div class="col-lg-8 text-center text-lg-start">
+                                    <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s"
+                                        style="border-color: rgba(256, 256, 256, .3) !important;">Bienvenu chez
+                                        Sencare.</h5>
+                                    <h1 class="display-1 text-white mb-md-4 animated zoomIn delay-1s">Votre santé entre
+                                        des
+                                        mains expertes et bienveillantes.</h1>
+                                    {#                            <div class="pt-2">#}
+                                    {#                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Find Doctor</a>#}
+                                    {#                                <a href=""#}
+                                    {#                                   class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Appointment</a>#}
+                                    {#                            </div>#}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item position-relative" data-bs-interval="5000">
+                <div class="carousel-img">
+                    <img src="{{ asset('images/slide_3.jpg') }}" alt=""
+                         class="img-fluid position-absolute animated fadIn w-100">
+                </div>
+                <div class="carousel-overlay">
+                    <div class="container-fluid py-5">
+                        <div class="container py-5">
+                            <div class="row justify-content-start text-carousel position-absolute">
+                                <div class="col-lg-8 text-center text-lg-start">
+                                    <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s"
+                                        style="border-color: rgba(256, 256, 256, .3) !important;">Bienvenu chez
+                                        Sencare.</h5>
+                                    <h1 class="display-1 text-white mb-md-4 animated zoomIn delay-1s">
+                                        Votre oasis de bien-être et de soins de santé de qualité.
+                                    </h1>
+                                    {#                            <div class="pt-2">#}
+                                    {#                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Find Doctor</a>#}
+                                    {#                                <a href=""#}
+                                    {#                                   class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Appointment</a>#}
+                                    {#                            </div>#}
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="carousel-item position-relative" data-bs-interval="5000">
-            <div class="carousel-img">
-                <img src="{{ asset('images/slide_2.jpg') }}" alt="" class="img-fluid position-absolute w-100">
-            </div>
-            <div class="container-fluid py-5">
-                <div class="container py-5">
-                    <div class="row justify-content-start text-carousel position-absolute">
-                        <div class="col-lg-8 text-center text-lg-start">
-                            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s"
-                                style="border-color: rgba(256, 256, 256, .3) !important;">Bienvenu chez Sencare.</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn delay-1s">Votre santé entre des mains expertes et bienveillantes.</h1>
-{#                            <div class="pt-2">#}
-{#                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Find Doctor</a>#}
-{#                                <a href=""#}
-{#                                   class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Appointment</a>#}
-{#                            </div>#}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item position-relative" data-bs-interval="5000">
-            <div class="carousel-img">
-                <img src="{{ asset('images/slide_3.jpg') }}" alt="" class="img-fluid position-absolute animated fadIn w-100">
-            </div>
-            <div class="container-fluid py-5">
-                <div class="container py-5">
-                    <div class="row justify-content-start text-carousel position-absolute">
-                        <div class="col-lg-8 text-center text-lg-start">
-                            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s"
-                                style="border-color: rgba(256, 256, 256, .3) !important;">Bienvenu chez Sencare.</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn delay-1s">
-                                Votre oasis de bien-être et de soins de santé de qualité.
-                           </h1>
-{#                            <div class="pt-2">#}
-{#                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Find Doctor</a>#}
-{#                                <a href=""#}
-{#                                   class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Appointment</a>#}
-{#                            </div>#}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
@@ -103,11 +123,16 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="mb-4">
-                            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">A propos de nous!</h5>
+                        <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">A propos de
+                            nous!</h5>
                         <h1 class="display-4">Les Meilleurs Soins Médicaux Pour Vous et Votre Famille</h1>
                     </div>
                     <p>
-                        SEN'Care, c'est bien plus qu'un simple service médical à domicile. En effet, il incarne une véritable passerelle vers le bien-être, offrant aux patients la possibilité de maintenir leur traitement prescrit dans le confort de leur foyer. Grâce à une équipe dévouée et compétente, nous assurons une continuité des soins, qu'il s'agisse d'un suivi régulier ou d'une assistance ponctuelle.
+                        SEN'Care, c'est bien plus qu'un simple service médical à domicile. En effet, il incarne une
+                        véritable passerelle vers le bien-être, offrant aux patients la possibilité de maintenir leur
+                        traitement prescrit dans le confort de leur foyer. Grâce à une équipe dévouée et compétente,
+                        nous assurons une continuité des soins, qu'il s'agisse d'un suivi régulier ou d'une assistance
+                        ponctuelle.
                     </p>
                     <div class="row g-3 pt-3">
                         <div class="col-sm-3 col-6">
@@ -157,7 +182,8 @@
                         </div>
                         <h4 class="mb-3">Soins Généraux</h4>
                         <p class="m-0">
-                            Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé quotidiens.
+                            Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé
+                            quotidiens.
                         </p>
                         <a class="btn btn-lg btn-primary rounded-pill" href="">
                             <i class="bi bi-arrow-right"></i>
@@ -171,7 +197,8 @@
                         </div>
                         <h4 class="mb-3">Soins Palliatif</h4>
                         <p class="m-0">
-                            Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des patients atteints de maladies graves, en leur apportant confort et soutien.
+                            Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des
+                            patients atteints de maladies graves, en leur apportant confort et soutien.
                         </p>
                         <a class="btn btn-lg btn-primary rounded-pill" href="">
                             <i class="bi bi-arrow-right"></i>
@@ -185,7 +212,8 @@
                         </div>
                         <h4 class="mb-3">Pansement</h4>
                         <p class="m-0">
-                            Nos professionnels de santé sont experts dans le changement et la gestion des pansements pour assurer une guérison optimale.
+                            Nos professionnels de santé sont experts dans le changement et la gestion des pansements
+                            pour assurer une guérison optimale.
                         </p>
                         <a class="btn btn-lg btn-primary rounded-pill" href="">
                             <i class="bi bi-arrow-right"></i>
@@ -199,7 +227,8 @@
                         </div>
                         <h4 class="mb-3">Retour à Domicile</h4>
                         <p class="m-0">
-                            Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un suivi médical approprié.
+                            Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un
+                            suivi médical approprié.
                         </p>
                         <a class="btn btn-lg btn-primary rounded-pill" href="">
                             <i class="bi bi-arrow-right"></i>
@@ -213,7 +242,8 @@
                         </div>
                         <h4 class="mb-3">Prévenir la Perte d’Autonomie</h4>
                         <p class="m-0">
-                            Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte d'autonomie chez nos patients âgés.
+                            Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte
+                            d'autonomie chez nos patients âgés.
                         </p>
                         <a class="btn btn-lg btn-primary rounded-pill" href="">
                             <i class="bi bi-arrow-right"></i>
@@ -227,7 +257,8 @@
                         </div>
                         <h4 class="mb-3">Injection et Perfusion</h4>
                         <p class="m-0">
-                            Nous offrons des services d'injections et de perfusions administrés par des infirmières qualifiées, en toute sécurité et confort.
+                            Nous offrons des services d'injections et de perfusions administrés par des infirmières
+                            qualifiées, en toute sécurité et confort.
                         </p>
                         <a class="btn btn-lg btn-primary rounded-pill" href="">
                             <i class="bi bi-arrow-right"></i>
@@ -250,12 +281,13 @@
                         <h1 class="display-4">Prendre Rendez-vous !</h1>
                     </div>
                     <p class="text-white mb-5">
-                        Chez Sencare, nous offrons une gamme complète de services de santé pour répondre aux besoins de nos patients avec compassion et expertise.
+                        Chez Sencare, nous offrons une gamme complète de services de santé pour répondre aux besoins de
+                        nos patients avec compassion et expertise.
                     </p>
-{#                    <a class="btn btn-dark rounded-pill py-3 px-5 me-3" href="">Find Doctor</a>#}
-{#                    <a class="btn btn-outline-dark rounded-pill py-3 px-5" href="">Read More</a>#}
+                    {#                    <a class="btn btn-dark rounded-pill py-3 px-5 me-3" href="">Find Doctor</a>#}
+                    {#                    <a class="btn btn-outline-dark rounded-pill py-3 px-5" href="">Read More</a>#}
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" id="urgence">
                     <div class="bg-white text-center rounded p-5">
                         <h1 class="mb-4">Prendre Rendez-vous</h1>
                         <form>
@@ -277,18 +309,21 @@
                                     </select>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="votre nom svpl..."
+                                    <input type="text" class="form-control bg-light border-0"
+                                           placeholder="votre nom svpl..."
                                            style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="votre email svpl..."
+                                    <input type="email" class="form-control bg-light border-0"
+                                           placeholder="votre email svpl..."
                                            style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="date" id="date" data-target-input="nearest">
                                         <input type="text"
                                                class="form-control bg-light border-0 datetimepicker-input"
-                                               placeholder="Choisissez la date" data-target="#date" data-toggle="datetimepicker"
+                                               placeholder="Choisissez la date" data-target="#date"
+                                               data-toggle="datetimepicker"
                                                style="height: 55px;">
                                     </div>
                                 </div>
@@ -296,7 +331,8 @@
                                     <div class="time" id="time" data-target-input="nearest">
                                         <input type="text"
                                                class="form-control bg-light border-0 datetimepicker-input"
-                                               placeholder="Choisissez L'heure" data-target="#time" data-toggle="datetimepicker"
+                                               placeholder="Choisissez L'heure" data-target="#time"
+                                               data-toggle="datetimepicker"
                                                style="height: 55px;">
                                     </div>
                                 </div>
@@ -314,102 +350,102 @@
     <!-- Appointment End -->
 
 
-{#    <!-- Pricing Plan Start -->#}
-{#    <div class="container-fluid py-5">#}
-{#        <div class="container">#}
-{#            <div class="text-center mx-auto mb-5" style="max-width: 500px;">#}
-{#                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Medical Packages</h5>#}
-{#                <h1 class="display-4">Awesome Medical Programs</h1>#}
-{#            </div>#}
-{#            <div class="owl-carousel price-carousel position-relative" style="padding: 0 45px 45px 45px;">#}
-{#                <div class="bg-light rounded text-center">#}
-{#                    <div class="position-relative">#}
-{#                        <img class="img-fluid rounded-top" src="{{ asset('images/price-1.jpg') }}" alt="">#}
-{#                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"#}
-{#                             style="background: rgba(29, 42, 77, .8);">#}
-{#                            <h3 class="text-white">Pregnancy Care</h3>#}
-{#                            <h1 class="display-4 text-white mb-0">#}
-{#                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">$</small>49<small#}
-{#                                        class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;">/#}
-{#                                    Year</small>#}
-{#                            </h1>#}
-{#                        </div>#}
-{#                    </div>#}
-{#                    <div class="text-center py-5">#}
-{#                        <p>Emergency Medical Treatment</p>#}
-{#                        <p>Highly Experienced Doctors</p>#}
-{#                        <p>Highest Success Rate</p>#}
-{#                        <p>Telephone Service</p>#}
-{#                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">Apply Now</a>#}
-{#                    </div>#}
-{#                </div>#}
-{#                <div class="bg-light rounded text-center">#}
-{#                    <div class="position-relative">#}
-{#                        <img class="img-fluid rounded-top" src="{{ asset('images/price-2.jpg') }}" alt="">#}
-{#                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"#}
-{#                             style="background: rgba(29, 42, 77, .8);">#}
-{#                            <h3 class="text-white">Health Checkup</h3>#}
-{#                            <h1 class="display-4 text-white mb-0">#}
-{#                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">$</small>99<small#}
-{#                                        class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;">/#}
-{#                                    Year</small>#}
-{#                            </h1>#}
-{#                        </div>#}
-{#                    </div>#}
-{#                    <div class="text-center py-5">#}
-{#                        <p>Emergency Medical Treatment</p>#}
-{#                        <p>Highly Experienced Doctors</p>#}
-{#                        <p>Highest Success Rate</p>#}
-{#                        <p>Telephone Service</p>#}
-{#                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">Apply Now</a>#}
-{#                    </div>#}
-{#                </div>#}
-{#                <div class="bg-light rounded text-center">#}
-{#                    <div class="position-relative">#}
-{#                        <img class="img-fluid rounded-top" src="{{ asset('images/price-3.jpg') }}" alt="">#}
-{#                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"#}
-{#                             style="background: rgba(29, 42, 77, .8);">#}
-{#                            <h3 class="text-white">Dental Care</h3>#}
-{#                            <h1 class="display-4 text-white mb-0">#}
-{#                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">$</small>149<small#}
-{#                                        class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;">/#}
-{#                                    Year</small>#}
-{#                            </h1>#}
-{#                        </div>#}
-{#                    </div>#}
-{#                    <div class="text-center py-5">#}
-{#                        <p>Emergency Medical Treatment</p>#}
-{#                        <p>Highly Experienced Doctors</p>#}
-{#                        <p>Highest Success Rate</p>#}
-{#                        <p>Telephone Service</p>#}
-{#                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">Apply Now</a>#}
-{#                    </div>#}
-{#                </div>#}
-{#                <div class="bg-light rounded text-center">#}
-{#                    <div class="position-relative">#}
-{#                        <img class="img-fluid rounded-top" src="{{ asset('images/price-4.jpg') }}" alt="">#}
-{#                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"#}
-{#                             style="background: rgba(29, 42, 77, .8);">#}
-{#                            <h3 class="text-white">Operation & Surgery</h3>#}
-{#                            <h1 class="display-4 text-white mb-0">#}
-{#                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">$</small>199<small#}
-{#                                        class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;">/#}
-{#                                    Year</small>#}
-{#                            </h1>#}
-{#                        </div>#}
-{#                    </div>#}
-{#                    <div class="text-center py-5">#}
-{#                        <p>Emergency Medical Treatment</p>#}
-{#                        <p>Highly Experienced Doctors</p>#}
-{#                        <p>Highest Success Rate</p>#}
-{#                        <p>Telephone Service</p>#}
-{#                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">Apply Now</a>#}
-{#                    </div>#}
-{#                </div>#}
-{#            </div>#}
-{#        </div>#}
-{#    </div>#}
-{#    <!-- Pricing Plan End -->#}
+    {#    <!-- Pricing Plan Start -->#}
+    {#    <div class="container-fluid py-5">#}
+    {#        <div class="container">#}
+    {#            <div class="text-center mx-auto mb-5" style="max-width: 500px;">#}
+    {#                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Medical Packages</h5>#}
+    {#                <h1 class="display-4">Awesome Medical Programs</h1>#}
+    {#            </div>#}
+    {#            <div class="owl-carousel price-carousel position-relative" style="padding: 0 45px 45px 45px;">#}
+    {#                <div class="bg-light rounded text-center">#}
+    {#                    <div class="position-relative">#}
+    {#                        <img class="img-fluid rounded-top" src="{{ asset('images/price-1.jpg') }}" alt="">#}
+    {#                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"#}
+    {#                             style="background: rgba(29, 42, 77, .8);">#}
+    {#                            <h3 class="text-white">Pregnancy Care</h3>#}
+    {#                            <h1 class="display-4 text-white mb-0">#}
+    {#                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">$</small>49<small#}
+    {#                                        class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;">/#}
+    {#                                    Year</small>#}
+    {#                            </h1>#}
+    {#                        </div>#}
+    {#                    </div>#}
+    {#                    <div class="text-center py-5">#}
+    {#                        <p>Emergency Medical Treatment</p>#}
+    {#                        <p>Highly Experienced Doctors</p>#}
+    {#                        <p>Highest Success Rate</p>#}
+    {#                        <p>Telephone Service</p>#}
+    {#                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">Apply Now</a>#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="bg-light rounded text-center">#}
+    {#                    <div class="position-relative">#}
+    {#                        <img class="img-fluid rounded-top" src="{{ asset('images/price-2.jpg') }}" alt="">#}
+    {#                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"#}
+    {#                             style="background: rgba(29, 42, 77, .8);">#}
+    {#                            <h3 class="text-white">Health Checkup</h3>#}
+    {#                            <h1 class="display-4 text-white mb-0">#}
+    {#                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">$</small>99<small#}
+    {#                                        class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;">/#}
+    {#                                    Year</small>#}
+    {#                            </h1>#}
+    {#                        </div>#}
+    {#                    </div>#}
+    {#                    <div class="text-center py-5">#}
+    {#                        <p>Emergency Medical Treatment</p>#}
+    {#                        <p>Highly Experienced Doctors</p>#}
+    {#                        <p>Highest Success Rate</p>#}
+    {#                        <p>Telephone Service</p>#}
+    {#                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">Apply Now</a>#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="bg-light rounded text-center">#}
+    {#                    <div class="position-relative">#}
+    {#                        <img class="img-fluid rounded-top" src="{{ asset('images/price-3.jpg') }}" alt="">#}
+    {#                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"#}
+    {#                             style="background: rgba(29, 42, 77, .8);">#}
+    {#                            <h3 class="text-white">Dental Care</h3>#}
+    {#                            <h1 class="display-4 text-white mb-0">#}
+    {#                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">$</small>149<small#}
+    {#                                        class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;">/#}
+    {#                                    Year</small>#}
+    {#                            </h1>#}
+    {#                        </div>#}
+    {#                    </div>#}
+    {#                    <div class="text-center py-5">#}
+    {#                        <p>Emergency Medical Treatment</p>#}
+    {#                        <p>Highly Experienced Doctors</p>#}
+    {#                        <p>Highest Success Rate</p>#}
+    {#                        <p>Telephone Service</p>#}
+    {#                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">Apply Now</a>#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#                <div class="bg-light rounded text-center">#}
+    {#                    <div class="position-relative">#}
+    {#                        <img class="img-fluid rounded-top" src="{{ asset('images/price-4.jpg') }}" alt="">#}
+    {#                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"#}
+    {#                             style="background: rgba(29, 42, 77, .8);">#}
+    {#                            <h3 class="text-white">Operation & Surgery</h3>#}
+    {#                            <h1 class="display-4 text-white mb-0">#}
+    {#                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">$</small>199<small#}
+    {#                                        class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;">/#}
+    {#                                    Year</small>#}
+    {#                            </h1>#}
+    {#                        </div>#}
+    {#                    </div>#}
+    {#                    <div class="text-center py-5">#}
+    {#                        <p>Emergency Medical Treatment</p>#}
+    {#                        <p>Highly Experienced Doctors</p>#}
+    {#                        <p>Highest Success Rate</p>#}
+    {#                        <p>Telephone Service</p>#}
+    {#                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">Apply Now</a>#}
+    {#                    </div>#}
+    {#                </div>#}
+    {#            </div>#}
+    {#        </div>#}
+    {#    </div>#}
+    {#    <!-- Pricing Plan End -->#}
 
 
     <!-- Team Start -->
