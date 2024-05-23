@@ -105,7 +105,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"carousel-img\">
                     <img src=\"";
         // line 22
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/slide_1.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/slide_1.avif"), "html", null, true);
         yield "\" alt=\"\"
                          class=\"img-fluid w-100 animated fadIn position-absolute\">
                 </div>
@@ -139,7 +139,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"carousel-img\">
                     <img src=\"";
         // line 48
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/slide_2.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/slide_2.avif"), "html", null, true);
         yield "\" alt=\"\"
                          class=\"img-fluid w-100 animated fadIn position-absolute\">
                 </div>
@@ -174,7 +174,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"carousel-img\">
                     <img src=\"";
         // line 75
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/slide_3.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/slide_3.avif"), "html", null, true);
         yield "\" alt=\"\"
                          class=\"img-fluid w-100 animated fadIn position-absolute\">
                 </div>
@@ -228,7 +228,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"position-relative h-100\">
                         <img class=\"position-absolute w-100 h-100 rounded\" src=\"";
         // line 121
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/snc.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/snc.avif"), "html", null, true);
         yield "\"
                              style=\"object-fit: cover;\" alt=\"\">
                     </div>
@@ -520,9 +520,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
         // line 408
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.jpg"), "html", null, true);
-        yield "\"
-                                 style=\"object-fit: cover;\">
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.avif"), "html", null, true);
+        yield "\" style=\"object-fit: cover;\">
                         </div>
                         <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
                             <div class=\"mt-auto p-4\">
@@ -546,10 +545,9 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 432
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.jpg"), "html", null, true);
-        yield "\"
-                                 style=\"object-fit: cover;\">
+        // line 431
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.avif"), "html", null, true);
+        yield "\" style=\"object-fit: cover;\">
                         </div>
                         <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
                             <div class=\"mt-auto p-4\">
@@ -573,10 +571,9 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 456
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.jpg"), "html", null, true);
-        yield "\"
-                                 style=\"object-fit: cover;\">
+        // line 454
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.avif"), "html", null, true);
+        yield "\" style=\"object-fit: cover;\">
                         </div>
                         <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
                             <div class=\"mt-auto p-4\">
@@ -618,8 +615,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 498
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-1.jpg"), "html", null, true);
+        // line 495
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-1.avif"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
                                      style=\"width: 60px; height: 60px;\">
@@ -637,8 +634,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 514
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-2.jpg"), "html", null, true);
+        // line 511
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-2.avif"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
                                      style=\"width: 60px; height: 60px;\">
@@ -656,8 +653,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 530
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-3.jpg"), "html", null, true);
+        // line 527
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-3.avif"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
                                      style=\"width: 60px; height: 60px;\">
@@ -709,7 +706,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  660 => 530,  641 => 514,  622 => 498,  577 => 456,  550 => 432,  523 => 408,  403 => 290,  401 => 289,  231 => 121,  202 => 94,  200 => 93,  198 => 92,  196 => 91,  194 => 90,  177 => 75,  167 => 67,  165 => 66,  163 => 65,  161 => 64,  159 => 63,  142 => 48,  132 => 40,  130 => 39,  128 => 38,  126 => 37,  124 => 36,  108 => 22,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  657 => 527,  638 => 511,  619 => 495,  575 => 454,  549 => 431,  523 => 408,  403 => 290,  401 => 289,  231 => 121,  202 => 94,  200 => 93,  198 => 92,  196 => 91,  194 => 90,  177 => 75,  167 => 67,  165 => 66,  163 => 65,  161 => 64,  159 => 63,  142 => 48,  132 => 40,  130 => 39,  128 => 38,  126 => 37,  124 => 36,  108 => 22,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -735,7 +732,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
         <div class=\"carousel-inner\">
             <div class=\"carousel-item position-relative active\" data-bs-interval=\"5000\">
                 <div class=\"carousel-img\">
-                    <img src=\"{{ asset('images/slide_1.jpg') }}\" alt=\"\"
+                    <img src=\"{{ asset('images/slide_1.avif') }}\" alt=\"\"
                          class=\"img-fluid w-100 animated fadIn position-absolute\">
                 </div>
                 <div class=\"container-fluid py-5\">
@@ -761,7 +758,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
             </div>
             <div class=\"carousel-item position-relative\" data-bs-interval=\"5000\">
                 <div class=\"carousel-img\">
-                    <img src=\"{{ asset('images/slide_2.jpg') }}\" alt=\"\"
+                    <img src=\"{{ asset('images/slide_2.avif') }}\" alt=\"\"
                          class=\"img-fluid w-100 animated fadIn position-absolute\">
                 </div>
                 <div class=\"container-fluid py-5\">
@@ -788,7 +785,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
             </div>
             <div class=\"carousel-item position-relative\" data-bs-interval=\"5000\">
                 <div class=\"carousel-img\">
-                    <img src=\"{{ asset('images/slide_3.jpg') }}\" alt=\"\"
+                    <img src=\"{{ asset('images/slide_3.avif') }}\" alt=\"\"
                          class=\"img-fluid w-100 animated fadIn position-absolute\">
                 </div>
                 <div class=\"container-fluid py-5\">
@@ -834,7 +831,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
             <div class=\"row gx-5\">
                 <div class=\"col-lg-5 mb-5 mb-lg-0\" style=\"min-height: 500px;\">
                     <div class=\"position-relative h-100\">
-                        <img class=\"position-absolute w-100 h-100 rounded\" src=\"{{ asset('images/snc.jpg') }}\"
+                        <img class=\"position-absolute w-100 h-100 rounded\" src=\"{{ asset('images/snc.avif') }}\"
                              style=\"object-fit: cover;\" alt=\"\">
                     </div>
                 </div>
@@ -1121,8 +1118,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"team-item\">
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
-                            <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-1.jpg') }}\"
-                                 style=\"object-fit: cover;\">
+                            <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-1.avif') }}\" style=\"object-fit: cover;\">
                         </div>
                         <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
                             <div class=\"mt-auto p-4\">
@@ -1145,8 +1141,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"team-item\">
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
-                            <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-2.jpg') }}\"
-                                 style=\"object-fit: cover;\">
+                            <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-2.avif') }}\" style=\"object-fit: cover;\">
                         </div>
                         <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
                             <div class=\"mt-auto p-4\">
@@ -1169,8 +1164,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"team-item\">
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
-                            <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-3.jpg') }}\"
-                                 style=\"object-fit: cover;\">
+                            <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-3.avif') }}\" style=\"object-fit: cover;\">
                         </div>
                         <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
                             <div class=\"mt-auto p-4\">
@@ -1211,7 +1205,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"testimonial-item text-center\">
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
-                                     src=\"{{ asset('images/testimonial-1.jpg') }}\" alt=\"\">
+                                     src=\"{{ asset('images/testimonial-1.avif') }}\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
                                      style=\"width: 60px; height: 60px;\">
                                     <i class=\"fa fa-quote-left fa-2x text-primary\"></i>
@@ -1227,7 +1221,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"testimonial-item text-center\">
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
-                                     src=\"{{ asset('images/testimonial-2.jpg') }}\" alt=\"\">
+                                     src=\"{{ asset('images/testimonial-2.avif') }}\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
                                      style=\"width: 60px; height: 60px;\">
                                     <i class=\"fa fa-quote-left fa-2x text-primary\"></i>
@@ -1243,7 +1237,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <div class=\"testimonial-item text-center\">
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
-                                     src=\"{{ asset('images/testimonial-3.jpg') }}\" alt=\"\">
+                                     src=\"{{ asset('images/testimonial-3.avif') }}\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
                                      style=\"width: 60px; height: 60px;\">
                                     <i class=\"fa fa-quote-left fa-2x text-primary\"></i>
