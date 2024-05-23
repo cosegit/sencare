@@ -91,7 +91,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
 
     <!-- Hero Start -->
     <div id=\"carouselExampleCaptions\" class=\"carousel carousel-fade slide\" data-bs-ride=\"carousel\"
-         data-bs-pause=\"false\">
+         data-bs-pause=\"hover\">
         <div class=\"carousel-indicators\">
             <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"0\" class=\"active\"
                     aria-current=\"true\" aria-label=\"Slide 1\"></button>
@@ -115,20 +115,18 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"row justify-content-start text-carousel position-absolute\">
                                 <div class=\"col-lg-8 text-center text-lg-start\">
                                     <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
-                                        Sencare.</h5>
-                                    <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">La meilleure
-                                        solution de soins de santé près de chez vous.</h1>
+                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Soins à domicile.</h5>
+                                    <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">La meilleure solution de soins de santé chez vous.</h1>
                                     ";
+        // line 34
+        yield "                                    ";
+        // line 35
+        yield "                                    ";
         // line 36
         yield "                                    ";
         // line 37
         yield "                                    ";
         // line 38
-        yield "                                    ";
-        // line 39
-        yield "                                    ";
-        // line 40
         yield "                                </div>
                             </div>
                         </div>
@@ -138,7 +136,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
             <div class=\"carousel-item position-relative\" data-bs-interval=\"5000\">
                 <div class=\"carousel-img\">
                     <img src=\"";
-        // line 48
+        // line 46
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/slide_2.avif"), "html", null, true);
         yield "\" alt=\"\"
                          class=\"img-fluid w-100 animated fadIn position-absolute\">
@@ -149,21 +147,20 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"row justify-content-start text-carousel position-absolute\">
                                 <div class=\"col-lg-8 text-center text-lg-start\">
                                     <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
-                                        Sencare.</h5>
+                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Suivi traitement.</h5>
                                     <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">
-                                        Votre oasis de bien-être et de soins de santé de qualité.
+                                        Votre oasis de bien-être et de soins de qualité.
                                     </h1>
                                     ";
+        // line 60
+        yield "                                    ";
+        // line 61
+        yield "                                    ";
+        // line 62
+        yield "                                    ";
         // line 63
         yield "                                    ";
         // line 64
-        yield "                                    ";
-        // line 65
-        yield "                                    ";
-        // line 66
-        yield "                                    ";
-        // line 67
         yield "                                </div>
                             </div>
                         </div>
@@ -173,8 +170,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
             <div class=\"carousel-item position-relative\" data-bs-interval=\"5000\">
                 <div class=\"carousel-img\">
                     <img src=\"";
-        // line 75
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/slide_3.avif"), "html", null, true);
+        // line 72
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/slide_2.jpg"), "html", null, true);
         yield "\" alt=\"\"
                          class=\"img-fluid w-100 animated fadIn position-absolute\">
                 </div>
@@ -184,21 +181,20 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"row justify-content-start text-carousel position-absolute\">
                                 <div class=\"col-lg-8 text-center text-lg-start\">
                                     <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
-                                        Sencare.</h5>
+                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Accompagnement médical.</h5>
                                     <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">
                                         Votre santé entre des mains expertes et bienveillantes.
                                     </h1>
                                     ";
+        // line 86
+        yield "                                    ";
+        // line 87
+        yield "                                    ";
+        // line 88
+        yield "                                    ";
+        // line 89
+        yield "                                    ";
         // line 90
-        yield "                                    ";
-        // line 91
-        yield "                                    ";
-        // line 92
-        yield "                                    ";
-        // line 93
-        yield "                                    ";
-        // line 94
         yield "                                </div>
                             </div>
                         </div>
@@ -227,7 +223,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 <div class=\"col-lg-5 mb-5 mb-lg-0\" style=\"min-height: 500px;\">
                     <div class=\"position-relative h-100\">
                         <img class=\"position-absolute w-100 h-100 rounded\" src=\"";
-        // line 121
+        // line 117
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/snc.avif"), "html", null, true);
         yield "\"
                              style=\"object-fit: cover;\" alt=\"\">
@@ -397,9 +393,9 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         nos patients avec compassion et expertise.
                     </p>
                     ";
-        // line 289
+        // line 285
         yield "                    ";
-        // line 290
+        // line 286
         yield "                </div>
                 <div class=\"col-lg-6\" id=\"urgence\">
                     <div class=\"bg-white text-center rounded p-5\">
@@ -481,16 +477,16 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <form>
                                 <div class=\"row g-3\">
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre nom svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre nom\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre prénom svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre prénom\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"number\" class=\"form-control bg-light border-0\" placeholder=\"votre téléphone svpl...\" style=\"height: 55px;\">
+                                        <input type=\"number\" class=\"form-control bg-light border-0\" placeholder=\"votre téléphone\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre Adresse svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre Adresse\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-12\">
                                         <button class=\"btn btn-primary w-100 py-3 text-white\" type=\"submit\">
@@ -511,7 +507,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <div class=\"container-fluid py-5\">
         <div class=\"container\">
             <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Docteurs</h5>
+                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Professionnels</h5>
                 <h1 class=\"display-4\">Professionnels de Santé Qualifiés.</h1>
             </div>
             <div class=\"owl-carousel team-carousel position-relative\">
@@ -519,7 +515,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 408
+        // line 404
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.avif"), "html", null, true);
         yield "\" style=\"object-fit: cover;\">
                         </div>
@@ -545,7 +541,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 431
+        // line 427
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.avif"), "html", null, true);
         yield "\" style=\"object-fit: cover;\">
                         </div>
@@ -571,7 +567,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 454
+        // line 450
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.avif"), "html", null, true);
         yield "\" style=\"object-fit: cover;\">
                         </div>
@@ -615,7 +611,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 495
+        // line 491
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-1.avif"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -634,7 +630,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 511
+        // line 507
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-2.avif"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -653,7 +649,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 527
+        // line 523
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-3.avif"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -706,7 +702,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  657 => 527,  638 => 511,  619 => 495,  575 => 454,  549 => 431,  523 => 408,  403 => 290,  401 => 289,  231 => 121,  202 => 94,  200 => 93,  198 => 92,  196 => 91,  194 => 90,  177 => 75,  167 => 67,  165 => 66,  163 => 65,  161 => 64,  159 => 63,  142 => 48,  132 => 40,  130 => 39,  128 => 38,  126 => 37,  124 => 36,  108 => 22,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  653 => 523,  634 => 507,  615 => 491,  571 => 450,  545 => 427,  519 => 404,  399 => 286,  397 => 285,  227 => 117,  198 => 90,  196 => 89,  194 => 88,  192 => 87,  190 => 86,  174 => 72,  164 => 64,  162 => 63,  160 => 62,  158 => 61,  156 => 60,  140 => 46,  130 => 38,  128 => 37,  126 => 36,  124 => 35,  122 => 34,  108 => 22,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -720,7 +716,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
 
     <!-- Hero Start -->
     <div id=\"carouselExampleCaptions\" class=\"carousel carousel-fade slide\" data-bs-ride=\"carousel\"
-         data-bs-pause=\"false\">
+         data-bs-pause=\"hover\">
         <div class=\"carousel-indicators\">
             <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"0\" class=\"active\"
                     aria-current=\"true\" aria-label=\"Slide 1\"></button>
@@ -741,10 +737,8 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"row justify-content-start text-carousel position-absolute\">
                                 <div class=\"col-lg-8 text-center text-lg-start\">
                                     <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
-                                        Sencare.</h5>
-                                    <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">La meilleure
-                                        solution de soins de santé près de chez vous.</h1>
+                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Soins à domicile.</h5>
+                                    <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">La meilleure solution de soins de santé chez vous.</h1>
                                     {#                            <div class=\"pt-2\">#}
                                     {#                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>#}
                                     {#                                <a href=\"\"#}
@@ -767,10 +761,9 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"row justify-content-start text-carousel position-absolute\">
                                 <div class=\"col-lg-8 text-center text-lg-start\">
                                     <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
-                                        Sencare.</h5>
+                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Suivi traitement.</h5>
                                     <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">
-                                        Votre oasis de bien-être et de soins de santé de qualité.
+                                        Votre oasis de bien-être et de soins de qualité.
                                     </h1>
                                     {#                            <div class=\"pt-2\">#}
                                     {#                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>#}
@@ -785,7 +778,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
             </div>
             <div class=\"carousel-item position-relative\" data-bs-interval=\"5000\">
                 <div class=\"carousel-img\">
-                    <img src=\"{{ asset('images/slide_3.avif') }}\" alt=\"\"
+                    <img src=\"{{ asset('images/slide_2.jpg') }}\" alt=\"\"
                          class=\"img-fluid w-100 animated fadIn position-absolute\">
                 </div>
                 <div class=\"container-fluid py-5\">
@@ -794,8 +787,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"row justify-content-start text-carousel position-absolute\">
                                 <div class=\"col-lg-8 text-center text-lg-start\">
                                     <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
-                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
-                                        Sencare.</h5>
+                                        style=\"border-color: rgba(256, 256, 256, .3) !important;\">Accompagnement médical.</h5>
                                     <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">
                                         Votre santé entre des mains expertes et bienveillantes.
                                     </h1>
@@ -1081,16 +1073,16 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <form>
                                 <div class=\"row g-3\">
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre nom svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre nom\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre prénom svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre prénom\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"number\" class=\"form-control bg-light border-0\" placeholder=\"votre téléphone svpl...\" style=\"height: 55px;\">
+                                        <input type=\"number\" class=\"form-control bg-light border-0\" placeholder=\"votre téléphone\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre Adresse svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre Adresse\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-12\">
                                         <button class=\"btn btn-primary w-100 py-3 text-white\" type=\"submit\">
@@ -1111,7 +1103,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <div class=\"container-fluid py-5\">
         <div class=\"container\">
             <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Docteurs</h5>
+                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Professionnels</h5>
                 <h1 class=\"display-4\">Professionnels de Santé Qualifiés.</h1>
             </div>
             <div class=\"owl-carousel team-carousel position-relative\">

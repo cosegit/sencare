@@ -135,7 +135,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                             <div class=\"col-12 col-sm-5 h-100\">
                                 <img class=\"img-fluid h-100\" src=\"";
         // line 40
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.avif"), "html", null, true);
         yield "\"
                                      style=\"object-fit: cover;\">
                             </div>
@@ -161,7 +161,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                             <div class=\"col-12 col-sm-5 h-100\">
                                 <img class=\"img-fluid h-100\" src=\"";
         // line 63
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.avif"), "html", null, true);
         yield "\"
                                      style=\"object-fit: cover;\">
                             </div>
@@ -182,12 +182,13 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                             </div>
                         </div>
                     </div>
+
                     <div class=\"team-item\">
                         <div class=\"row g-0 bg-light rounded overflow-hidden\">
                             <div class=\"col-12 col-sm-5 h-100\">
                                 <img class=\"img-fluid h-100\" src=\"";
-        // line 86
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.jpg"), "html", null, true);
+        // line 87
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.avif"), "html", null, true);
         yield "\"
                                      style=\"object-fit: cover;\">
                             </div>
@@ -244,7 +245,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  190 => 86,  164 => 63,  138 => 40,  116 => 21,  109 => 17,  105 => 16,  97 => 11,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  191 => 87,  164 => 63,  138 => 40,  116 => 21,  109 => 17,  105 => 16,  97 => 11,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -288,7 +289,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                     <div class=\"team-item\">
                         <div class=\"row g-0 bg-light rounded overflow-hidden\">
                             <div class=\"col-12 col-sm-5 h-100\">
-                                <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-1.jpg') }}\"
+                                <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-1.avif') }}\"
                                      style=\"object-fit: cover;\">
                             </div>
                             <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
@@ -311,7 +312,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                     <div class=\"team-item\">
                         <div class=\"row g-0 bg-light rounded overflow-hidden\">
                             <div class=\"col-12 col-sm-5 h-100\">
-                                <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-2.jpg') }}\"
+                                <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-2.avif') }}\"
                                      style=\"object-fit: cover;\">
                             </div>
                             <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
@@ -331,10 +332,11 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                             </div>
                         </div>
                     </div>
+
                     <div class=\"team-item\">
                         <div class=\"row g-0 bg-light rounded overflow-hidden\">
                             <div class=\"col-12 col-sm-5 h-100\">
-                                <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-3.jpg') }}\"
+                                <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-3.avif') }}\"
                                      style=\"object-fit: cover;\">
                             </div>
                             <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
