@@ -472,8 +472,34 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <h1 class=\"display-4\">Formulaire demande d'urgence</h1>
                 </div>
                 <div class=\"row gx-5\">
-                    <div class=\"col-lg-6 mb-5 mb-lg-0 mt-5\">
+                    <div class=\"col-lg-3\">
 
+                    </div>
+                    <div class=\"col-lg-7\" id=\"urgence\">
+                        <div class=\"bg-primary text-center rounded p-5\">
+                            <h1 class=\"mb-4 text-white\">Demande d'urgence !</h1>
+                            <form>
+                                <div class=\"row g-3\">
+                                    <div class=\"col-lg-12 col-sm-6\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre nom svpl...\" style=\"height: 55px;\">
+                                    </div>
+                                    <div class=\"col-lg-12 col-sm-6\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre prénom svpl...\" style=\"height: 55px;\">
+                                    </div>
+                                    <div class=\"col-lg-12 col-sm-6\">
+                                        <input type=\"number\" class=\"form-control bg-light border-0\" placeholder=\"votre téléphone svpl...\" style=\"height: 55px;\">
+                                    </div>
+                                    <div class=\"col-lg-12 col-sm-6\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre Adresse svpl...\" style=\"height: 55px;\">
+                                    </div>
+                                    <div class=\"col-12\">
+                                        <button class=\"btn btn-primary w-100 py-3 text-white\" type=\"submit\">
+                                            Envoyer
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -493,7 +519,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 382
+        // line 408
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -520,7 +546,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 406
+        // line 432
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -547,7 +573,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"row g-0 bg-light rounded overflow-hidden\">
                         <div class=\"col-12 col-sm-5 h-100\">
                             <img class=\"img-fluid h-100\" src=\"";
-        // line 430
+        // line 456
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.jpg"), "html", null, true);
         yield "\"
                                  style=\"object-fit: cover;\">
@@ -592,7 +618,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 472
+        // line 498
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-1.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -611,7 +637,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 488
+        // line 514
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-2.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -630,7 +656,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <div class=\"position-relative mb-5\">
                                 <img class=\"img-fluid rounded-circle mx-auto\"
                                      src=\"";
-        // line 504
+        // line 530
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/testimonial-3.jpg"), "html", null, true);
         yield "\" alt=\"\">
                                 <div class=\"position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle\"
@@ -683,7 +709,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  634 => 504,  615 => 488,  596 => 472,  551 => 430,  524 => 406,  497 => 382,  403 => 290,  401 => 289,  231 => 121,  202 => 94,  200 => 93,  198 => 92,  196 => 91,  194 => 90,  177 => 75,  167 => 67,  165 => 66,  163 => 65,  161 => 64,  159 => 63,  142 => 48,  132 => 40,  130 => 39,  128 => 38,  126 => 37,  124 => 36,  108 => 22,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  660 => 530,  641 => 514,  622 => 498,  577 => 456,  550 => 432,  523 => 408,  403 => 290,  401 => 289,  231 => 121,  202 => 94,  200 => 93,  198 => 92,  196 => 91,  194 => 90,  177 => 75,  167 => 67,  165 => 66,  163 => 65,  161 => 64,  159 => 63,  142 => 48,  132 => 40,  130 => 39,  128 => 38,  126 => 37,  124 => 36,  108 => 22,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -1049,8 +1075,34 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <h1 class=\"display-4\">Formulaire demande d'urgence</h1>
                 </div>
                 <div class=\"row gx-5\">
-                    <div class=\"col-lg-6 mb-5 mb-lg-0 mt-5\">
+                    <div class=\"col-lg-3\">
 
+                    </div>
+                    <div class=\"col-lg-7\" id=\"urgence\">
+                        <div class=\"bg-primary text-center rounded p-5\">
+                            <h1 class=\"mb-4 text-white\">Demande d'urgence !</h1>
+                            <form>
+                                <div class=\"row g-3\">
+                                    <div class=\"col-lg-12 col-sm-6\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre nom svpl...\" style=\"height: 55px;\">
+                                    </div>
+                                    <div class=\"col-lg-12 col-sm-6\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre prénom svpl...\" style=\"height: 55px;\">
+                                    </div>
+                                    <div class=\"col-lg-12 col-sm-6\">
+                                        <input type=\"number\" class=\"form-control bg-light border-0\" placeholder=\"votre téléphone svpl...\" style=\"height: 55px;\">
+                                    </div>
+                                    <div class=\"col-lg-12 col-sm-6\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre Adresse svpl...\" style=\"height: 55px;\">
+                                    </div>
+                                    <div class=\"col-12\">
+                                        <button class=\"btn btn-primary w-100 py-3 text-white\" type=\"submit\">
+                                            Envoyer
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

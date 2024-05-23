@@ -122,97 +122,96 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
             </div>
         </div>
     </div>
-
-<h1>
-    <div class=\"container-fluid py-5\">
-        <div class=\"container\">
-            <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Docteurs</h5>
-                <h1 class=\"display-4\">Professionnels de Santé Qualifiés.</h1>
-            </div>
-            <div class=\"owl-carousel team-carousel position-relative\">
-                <div class=\"team-item\">
-                    <div class=\"row g-0 bg-light rounded overflow-hidden\">
-                        <div class=\"col-12 col-sm-5 h-100\">
-                            <img class=\"img-fluid h-100\" src=\"";
-        // line 41
+    <h1>
+        <div class=\"container-fluid py-5\">
+            <div class=\"container\">
+                <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
+                    <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Docteurs</h5>
+                    <h1 class=\"display-4\">Professionnels de Santé Qualifiés.</h1>
+                </div>
+                <div class=\"owl-carousel team-carousel position-relative\">
+                    <div class=\"team-item\">
+                        <div class=\"row g-0 bg-light rounded overflow-hidden\">
+                            <div class=\"col-12 col-sm-5 h-100\">
+                                <img class=\"img-fluid h-100\" src=\"";
+        // line 40
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.jpg"), "html", null, true);
         yield "\"
-                                 style=\"object-fit: cover;\">
-                        </div>
-                        <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
-                            <div class=\"mt-auto p-4\">
-                                <h3>SAMBA FALL</h3>
-                                <h6 class=\"fw-normal fst-italic text-primary mb-4\"> Specialiste Cardiologue</h6>
-                                <p class=\"m-0\"></p>
+                                     style=\"object-fit: cover;\">
                             </div>
-                            <div class=\"d-flex mt-auto border-top p-4\">
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
-                                            class=\"fab fa-twitter\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
-                                            class=\"fab fa-facebook-f\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i
-                                            class=\"fab fa-linkedin-in\"></i></a>
+                            <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
+                                <div class=\"mt-auto p-4\">
+                                    <h3>SAMBA FALL</h3>
+                                    <h6 class=\"fw-normal fst-italic text-primary mb-4\"> Specialiste Cardiologue</h6>
+                                    <p class=\"m-0\"></p>
+                                </div>
+                                <div class=\"d-flex mt-auto border-top p-4\">
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
+                                                class=\"fab fa-twitter\"></i></a>
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
+                                                class=\"fab fa-facebook-f\"></i></a>
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i
+                                                class=\"fab fa-linkedin-in\"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class=\"team-item\">
-                    <div class=\"row g-0 bg-light rounded overflow-hidden\">
-                        <div class=\"col-12 col-sm-5 h-100\">
-                            <img class=\"img-fluid h-100\" src=\"";
-        // line 64
+                    <div class=\"team-item\">
+                        <div class=\"row g-0 bg-light rounded overflow-hidden\">
+                            <div class=\"col-12 col-sm-5 h-100\">
+                                <img class=\"img-fluid h-100\" src=\"";
+        // line 63
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.jpg"), "html", null, true);
         yield "\"
-                                 style=\"object-fit: cover;\">
-                        </div>
-                        <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
-                            <div class=\"mt-auto p-4\">
-                                <h3>ANTA DIOP </h3>
-                                <h6 class=\"fw-normal fst-italic text-primary mb-4\">Cancerologue</h6>
-                                <p class=\"m-0\"></p>
+                                     style=\"object-fit: cover;\">
                             </div>
-                            <div class=\"d-flex mt-auto border-top p-4\">
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
-                                            class=\"fab fa-twitter\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
-                                            class=\"fab fa-facebook-f\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i
-                                            class=\"fab fa-linkedin-in\"></i></a>
+                            <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
+                                <div class=\"mt-auto p-4\">
+                                    <h3>ANTA DIOP </h3>
+                                    <h6 class=\"fw-normal fst-italic text-primary mb-4\">Cancerologue</h6>
+                                    <p class=\"m-0\"></p>
+                                </div>
+                                <div class=\"d-flex mt-auto border-top p-4\">
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
+                                                class=\"fab fa-twitter\"></i></a>
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
+                                                class=\"fab fa-facebook-f\"></i></a>
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i
+                                                class=\"fab fa-linkedin-in\"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class=\"team-item\">
-                    <div class=\"row g-0 bg-light rounded overflow-hidden\">
-                        <div class=\"col-12 col-sm-5 h-100\">
-                            <img class=\"img-fluid h-100\" src=\"";
-        // line 87
+                    <div class=\"team-item\">
+                        <div class=\"row g-0 bg-light rounded overflow-hidden\">
+                            <div class=\"col-12 col-sm-5 h-100\">
+                                <img class=\"img-fluid h-100\" src=\"";
+        // line 86
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.jpg"), "html", null, true);
         yield "\"
-                                 style=\"object-fit: cover;\">
-                        </div>
-                        <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
-                            <div class=\"mt-auto p-4\">
-                                <h3>FATOU DIOP</h3>
-                                <h6 class=\"fw-normal fst-italic text-primary mb-4\">Medecin General</h6>
-                                <p class=\"m-0\"></p>
+                                     style=\"object-fit: cover;\">
                             </div>
-                            <div class=\"d-flex mt-auto border-top p-4\">
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
-                                            class=\"fab fa-twitter\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
-                                            class=\"fab fa-facebook-f\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i
-                                            class=\"fab fa-linkedin-in\"></i></a>
+                            <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
+                                <div class=\"mt-auto p-4\">
+                                    <h3>FATOU DIOP</h3>
+                                    <h6 class=\"fw-normal fst-italic text-primary mb-4\">Medecin General</h6>
+                                    <p class=\"m-0\"></p>
+                                </div>
+                                <div class=\"d-flex mt-auto border-top p-4\">
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
+                                                class=\"fab fa-twitter\"></i></a>
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
+                                                class=\"fab fa-facebook-f\"></i></a>
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i
+                                                class=\"fab fa-linkedin-in\"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</h1>
+    </h1>
 
 ";
         
@@ -245,7 +244,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  191 => 87,  165 => 64,  139 => 41,  116 => 21,  109 => 17,  105 => 16,  97 => 11,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  190 => 86,  164 => 63,  138 => 40,  116 => 21,  109 => 17,  105 => 16,  97 => 11,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -278,88 +277,87 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
             </div>
         </div>
     </div>
-
-<h1>
-    <div class=\"container-fluid py-5\">
-        <div class=\"container\">
-            <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Docteurs</h5>
-                <h1 class=\"display-4\">Professionnels de Santé Qualifiés.</h1>
-            </div>
-            <div class=\"owl-carousel team-carousel position-relative\">
-                <div class=\"team-item\">
-                    <div class=\"row g-0 bg-light rounded overflow-hidden\">
-                        <div class=\"col-12 col-sm-5 h-100\">
-                            <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-1.jpg') }}\"
-                                 style=\"object-fit: cover;\">
-                        </div>
-                        <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
-                            <div class=\"mt-auto p-4\">
-                                <h3>SAMBA FALL</h3>
-                                <h6 class=\"fw-normal fst-italic text-primary mb-4\"> Specialiste Cardiologue</h6>
-                                <p class=\"m-0\"></p>
+    <h1>
+        <div class=\"container-fluid py-5\">
+            <div class=\"container\">
+                <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
+                    <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Docteurs</h5>
+                    <h1 class=\"display-4\">Professionnels de Santé Qualifiés.</h1>
+                </div>
+                <div class=\"owl-carousel team-carousel position-relative\">
+                    <div class=\"team-item\">
+                        <div class=\"row g-0 bg-light rounded overflow-hidden\">
+                            <div class=\"col-12 col-sm-5 h-100\">
+                                <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-1.jpg') }}\"
+                                     style=\"object-fit: cover;\">
                             </div>
-                            <div class=\"d-flex mt-auto border-top p-4\">
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
-                                            class=\"fab fa-twitter\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
-                                            class=\"fab fa-facebook-f\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i
-                                            class=\"fab fa-linkedin-in\"></i></a>
+                            <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
+                                <div class=\"mt-auto p-4\">
+                                    <h3>SAMBA FALL</h3>
+                                    <h6 class=\"fw-normal fst-italic text-primary mb-4\"> Specialiste Cardiologue</h6>
+                                    <p class=\"m-0\"></p>
+                                </div>
+                                <div class=\"d-flex mt-auto border-top p-4\">
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
+                                                class=\"fab fa-twitter\"></i></a>
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
+                                                class=\"fab fa-facebook-f\"></i></a>
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i
+                                                class=\"fab fa-linkedin-in\"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class=\"team-item\">
-                    <div class=\"row g-0 bg-light rounded overflow-hidden\">
-                        <div class=\"col-12 col-sm-5 h-100\">
-                            <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-2.jpg') }}\"
-                                 style=\"object-fit: cover;\">
-                        </div>
-                        <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
-                            <div class=\"mt-auto p-4\">
-                                <h3>ANTA DIOP </h3>
-                                <h6 class=\"fw-normal fst-italic text-primary mb-4\">Cancerologue</h6>
-                                <p class=\"m-0\"></p>
+                    <div class=\"team-item\">
+                        <div class=\"row g-0 bg-light rounded overflow-hidden\">
+                            <div class=\"col-12 col-sm-5 h-100\">
+                                <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-2.jpg') }}\"
+                                     style=\"object-fit: cover;\">
                             </div>
-                            <div class=\"d-flex mt-auto border-top p-4\">
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
-                                            class=\"fab fa-twitter\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
-                                            class=\"fab fa-facebook-f\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i
-                                            class=\"fab fa-linkedin-in\"></i></a>
+                            <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
+                                <div class=\"mt-auto p-4\">
+                                    <h3>ANTA DIOP </h3>
+                                    <h6 class=\"fw-normal fst-italic text-primary mb-4\">Cancerologue</h6>
+                                    <p class=\"m-0\"></p>
+                                </div>
+                                <div class=\"d-flex mt-auto border-top p-4\">
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
+                                                class=\"fab fa-twitter\"></i></a>
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
+                                                class=\"fab fa-facebook-f\"></i></a>
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i
+                                                class=\"fab fa-linkedin-in\"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class=\"team-item\">
-                    <div class=\"row g-0 bg-light rounded overflow-hidden\">
-                        <div class=\"col-12 col-sm-5 h-100\">
-                            <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-3.jpg') }}\"
-                                 style=\"object-fit: cover;\">
-                        </div>
-                        <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
-                            <div class=\"mt-auto p-4\">
-                                <h3>FATOU DIOP</h3>
-                                <h6 class=\"fw-normal fst-italic text-primary mb-4\">Medecin General</h6>
-                                <p class=\"m-0\"></p>
+                    <div class=\"team-item\">
+                        <div class=\"row g-0 bg-light rounded overflow-hidden\">
+                            <div class=\"col-12 col-sm-5 h-100\">
+                                <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-3.jpg') }}\"
+                                     style=\"object-fit: cover;\">
                             </div>
-                            <div class=\"d-flex mt-auto border-top p-4\">
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
-                                            class=\"fab fa-twitter\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
-                                            class=\"fab fa-facebook-f\"></i></a>
-                                <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i
-                                            class=\"fab fa-linkedin-in\"></i></a>
+                            <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
+                                <div class=\"mt-auto p-4\">
+                                    <h3>FATOU DIOP</h3>
+                                    <h6 class=\"fw-normal fst-italic text-primary mb-4\">Medecin General</h6>
+                                    <p class=\"m-0\"></p>
+                                </div>
+                                <div class=\"d-flex mt-auto border-top p-4\">
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
+                                                class=\"fab fa-twitter\"></i></a>
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle me-3\" href=\"#\"><i
+                                                class=\"fab fa-facebook-f\"></i></a>
+                                    <a class=\"btn btn-lg btn-primary btn-lg-square rounded-circle\" href=\"#\"><i
+                                                class=\"fab fa-linkedin-in\"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</h1>
+    </h1>
 
 {% endblock %}", "site/specialistes.html.twig", "C:\\wamp64\\www\\sencare\\templates\\site\\specialistes.html.twig");
     }
