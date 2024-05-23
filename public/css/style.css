@@ -220,6 +220,12 @@ a {
         margin-left: 0;
         padding: 10px 0;
     }
+    .carou {
+        font-size: 35px;
+    }
+    .about{
+        text-align: justify;
+    }
 }
 
 .slide_1 {

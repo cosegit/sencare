@@ -117,7 +117,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                                     <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
                                         style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
                                         Sencare.</h5>
-                                    <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">La meilleure
+                                    <h1 class=\"display-1 carou text-white mb-md-4 animated zoomIn delay-1s\">La meilleure
                                         solution de soins de santé près de chez vous.</h1>
                                     ";
         // line 36
@@ -151,7 +151,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                                     <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
                                         style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
                                         Sencare.</h5>
-                                    <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">
+                                    <h1 class=\"display-1 carou text-white mb-md-4 animated zoomIn delay-1s\">
                                         Votre oasis de bien-être et de soins de santé de qualité.
                                     </h1>
                                     ";
@@ -186,7 +186,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                                     <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
                                         style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
                                         Sencare.</h5>
-                                    <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">
+                                    <h1 class=\"display-1 carou text-white mb-md-4 animated zoomIn delay-1s\">
                                         Votre santé entre des mains expertes et bienveillantes.
                                     </h1>
                                     ";
@@ -743,7 +743,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                                     <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
                                         style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
                                         Sencare.</h5>
-                                    <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">La meilleure
+                                    <h1 class=\"display-1 carou text-white mb-md-4 animated zoomIn delay-1s\">La meilleure
                                         solution de soins de santé près de chez vous.</h1>
                                     {#                            <div class=\"pt-2\">#}
                                     {#                                <a href=\"\" class=\"btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s\">Find Doctor</a>#}
@@ -769,7 +769,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                                     <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
                                         style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
                                         Sencare.</h5>
-                                    <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">
+                                    <h1 class=\"display-1 carou text-white mb-md-4 animated zoomIn delay-1s\">
                                         Votre oasis de bien-être et de soins de santé de qualité.
                                     </h1>
                                     {#                            <div class=\"pt-2\">#}
@@ -796,7 +796,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                                     <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5 animated zoomIn delay-1s\"
                                         style=\"border-color: rgba(256, 256, 256, .3) !important;\">Bienvenu chez
                                         Sencare.</h5>
-                                    <h1 class=\"display-1 text-white mb-md-4 animated zoomIn delay-1s\">
+                                    <h1 class=\"display-1 carou text-white mb-md-4 animated zoomIn delay-1s\">
                                         Votre santé entre des mains expertes et bienveillantes.
                                     </h1>
                                     {#                            <div class=\"pt-2\">#}
