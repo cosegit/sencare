@@ -91,7 +91,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
         <div class=\"container py-5\">
             <div class=\"row justify-content-center\">
                 <div class=\"col-lg-10 text-center\">
-                    <h1 class=\"display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn\">
+                    <h1 class=\"display-5 text-white fw-bold mt-5 mb-3 animated fadeIn\">
                         ";
         // line 11
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Spécialistes"), "html", null, true);
@@ -100,7 +100,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                     <nav aria-label=\"breadcrumb\">
                         <ol class=\"breadcrumb justify-content-center\">
                             <li class=\"breadcrumb-item\">
-                                <a class=\"\" href=\"";
+                                <a class=\"text-white\" href=\"";
         // line 16
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Accueil");
         yield "\">
@@ -110,7 +110,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
         yield "
                                 </a>
                             </li>
-                            <li class=\"breadcrumb-item text-primary\">
+                            <li class=\"breadcrumb-item text-white\">
                                 ";
         // line 21
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Spécialistes"), "html", null, true);
@@ -182,12 +182,11 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                             </div>
                         </div>
                     </div>
-
                     <div class=\"team-item\">
                         <div class=\"row g-0 bg-light rounded overflow-hidden\">
                             <div class=\"col-12 col-sm-5 h-100\">
                                 <img class=\"img-fluid h-100\" src=\"";
-        // line 87
+        // line 86
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.avif"), "html", null, true);
         yield "\"
                                      style=\"object-fit: cover;\">
@@ -245,7 +244,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  191 => 87,  164 => 63,  138 => 40,  116 => 21,  109 => 17,  105 => 16,  97 => 11,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  190 => 86,  164 => 63,  138 => 40,  116 => 21,  109 => 17,  105 => 16,  97 => 11,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -259,17 +258,17 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
         <div class=\"container py-5\">
             <div class=\"row justify-content-center\">
                 <div class=\"col-lg-10 text-center\">
-                    <h1 class=\"display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn\">
+                    <h1 class=\"display-5 text-white fw-bold mt-5 mb-3 animated fadeIn\">
                         {{ \"Spécialistes\"|trans }}
                     </h1>
                     <nav aria-label=\"breadcrumb\">
                         <ol class=\"breadcrumb justify-content-center\">
                             <li class=\"breadcrumb-item\">
-                                <a class=\"\" href=\"{{ path('Accueil') }}\">
+                                <a class=\"text-white\" href=\"{{ path('Accueil') }}\">
                                     {{ \"Accueil\"|trans }}
                                 </a>
                             </li>
-                            <li class=\"breadcrumb-item text-primary\">
+                            <li class=\"breadcrumb-item text-white\">
                                 {{ \"Spécialistes\"|trans }}
                             </li>
                         </ol>
@@ -332,7 +331,6 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                             </div>
                         </div>
                     </div>
-
                     <div class=\"team-item\">
                         <div class=\"row g-0 bg-light rounded overflow-hidden\">
                             <div class=\"col-12 col-sm-5 h-100\">
