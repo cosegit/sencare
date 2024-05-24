@@ -133,7 +133,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
                     <div class=\"position-relative h-100\">
                         <img class=\"position-absolute w-100 h-100 rounded\" src=\"";
         // line 36
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/snc.avif"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/AP.jpg"), "html", null, true);
         yield "\" style=\"object-fit: cover;\">
                     </div>
                 </div>
@@ -282,7 +282,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
             <div class=\"row gx-5\">
                 <div class=\"col-lg-5 mb-5 mb-lg-0\" style=\"min-height: 500px;\">
                     <div class=\"position-relative h-100\">
-                        <img class=\"position-absolute w-100 h-100 rounded\" src=\"{{ asset('images/snc.avif') }}\" style=\"object-fit: cover;\">
+                        <img class=\"position-absolute w-100 h-100 rounded\" src=\"{{ asset('images/AP.jpg') }}\" style=\"object-fit: cover;\">
                     </div>
                 </div>
                 <div class=\"col-lg-7\">
