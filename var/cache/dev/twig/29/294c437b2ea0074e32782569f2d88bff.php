@@ -91,7 +91,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
 
     <!-- Hero Start -->
     <div id=\"carouselExampleCaptions\" class=\"carousel carousel-fade slide\" data-bs-ride=\"carousel\"
-         data-bs-pause=\"false\">
+         data-bs-pause=\"Hover\">
         <div class=\"carousel-indicators\">
             <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"0\" class=\"active\"
                     aria-current=\"true\" aria-label=\"Slide 1\"></button>
@@ -239,7 +239,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             nous!</h5>
                         <h1 class=\"display-4\">Les Meilleurs Soins Médicaux Pour Vous et Votre Famille</h1>
                     </div>
-                    <p>
+                    <p class=\"about\">
                         SEN'Care, c'est bien plus qu'un simple service médical à domicile. En effet, il incarne une
                         véritable passerelle vers le bien-être, offrant aux patients la possibilité de maintenir leur
                         traitement prescrit dans le confort de leur foyer. Grâce à une équipe dévouée et compétente,
@@ -392,7 +392,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <h5 class=\"d-inline-block text-white text-uppercase border-bottom border-5\">Rendez-vous !</h5>
                         <h1 class=\"display-4\">Prendre Rendez-vous !</h1>
                     </div>
-                    <p class=\"text-white mb-5\">
+                    <p class=\"text-white mb-5 about\">
                         Chez Sencare, nous offrons une gamme complète de services de santé pour répondre aux besoins de
                         nos patients avec compassion et expertise.
                     </p>
@@ -481,16 +481,16 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <form>
                                 <div class=\"row g-3\">
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre nom svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"Nom\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre prénom svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"Prénom \" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"number\" class=\"form-control bg-light border-0\" placeholder=\"votre téléphone svpl...\" style=\"height: 55px;\">
+                                        <input type=\"tel\" class=\"form-control bg-light border-0\" placeholder=\"Téléphone \" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre Adresse svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"Adresse\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-12\">
                                         <button class=\"btn btn-primary w-100 py-3 text-white\" type=\"submit\">
@@ -511,7 +511,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <div class=\"container-fluid py-5\">
         <div class=\"container\">
             <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Docteurs</h5>
+                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Professionnels</h5>
                 <h1 class=\"display-4\">Professionnels de Santé Qualifiés.</h1>
             </div>
             <div class=\"owl-carousel team-carousel position-relative\">
@@ -720,7 +720,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
 
     <!-- Hero Start -->
     <div id=\"carouselExampleCaptions\" class=\"carousel carousel-fade slide\" data-bs-ride=\"carousel\"
-         data-bs-pause=\"false\">
+         data-bs-pause=\"Hover\">
         <div class=\"carousel-indicators\">
             <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"0\" class=\"active\"
                     aria-current=\"true\" aria-label=\"Slide 1\"></button>
@@ -841,7 +841,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             nous!</h5>
                         <h1 class=\"display-4\">Les Meilleurs Soins Médicaux Pour Vous et Votre Famille</h1>
                     </div>
-                    <p>
+                    <p class=\"about\">
                         SEN'Care, c'est bien plus qu'un simple service médical à domicile. En effet, il incarne une
                         véritable passerelle vers le bien-être, offrant aux patients la possibilité de maintenir leur
                         traitement prescrit dans le confort de leur foyer. Grâce à une équipe dévouée et compétente,
@@ -994,7 +994,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                         <h5 class=\"d-inline-block text-white text-uppercase border-bottom border-5\">Rendez-vous !</h5>
                         <h1 class=\"display-4\">Prendre Rendez-vous !</h1>
                     </div>
-                    <p class=\"text-white mb-5\">
+                    <p class=\"text-white mb-5 about\">
                         Chez Sencare, nous offrons une gamme complète de services de santé pour répondre aux besoins de
                         nos patients avec compassion et expertise.
                     </p>
@@ -1081,16 +1081,16 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <form>
                                 <div class=\"row g-3\">
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre nom svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"Nom\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre prénom svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"Prénom \" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"number\" class=\"form-control bg-light border-0\" placeholder=\"votre téléphone svpl...\" style=\"height: 55px;\">
+                                        <input type=\"tel\" class=\"form-control bg-light border-0\" placeholder=\"Téléphone \" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre Adresse svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"Adresse\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-12\">
                                         <button class=\"btn btn-primary w-100 py-3 text-white\" type=\"submit\">
@@ -1111,7 +1111,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <div class=\"container-fluid py-5\">
         <div class=\"container\">
             <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Docteurs</h5>
+                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Professionnels</h5>
                 <h1 class=\"display-4\">Professionnels de Santé Qualifiés.</h1>
             </div>
             <div class=\"owl-carousel team-carousel position-relative\">

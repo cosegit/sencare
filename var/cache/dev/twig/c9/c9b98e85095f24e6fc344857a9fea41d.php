@@ -91,7 +91,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
         <div class=\"container py-5\">
             <div class=\"row justify-content-center\">
                 <div class=\"col-lg-10 text-center\">
-                    <h1 class=\"display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn\">
+                    <h1 class=\"display-5 text-white fw-bold mt-5 mb-3 animated fadeIn\">
                         ";
         // line 11
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Spécialistes"), "html", null, true);
@@ -100,7 +100,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                     <nav aria-label=\"breadcrumb\">
                         <ol class=\"breadcrumb justify-content-center\">
                             <li class=\"breadcrumb-item\">
-                                <a class=\"\" href=\"";
+                                <a class=\"text-white\" href=\"";
         // line 16
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Accueil");
         yield "\">
@@ -110,7 +110,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
         yield "
                                 </a>
                             </li>
-                            <li class=\"breadcrumb-item text-primary\">
+                            <li class=\"breadcrumb-item text-white\">
                                 ";
         // line 21
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("Spécialistes"), "html", null, true);
@@ -135,7 +135,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                             <div class=\"col-12 col-sm-5 h-100\">
                                 <img class=\"img-fluid h-100\" src=\"";
         // line 40
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-1.avif"), "html", null, true);
         yield "\"
                                      style=\"object-fit: cover;\">
                             </div>
@@ -161,7 +161,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                             <div class=\"col-12 col-sm-5 h-100\">
                                 <img class=\"img-fluid h-100\" src=\"";
         // line 63
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-2.avif"), "html", null, true);
         yield "\"
                                      style=\"object-fit: cover;\">
                             </div>
@@ -187,7 +187,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                             <div class=\"col-12 col-sm-5 h-100\">
                                 <img class=\"img-fluid h-100\" src=\"";
         // line 86
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.jpg"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.avif"), "html", null, true);
         yield "\"
                                      style=\"object-fit: cover;\">
                             </div>
@@ -258,17 +258,17 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
         <div class=\"container py-5\">
             <div class=\"row justify-content-center\">
                 <div class=\"col-lg-10 text-center\">
-                    <h1 class=\"display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn\">
+                    <h1 class=\"display-5 text-white fw-bold mt-5 mb-3 animated fadeIn\">
                         {{ \"Spécialistes\"|trans }}
                     </h1>
                     <nav aria-label=\"breadcrumb\">
                         <ol class=\"breadcrumb justify-content-center\">
                             <li class=\"breadcrumb-item\">
-                                <a class=\"\" href=\"{{ path('Accueil') }}\">
+                                <a class=\"text-white\" href=\"{{ path('Accueil') }}\">
                                     {{ \"Accueil\"|trans }}
                                 </a>
                             </li>
-                            <li class=\"breadcrumb-item text-primary\">
+                            <li class=\"breadcrumb-item text-white\">
                                 {{ \"Spécialistes\"|trans }}
                             </li>
                         </ol>
@@ -288,7 +288,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                     <div class=\"team-item\">
                         <div class=\"row g-0 bg-light rounded overflow-hidden\">
                             <div class=\"col-12 col-sm-5 h-100\">
-                                <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-1.jpg') }}\"
+                                <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-1.avif') }}\"
                                      style=\"object-fit: cover;\">
                             </div>
                             <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
@@ -311,7 +311,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                     <div class=\"team-item\">
                         <div class=\"row g-0 bg-light rounded overflow-hidden\">
                             <div class=\"col-12 col-sm-5 h-100\">
-                                <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-2.jpg') }}\"
+                                <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-2.avif') }}\"
                                      style=\"object-fit: cover;\">
                             </div>
                             <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
@@ -334,7 +334,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                     <div class=\"team-item\">
                         <div class=\"row g-0 bg-light rounded overflow-hidden\">
                             <div class=\"col-12 col-sm-5 h-100\">
-                                <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-3.jpg') }}\"
+                                <img class=\"img-fluid h-100\" src=\"{{ asset('images/team-3.avif') }}\"
                                      style=\"object-fit: cover;\">
                             </div>
                             <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">

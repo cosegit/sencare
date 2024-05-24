@@ -92,7 +92,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
         <div class=\"container py-5\">
             <div class=\"row justify-content-center\">
                 <div class=\"col-lg-10 text-center\">
-                    <h1 class=\"display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn\">
+                    <h1 class=\"display-5 text-white fw-bold mt-5 mb-3 animated fadeIn\">
                         ";
         // line 10
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("A propos"), "html", null, true);
@@ -101,7 +101,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
                     <nav aria-label=\"breadcrumb\">
                         <ol class=\"breadcrumb justify-content-center\">
                             <li class=\"breadcrumb-item\">
-                                <a class=\"\" href=\"";
+                                <a class=\"text-white\" href=\"";
         // line 15
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("Accueil");
         yield "\">
@@ -111,7 +111,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
         yield "
                                 </a>
                             </li>
-                            <li class=\"breadcrumb-item text-primary\">
+                            <li class=\"breadcrumb-item text-white\">
                                 ";
         // line 20
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("A propos"), "html", null, true);
@@ -255,17 +255,17 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
         <div class=\"container py-5\">
             <div class=\"row justify-content-center\">
                 <div class=\"col-lg-10 text-center\">
-                    <h1 class=\"display-5 text-primary fw-bold mt-5 mb-3 animated fadeIn\">
+                    <h1 class=\"display-5 text-white fw-bold mt-5 mb-3 animated fadeIn\">
                         {{ \"A propos\"|trans }}
                     </h1>
                     <nav aria-label=\"breadcrumb\">
                         <ol class=\"breadcrumb justify-content-center\">
                             <li class=\"breadcrumb-item\">
-                                <a class=\"\" href=\"{{ path('Accueil') }}\">
+                                <a class=\"text-white\" href=\"{{ path('Accueil') }}\">
                                     {{ \"Accueil\"|trans }}
                                 </a>
                             </li>
-                            <li class=\"breadcrumb-item text-primary\">
+                            <li class=\"breadcrumb-item text-white\">
                                 {{ \"A propos\"|trans }}
                             </li>
                         </ol>

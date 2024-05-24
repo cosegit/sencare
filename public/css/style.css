@@ -11,7 +11,7 @@
 
 }
 .page-header-care{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/sale.avif);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/sale.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,7 @@
     padding-bottom: 1rem !important;
 }
 .page-header-contact{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/sale_1.avif);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/sale_1.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@
     padding-bottom: 1rem !important;
 }
 .page-header-specialite{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/header_specialite.avif);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header_specialite.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +35,7 @@
     padding-bottom: 1rem !important;
 }
 .page-header-about{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/header_about.avif);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header_about.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +43,7 @@
     padding-bottom: 1rem !important;
 }
 .page-header-service{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/header_service.avif);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header_service.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
