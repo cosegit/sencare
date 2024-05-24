@@ -513,3 +513,7 @@ f450aa,::1,GET,http://localhost:8000/About,1716486043,,200,request
 db7425,::1,GET,http://localhost:8000/About,1716486270,,200,request
 ff4065,::1,GET,http://localhost:8000/Specialistes,1716486327,,200,request
 47d2b9,::1,GET,http://localhost:8000/About,1716486334,,200,request
+0ca91d,::1,GET,http://localhost:8000/,1716555423,,200,request
+e54a04,::1,GET,http://localhost:8000/,1716555500,,200,request
+acbc24,::1,GET,http://localhost:8000/,1716555503,,200,request
+b13dd8,::1,GET,http://localhost:8000/,1716563246,,200,request

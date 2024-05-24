@@ -91,7 +91,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
 
     <!-- Hero Start -->
     <div id=\"carouselExampleCaptions\" class=\"carousel carousel-fade slide\" data-bs-ride=\"carousel\"
-         data-bs-pause=\"Hover\">
+         data-bs-pause=\"false\">
         <div class=\"carousel-indicators\">
             <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"0\" class=\"active\"
                     aria-current=\"true\" aria-label=\"Slide 1\"></button>
@@ -228,7 +228,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                     <div class=\"position-relative h-100\">
                         <img class=\"position-absolute w-100 h-100 rounded\" src=\"";
         // line 121
-        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/snc.avif"), "html", null, true);
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/AP.jpg"), "html", null, true);
         yield "\"
                              style=\"object-fit: cover;\" alt=\"\">
                     </div>
@@ -481,16 +481,16 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <form>
                                 <div class=\"row g-3\">
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"Nom\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre nom svpl...\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"Prénom \" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre prénom svpl...\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"tel\" class=\"form-control bg-light border-0\" placeholder=\"Téléphone \" style=\"height: 55px;\">
+                                        <input type=\"number\" class=\"form-control bg-light border-0\" placeholder=\"votre téléphone svpl...\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"Adresse\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre Adresse svpl...\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-12\">
                                         <button class=\"btn btn-primary w-100 py-3 text-white\" type=\"submit\">
@@ -511,7 +511,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <div class=\"container-fluid py-5\">
         <div class=\"container\">
             <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Professionnels</h5>
+                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Docteurs</h5>
                 <h1 class=\"display-4\">Professionnels de Santé Qualifiés.</h1>
             </div>
             <div class=\"owl-carousel team-carousel position-relative\">
@@ -720,7 +720,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
 
     <!-- Hero Start -->
     <div id=\"carouselExampleCaptions\" class=\"carousel carousel-fade slide\" data-bs-ride=\"carousel\"
-         data-bs-pause=\"Hover\">
+         data-bs-pause=\"false\">
         <div class=\"carousel-indicators\">
             <button type=\"button\" data-bs-target=\"#carouselExampleCaptions\" data-bs-slide-to=\"0\" class=\"active\"
                     aria-current=\"true\" aria-label=\"Slide 1\"></button>
@@ -831,7 +831,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
             <div class=\"row gx-5\">
                 <div class=\"col-lg-5 mb-5 mb-lg-0\" style=\"min-height: 500px;\">
                     <div class=\"position-relative h-100\">
-                        <img class=\"position-absolute w-100 h-100 rounded\" src=\"{{ asset('images/snc.avif') }}\"
+                        <img class=\"position-absolute w-100 h-100 rounded\" src=\"{{ asset('images/AP.jpg') }}\"
                              style=\"object-fit: cover;\" alt=\"\">
                     </div>
                 </div>
@@ -1081,16 +1081,16 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <form>
                                 <div class=\"row g-3\">
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"Nom\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre nom svpl...\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"Prénom \" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre prénom svpl...\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"tel\" class=\"form-control bg-light border-0\" placeholder=\"Téléphone \" style=\"height: 55px;\">
+                                        <input type=\"number\" class=\"form-control bg-light border-0\" placeholder=\"votre téléphone svpl...\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"Adresse\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre Adresse svpl...\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-12\">
                                         <button class=\"btn btn-primary w-100 py-3 text-white\" type=\"submit\">
@@ -1111,7 +1111,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <div class=\"container-fluid py-5\">
         <div class=\"container\">
             <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Professionnels</h5>
+                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Docteurs</h5>
                 <h1 class=\"display-4\">Professionnels de Santé Qualifiés.</h1>
             </div>
             <div class=\"owl-carousel team-carousel position-relative\">
