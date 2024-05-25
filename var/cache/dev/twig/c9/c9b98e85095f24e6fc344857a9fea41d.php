@@ -87,7 +87,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        yield "    <div class=\"container-fluid py-5 mb-5 page-header-care\">
+        yield "    <div class=\"container-fluid py-5 mb-5 page-header-specialite\">
         <div class=\"container py-5\">
             <div class=\"row justify-content-center\">
                 <div class=\"col-lg-10 text-center\">
@@ -182,11 +182,12 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                             </div>
                         </div>
                     </div>
+
                     <div class=\"team-item\">
                         <div class=\"row g-0 bg-light rounded overflow-hidden\">
                             <div class=\"col-12 col-sm-5 h-100\">
                                 <img class=\"img-fluid h-100\" src=\"";
-        // line 86
+        // line 87
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/team-3.avif"), "html", null, true);
         yield "\"
                                      style=\"object-fit: cover;\">
@@ -244,7 +245,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  190 => 86,  164 => 63,  138 => 40,  116 => 21,  109 => 17,  105 => 16,  97 => 11,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  191 => 87,  164 => 63,  138 => 40,  116 => 21,  109 => 17,  105 => 16,  97 => 11,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -254,7 +255,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
 {% block specialistes %}active{% endblock %}
 
 {% block body %}
-    <div class=\"container-fluid py-5 mb-5 page-header-care\">
+    <div class=\"container-fluid py-5 mb-5 page-header-specialite\">
         <div class=\"container py-5\">
             <div class=\"row justify-content-center\">
                 <div class=\"col-lg-10 text-center\">
@@ -331,6 +332,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                             </div>
                         </div>
                     </div>
+
                     <div class=\"team-item\">
                         <div class=\"row g-0 bg-light rounded overflow-hidden\">
                             <div class=\"col-12 col-sm-5 h-100\">

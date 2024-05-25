@@ -139,9 +139,13 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         </div>
                         <h4 class=\"mb-3\">Soins Généraux</h4>
                         <p class=\"m-0\">
-                            Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé quotidiens.
+                            Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé
+                            quotidiens.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"";
+        // line 49
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("SOINS");
+        yield "\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -153,9 +157,13 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         </div>
                         <h4 class=\"mb-3\">Soins Palliatif</h4>
                         <p class=\"m-0\">
-                            Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des patients atteints de maladies graves, en leur apportant confort et soutien.
+                            Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des
+                            patients atteints de maladies graves, en leur apportant confort et soutien.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"";
+        // line 64
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("PALLIATIFS");
+        yield "\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -167,9 +175,13 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         </div>
                         <h4 class=\"mb-3\">Pansement</h4>
                         <p class=\"m-0\">
-                            Nos professionnels de santé sont experts dans le changement et la gestion des pansements pour assurer une guérison optimale.
+                            Nos professionnels de santé sont experts dans le changement et la gestion des pansements
+                            pour assurer une guérison optimale.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"";
+        // line 79
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("PANSEMENTS");
+        yield "\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -181,9 +193,13 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         </div>
                         <h4 class=\"mb-3\">Retour à Domicile</h4>
                         <p class=\"m-0\">
-                            Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un suivi médical approprié.
+                            Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un
+                            suivi médical approprié.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"";
+        // line 94
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("DOMICILE");
+        yield "\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -195,9 +211,13 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         </div>
                         <h4 class=\"mb-3\">Prévenir la Perte d’Autonomie</h4>
                         <p class=\"m-0\">
-                            Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte d'autonomie chez nos patients âgés.
+                            Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte
+                            d'autonomie chez nos patients âgés.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"";
+        // line 109
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("AUTONOMIE");
+        yield "\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -209,9 +229,13 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         </div>
                         <h4 class=\"mb-3\">Injection et Perfusion</h4>
                         <p class=\"m-0\">
-                            Nous offrons des services d'injections et de perfusions administrés par des infirmières qualifiées, en toute sécurité et confort.
+                            Nous offrons des services d'injections et de perfusions administrés par des infirmières
+                            qualifiées, en toute sécurité et confort.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"";
+        // line 124
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("PERFUSION");
+        yield "\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -253,7 +277,7 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
      */
     public function getDebugInfo()
     {
-        return array (  117 => 22,  110 => 18,  106 => 17,  98 => 12,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  237 => 124,  219 => 109,  201 => 94,  183 => 79,  165 => 64,  147 => 49,  117 => 22,  110 => 18,  106 => 17,  98 => 12,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -303,9 +327,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         </div>
                         <h4 class=\"mb-3\">Soins Généraux</h4>
                         <p class=\"m-0\">
-                            Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé quotidiens.
+                            Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé
+                            quotidiens.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"{{ path('SOINS') }}\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -317,9 +342,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         </div>
                         <h4 class=\"mb-3\">Soins Palliatif</h4>
                         <p class=\"m-0\">
-                            Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des patients atteints de maladies graves, en leur apportant confort et soutien.
+                            Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des
+                            patients atteints de maladies graves, en leur apportant confort et soutien.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"{{ path('PALLIATIFS') }}\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -331,9 +357,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         </div>
                         <h4 class=\"mb-3\">Pansement</h4>
                         <p class=\"m-0\">
-                            Nos professionnels de santé sont experts dans le changement et la gestion des pansements pour assurer une guérison optimale.
+                            Nos professionnels de santé sont experts dans le changement et la gestion des pansements
+                            pour assurer une guérison optimale.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"{{ path('PANSEMENTS') }}\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -345,9 +372,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         </div>
                         <h4 class=\"mb-3\">Retour à Domicile</h4>
                         <p class=\"m-0\">
-                            Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un suivi médical approprié.
+                            Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un
+                            suivi médical approprié.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"{{ path('DOMICILE') }}\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -359,9 +387,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         </div>
                         <h4 class=\"mb-3\">Prévenir la Perte d’Autonomie</h4>
                         <p class=\"m-0\">
-                            Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte d'autonomie chez nos patients âgés.
+                            Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte
+                            d'autonomie chez nos patients âgés.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"{{ path('AUTONOMIE') }}\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -373,9 +402,10 @@ class __TwigTemplate_0532879ff3bc3cfe8721f6e42c98d9dd extends Template
                         </div>
                         <h4 class=\"mb-3\">Injection et Perfusion</h4>
                         <p class=\"m-0\">
-                            Nous offrons des services d'injections et de perfusions administrés par des infirmières qualifiées, en toute sécurité et confort.
+                            Nous offrons des services d'injections et de perfusions administrés par des infirmières
+                            qualifiées, en toute sécurité et confort.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"{{ path('PERFUSION') }}\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>

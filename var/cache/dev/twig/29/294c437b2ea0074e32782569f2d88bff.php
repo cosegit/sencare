@@ -300,7 +300,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé
                             quotidiens.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"";
+        // line 192
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("SOINS");
+        yield "\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -315,7 +318,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des
                             patients atteints de maladies graves, en leur apportant confort et soutien.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"";
+        // line 207
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("PALLIATIFS");
+        yield "\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -330,7 +336,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             Nos professionnels de santé sont experts dans le changement et la gestion des pansements
                             pour assurer une guérison optimale.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"";
+        // line 222
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("PANSEMENTS");
+        yield "\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -345,7 +354,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un
                             suivi médical approprié.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"";
+        // line 237
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("DOMICILE");
+        yield "\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -360,7 +372,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte
                             d'autonomie chez nos patients âgés.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"";
+        // line 252
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("AUTONOMIE");
+        yield "\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -375,7 +390,10 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             Nous offrons des services d'injections et de perfusions administrés par des infirmières
                             qualifiées, en toute sécurité et confort.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"";
+        // line 267
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("PERFUSION");
+        yield "\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -427,12 +445,12 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
                                     <input type=\"text\" class=\"form-control bg-light border-0\"
-                                           placeholder=\"votre nom svpl...\"
+                                           placeholder=\"nom\"
                                            style=\"height: 55px;\">
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
                                     <input type=\"email\" class=\"form-control bg-light border-0\"
-                                           placeholder=\"votre email svpl...\"
+                                           placeholder=\"email\"
                                            style=\"height: 55px;\">
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
@@ -484,16 +502,16 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <form>
                                 <div class=\"row g-3\">
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre nom svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"nom\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre prénom svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"prénom\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"number\" class=\"form-control bg-light border-0\" placeholder=\"votre téléphone svpl...\" style=\"height: 55px;\">
+                                        <input type=\"number\" class=\"form-control bg-light border-0\" placeholder=\"téléphone\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre Adresse svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"Adresse\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-12\">
                                         <button class=\"btn btn-primary w-100 py-3 text-white\" type=\"submit\">
@@ -514,7 +532,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <div class=\"container-fluid py-5\">
         <div class=\"container\">
             <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Docteurs</h5>
+                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Professionnels</h5>
                 <h1 class=\"display-4\">Professionnels de Santé Qualifiés.</h1>
             </div>
             <div class=\"owl-carousel team-carousel position-relative\">
@@ -709,7 +727,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
      */
     public function getDebugInfo()
     {
-        return array (  660 => 530,  641 => 514,  622 => 498,  578 => 457,  552 => 434,  526 => 411,  406 => 293,  404 => 292,  234 => 124,  205 => 97,  203 => 96,  201 => 95,  199 => 94,  197 => 93,  179 => 77,  169 => 69,  167 => 68,  165 => 67,  163 => 66,  161 => 65,  143 => 49,  133 => 41,  131 => 40,  129 => 39,  127 => 38,  125 => 37,  108 => 22,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
+        return array (  678 => 530,  659 => 514,  640 => 498,  596 => 457,  570 => 434,  544 => 411,  424 => 293,  422 => 292,  395 => 267,  377 => 252,  359 => 237,  341 => 222,  323 => 207,  305 => 192,  234 => 124,  205 => 97,  203 => 96,  201 => 95,  199 => 94,  197 => 93,  179 => 77,  169 => 69,  167 => 68,  165 => 67,  163 => 66,  161 => 65,  143 => 49,  133 => 41,  131 => 40,  129 => 39,  127 => 38,  125 => 37,  108 => 22,  90 => 6,  80 => 5,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -905,7 +923,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé
                             quotidiens.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"{{ path('SOINS') }}\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -920,7 +938,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des
                             patients atteints de maladies graves, en leur apportant confort et soutien.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"{{ path('PALLIATIFS') }}\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -935,7 +953,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             Nos professionnels de santé sont experts dans le changement et la gestion des pansements
                             pour assurer une guérison optimale.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"{{ path('PANSEMENTS') }}\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -950,7 +968,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un
                             suivi médical approprié.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"{{ path('DOMICILE') }}\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -965,7 +983,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte
                             d'autonomie chez nos patients âgés.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"{{ path('AUTONOMIE') }}\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -980,7 +998,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             Nous offrons des services d'injections et de perfusions administrés par des infirmières
                             qualifiées, en toute sécurité et confort.
                         </p>
-                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"\">
+                        <a class=\"btn btn-lg btn-primary rounded-pill\" href=\"{{ path('PERFUSION') }}\">
                             <i class=\"bi bi-arrow-right\"></i>
                         </a>
                     </div>
@@ -1030,12 +1048,12 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
                                     <input type=\"text\" class=\"form-control bg-light border-0\"
-                                           placeholder=\"votre nom svpl...\"
+                                           placeholder=\"nom\"
                                            style=\"height: 55px;\">
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
                                     <input type=\"email\" class=\"form-control bg-light border-0\"
-                                           placeholder=\"votre email svpl...\"
+                                           placeholder=\"email\"
                                            style=\"height: 55px;\">
                                 </div>
                                 <div class=\"col-12 col-sm-6\">
@@ -1087,16 +1105,16 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                             <form>
                                 <div class=\"row g-3\">
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre nom svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"nom\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre prénom svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"prénom\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"number\" class=\"form-control bg-light border-0\" placeholder=\"votre téléphone svpl...\" style=\"height: 55px;\">
+                                        <input type=\"number\" class=\"form-control bg-light border-0\" placeholder=\"téléphone\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-lg-12 col-sm-6\">
-                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"votre Adresse svpl...\" style=\"height: 55px;\">
+                                        <input type=\"text\" class=\"form-control bg-light border-0\" placeholder=\"Adresse\" style=\"height: 55px;\">
                                     </div>
                                     <div class=\"col-12\">
                                         <button class=\"btn btn-primary w-100 py-3 text-white\" type=\"submit\">
@@ -1117,7 +1135,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
     <div class=\"container-fluid py-5\">
         <div class=\"container\">
             <div class=\"text-center mx-auto mb-5\" style=\"max-width: 500px;\">
-                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Docteurs</h5>
+                <h5 class=\"d-inline-block text-primary text-uppercase border-bottom border-5\">Nos Professionnels</h5>
                 <h1 class=\"display-4\">Professionnels de Santé Qualifiés.</h1>
             </div>
             <div class=\"owl-carousel team-carousel position-relative\">

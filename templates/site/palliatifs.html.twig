@@ -1,0 +1,206 @@
+{% extends 'layout.html.twig' %}
+{% block service %}active{% endblock %}
+{% block body %}
+    <!-- Header Start -->
+    <div class="container-fluid py-5 mb-5 page-header-care">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-5 text-white fw-bold mt-5 mb-3 animated fadeIn">
+                        {{ "Soins Palliatifs"|trans }}
+                    </h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item">
+                                <a class="text-white" href="{{ path('Accueil') }}">
+                                    {{ "Accueil"|trans }}
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item text-white">
+                                {{ "Soins Palliatifs"|trans }}
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+    <!-- About Start -->
+    <div class="container-fluid py-5 mt-5">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-6 mb-5 mb-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded" src="{{ asset('images/soins.jpg') }}"
+                             style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 py-5 shadow">
+                    <div class="m-4">
+                        <h5 class="d-inline-block text-primary border-bottom border-5">
+                            Soins Palliatifs
+                        </h5>
+                        <h1 class="display-4">
+                            Soins médicaux personnalisés pour votre bien-être quotidien
+                        </h1>
+                    </div>
+                    <p class="about m-4">
+                        Les soins palliatifs de Sencare visent à offrir un soutien complet aux patients atteints de maladies graves ou en phase terminale. Notre approche multidisciplinaire intègre des soins médicaux, un soutien émotionnel, et des conseils spirituels pour améliorer la qualité de vie de nos patients et de leurs familles. Nous nous concentrons sur le soulagement de la douleur et d'autres symptômes pénibles tels que la nausée, la fatigue et la détresse respiratoire. Nos équipes de soins palliatifs sont composées de médecins, d'infirmières, de travailleurs sociaux et de conseillers qui travaillent ensemble pour créer des plans de soins personnalisés.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <!-- About Start -->
+    <div class="container-fluid py-5 mt-5">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-6 shadow py-5">
+                    <div class="m-4">
+                        <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">
+                            Soins Palliatifs
+                        </h5>
+                        <h1 class="display-4">
+                            Soins Médicaux Personnalisés pour Votre Bien-être Quotidien
+                        </h1>
+                    </div>
+                    <p class="about m-4">
+                        En plus des soins physiques, nous fournissons un soutien psychologique et social, aidant les patients et leurs familles à faire face aux défis émotionnels et pratiques de la maladie grave. Nous organisons des réunions régulières pour discuter des progrès et ajuster les plans de soins en fonction des besoins changeants. Notre objectif est de garantir que chaque patient vive ses derniers jours dans le confort et la dignité, entouré de soins compatissants.
+                        Nous offrons également des services de soutien au deuil pour aider les familles à traverser la période difficile suivant la perte d'un être cher.
+                    </p>
+                </div>
+                <div class="col-lg-6 mb-5 mb-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100 images">
+                        <img class="position-absolute w-100 h-100 rounded" src="{{ asset('images/soin.png ') }}"
+                             style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Appointment Start -->
+    <div class="container-fluid bg-primary my-5 py-5">
+        <div class="container py-5">
+            <div class="row gx-5">
+                <div class="col-lg-6 mb-5 mb-lg-0 mt-5">
+                    <div class="mb-4">
+                        <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">Rendez-vous !</h5>
+                        <h1 class="display-4">Prendre Rendez-vous !</h1>
+                    </div>
+                    <p class="text-white mb-5 about">
+                        Chez Sencare, nous offrons une gamme complète de services de santé pour répondre aux besoins de
+                        nos patients avec compassion et expertise.
+                    </p>
+                    {#                    <a class="btn btn-dark rounded-pill py-3 px-5 me-3" href="">Find Doctor</a>#}
+                    {#                    <a class="btn btn-outline-dark rounded-pill py-3 px-5" href="">Read More</a>#}
+                </div>
+                <div class="col-lg-6" id="urgence">
+                    <div class="bg-white text-center rounded p-5">
+                        <h1 class="mb-4">Prendre Rendez-vous</h1>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select bg-light border-0" style="height: 55px;">
+                                        <option selected>Sélectionnez le département</option>
+                                        <option value="1">Department 1</option>
+                                        <option value="2">Department 2</option>
+                                        <option value="3">Department 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select bg-light border-0" style="height: 55px;">
+                                        <option selected>Sélectionnez un docteur</option>
+                                        <option value="1">Doctor 1</option>
+                                        <option value="2">Doctor 2</option>
+                                        <option value="3">Doctor 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control bg-light border-0"
+                                           placeholder="nom"
+                                           style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control bg-light border-0"
+                                           placeholder="email"
+                                           style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="date" id="date" data-target-input="nearest">
+                                        <input type="text"
+                                               class="form-control bg-light border-0 datetimepicker-input"
+                                               placeholder="Choisissez la date" data-target="#date"
+                                               data-toggle="datetimepicker"
+                                               style="height: 55px;">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="time" id="time" data-target-input="nearest">
+                                        <input type="text"
+                                               class="form-control bg-light border-0 datetimepicker-input"
+                                               placeholder="Choisissez L'heure" data-target="#time"
+                                               data-toggle="datetimepicker"
+                                               style="height: 55px;">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Envoyer
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
+
+    <!-- Pricing Plan Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Demande d'urgence</h5>
+                <h1 class="display-4">Formulaire demande d'urgence</h1>
+            </div>
+            <div class="row gx-5">
+                <div class="col-lg-3">
+
+                </div>
+                <div class="col-lg-7" id="urgence">
+                    <div class="bg-primary text-center rounded p-5">
+                        <h1 class="mb-4 text-white">Demande d'urgence !</h1>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-lg-12 col-sm-6">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="nom" style="height: 55px;">
+                                </div>
+                                <div class="col-lg-12 col-sm-6">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="prénom" style="height: 55px;">
+                                </div>
+                                <div class="col-lg-12 col-sm-6">
+                                    <input type="number" class="form-control bg-light border-0" placeholder="téléphone" style="height: 55px;">
+                                </div>
+                                <div class="col-lg-12 col-sm-6">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Adresse" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3 text-white" type="submit">
+                                        Envoyer
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pricing Plan End -->
+
+
+{% endblock %}

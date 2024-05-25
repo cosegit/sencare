@@ -10,45 +10,75 @@
     --noir-rgb: 12, 12, 12;
 
 }
+
+.display-4{
+    font-size: 2.5rem !important;
+}
+.serviceright {
+    top: 70px;
+    right: -70px;
+    width: 100%;
+    z-index: -10;
+}
+.boxshadowright{
+    box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.2) !important;
+}
+.boxshadowleft{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2) !important;
+}
+.serviceleft {
+    top: 70px;
+    left: -70px;
+    width: 100%;
+    z-index: -10;
+}
 .page-header-care{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/sale.avif);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header_about.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+.page-header-soins{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header_soins.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
 }
 .page-header-contact{
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/sale_1.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
 }
 .page-header-specialite{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header_specialite.avif);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header_specialiste.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
 }
 .page-header-about{
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header_about.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
 }
 .page-header-service{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header_service.avif);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header_service.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
 }
 .carousel-overlay {
     background: linear-gradient(90deg, rgba(var(--noir-rgb), 0.5), transparent);

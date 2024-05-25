@@ -20,6 +20,12 @@ return [
         '/Service' => [[['_route' => 'Service', '_controller' => 'App\\Controller\\AccueilController::service'], null, null, null, false, false, null]],
         '/Consultation' => [[['_route' => 'Consultation', '_controller' => 'App\\Controller\\AccueilController::consultation'], null, null, null, false, false, null]],
         '/Contact' => [[['_route' => 'Contact', '_controller' => 'App\\Controller\\AccueilController::contact'], null, null, null, false, false, null]],
+        '/Soins' => [[['_route' => 'SOINS', '_controller' => 'App\\Controller\\AccueilController::soinsgeneraux'], null, null, null, false, false, null]],
+        '/Palliatifs' => [[['_route' => 'PALLIATIFS', '_controller' => 'App\\Controller\\AccueilController::palliatifs'], null, null, null, false, false, null]],
+        '/Pansements' => [[['_route' => 'PANSEMENTS', '_controller' => 'App\\Controller\\AccueilController::pansements'], null, null, null, false, false, null]],
+        '/Domicile' => [[['_route' => 'DOMICILE', '_controller' => 'App\\Controller\\AccueilController::domicile'], null, null, null, false, false, null]],
+        '/Autonomie' => [[['_route' => 'AUTONOMIE', '_controller' => 'App\\Controller\\AccueilController::autonomie'], null, null, null, false, false, null]],
+        '/Perfusion' => [[['_route' => 'PERFUSION', '_controller' => 'App\\Controller\\AccueilController::perfusion'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'

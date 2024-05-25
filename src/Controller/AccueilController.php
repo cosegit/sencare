@@ -38,6 +38,37 @@ class AccueilController extends AbstractController {
     {
         return  $this->render('site/contact.html.twig');
     }
+    #[Route('/Soins', name : 'SOINS')]
+    public function soinsgeneraux(Request $request)
+    {
+        return  $this->render('site/soins.html.twig');
+    }
+    #[Route('/Palliatifs', name : 'PALLIATIFS')]
+    public function palliatifs(Request $request)
+    {
+        return  $this->render('site/palliatifs.html.twig');
+    }
+    #[Route('/Pansements', name : 'PANSEMENTS')]
+    public function pansements(Request $request)
+    {
+        return  $this->render('site/pansements.html.twig');
+    }
+    #[Route('/Domicile', name : 'DOMICILE')]
+    public function domicile(Request $request)
+    {
+        return  $this->render('site/domicile.html.twig');
+    }
+    #[Route('/Autonomie', name : 'AUTONOMIE')]
+    public function autonomie(Request $request)
+    {
+        return  $this->render('site/autonomie.html.twig');
+    }
+
+    #[Route('/Perfusion', name : 'PERFUSION')]
+    public function perfusion(Request $request)
+    {
+        return  $this->render('site/perfusion.html.twig');
+    }
 }
 
 ?>

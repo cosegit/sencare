@@ -189,7 +189,7 @@
                             Nous fournissons une gamme complète de soins médicaux pour répondre à vos besoins de santé
                             quotidiens.
                         </p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                        <a class="btn btn-lg btn-primary rounded-pill" href="{{ path('SOINS') }}">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -204,7 +204,7 @@
                             Nous offrons des soins palliatifs de haute qualité pour améliorer la qualité de vie des
                             patients atteints de maladies graves, en leur apportant confort et soutien.
                         </p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                        <a class="btn btn-lg btn-primary rounded-pill" href="{{ path('PALLIATIFS') }}">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -219,7 +219,7 @@
                             Nos professionnels de santé sont experts dans le changement et la gestion des pansements
                             pour assurer une guérison optimale.
                         </p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                        <a class="btn btn-lg btn-primary rounded-pill" href="{{ path('PANSEMENTS') }}">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -234,7 +234,7 @@
                             Nous facilitons un retour à domicile en toute sécurité après une hospitalisation, avec un
                             suivi médical approprié.
                         </p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                        <a class="btn btn-lg btn-primary rounded-pill" href="{{ path('DOMICILE') }}">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -249,7 +249,7 @@
                             Nos programmes sont conçus pour aider à maintenir l'indépendance et prévenir la perte
                             d'autonomie chez nos patients âgés.
                         </p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                        <a class="btn btn-lg btn-primary rounded-pill" href="{{ path('AUTONOMIE') }}">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -264,7 +264,7 @@
                             Nous offrons des services d'injections et de perfusions administrés par des infirmières
                             qualifiées, en toute sécurité et confort.
                         </p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                        <a class="btn btn-lg btn-primary rounded-pill" href="{{ path('PERFUSION') }}">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -314,12 +314,12 @@
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <input type="text" class="form-control bg-light border-0"
-                                           placeholder="votre nom svpl..."
+                                           placeholder="nom"
                                            style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <input type="email" class="form-control bg-light border-0"
-                                           placeholder="votre email svpl..."
+                                           placeholder="email"
                                            style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
@@ -371,16 +371,16 @@
                             <form>
                                 <div class="row g-3">
                                     <div class="col-lg-12 col-sm-6">
-                                        <input type="text" class="form-control bg-light border-0" placeholder="votre nom" style="height: 55px;">
+                                        <input type="text" class="form-control bg-light border-0" placeholder="nom" style="height: 55px;">
                                     </div>
                                     <div class="col-lg-12 col-sm-6">
-                                        <input type="text" class="form-control bg-light border-0" placeholder="votre prénom" style="height: 55px;">
+                                        <input type="text" class="form-control bg-light border-0" placeholder="prénom" style="height: 55px;">
                                     </div>
                                     <div class="col-lg-12 col-sm-6">
-                                        <input type="number" class="form-control bg-light border-0" placeholder="votre téléphone" style="height: 55px;">
+                                        <input type="number" class="form-control bg-light border-0" placeholder="téléphone" style="height: 55px;">
                                     </div>
                                     <div class="col-lg-12 col-sm-6">
-                                        <input type="text" class="form-control bg-light border-0" placeholder="votre Adresse" style="height: 55px;">
+                                        <input type="text" class="form-control bg-light border-0" placeholder="Adresse" style="height: 55px;">
                                     </div>
                                     <div class="col-12">
                                         <button class="btn btn-primary w-100 py-3 text-white" type="submit">
