@@ -870,3 +870,10 @@ de9eec,127.0.0.1,GET,http://127.0.0.1:8001/Pansements,1716815211,,200,request
 7b660e,127.0.0.1,GET,http://127.0.0.1:8001/Domicile,1716815222,,200,request
 0800ea,127.0.0.1,GET,http://127.0.0.1:8001/Autonomie,1716815227,,200,request
 b16ec8,127.0.0.1,GET,http://127.0.0.1:8001/Perfusion,1716815231,,200,request
+b214f5,127.0.0.1,GET,http://127.0.0.1:8001/,1716815523,,200,request
+e140de,127.0.0.1,GET,http://127.0.0.1:8001/Palliatifs,1716815527,,200,request
+aaa1dc,127.0.0.1,GET,http://127.0.0.1:8001/Palliatifs,1716815729,,200,request
+cd960d,127.0.0.1,GET,http://127.0.0.1:8001/Service,1716815732,,200,request
+5288a9,127.0.0.1,GET,http://127.0.0.1:8001/Palliatifs,1716815735,,200,request
+e2166b,127.0.0.1,GET,http://127.0.0.1:8001/Palliatifs,1716815774,,200,request
+161a76,127.0.0.1,GET,http://127.0.0.1:8001/Service,1716820323,,200,request
