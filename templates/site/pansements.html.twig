@@ -2,12 +2,12 @@
 {% block service %}active{% endblock %}
 {% block body %}
     <!-- Header Start -->
-    <div class="container-fluid py-5 mb-5 page-header-care">
+    <div class="container-fluid py-5 mb-5 page-header-soins">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
                     <h1 class="display-5 text-white fw-bold mt-5 mb-3 animated fadeIn">
-                        {{ "Pansement"|trans }}
+                        {{ "Soins Généraux"|trans }}
                     </h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
@@ -17,7 +17,7 @@
                                 </a>
                             </li>
                             <li class="breadcrumb-item text-white">
-                                {{ "Pansement"|trans }}
+                                {{ "Soins Généraux"|trans }}
                             </li>
                         </ol>
                     </nav>
@@ -30,23 +30,23 @@
     <div class="container-fluid py-5 mt-5">
         <div class="container">
             <div class="row gx-5">
-                <div class="col-lg-6 mb-5 mb-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded" src="{{ asset('images/soins.jpg') }}"
+                <div class="col-lg-6 position-relative mb-5 mb-lg-0 " style="min-height: 500px;">
+                    <div class="position-absolute serviceright h-100">
+                        <img class="w-100 h-100 boxshadowright rounded" src="{{ asset('images/soins.jpg') }}"
                              style="object-fit: cover;" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 py-5 shadow">
+                <div class="col-lg-6 py-5 shadow bg-white rounded">
                     <div class="m-4">
                         <h5 class="d-inline-block text-primary border-bottom border-5">
-                            Pansement
+                            Soins généraux
                         </h5>
                         <h1 class="display-4">
                             Soins médicaux personnalisés pour votre bien-être quotidien
                         </h1>
                     </div>
                     <p class="about m-4">
-                        nous savons qu'une gestion efficace des plaies est cruciale pour une guérison rapide et sans complications. Nos professionnels de santé sont experts dans l'art de changer et de gérer les pansements, en utilisant des techniques avancées et des matériaux de haute qualité. Nous évaluons chaque plaie individuellement pour déterminer le meilleur type de pansement à utiliser, en tenant compte de facteurs tels que la localisation, la taille, et le stade de guérison.
+                        Nous comprenons que chaque individu a des besoins de santé uniques. Nos services de soins généraux sont conçus pour répondre à ces besoins de manière complète et personnalisée. Nous offrons des consultations médicales générales où nos médecins généralistes prennent le temps de vous écouter, d’évaluer votre état de santé général et de discuter de vos préoccupations. Que vous nécessitiez un examen de routine, des conseils sur la gestion d'une maladie chronique, ou un traitement pour une condition aiguë, notre équipe est là pour vous aider.
                     </p>
                 </div>
             </div>
@@ -57,22 +57,22 @@
     <div class="container-fluid py-5 mt-5">
         <div class="container">
             <div class="row gx-5">
-                <div class="col-lg-6 shadow py-5">
+                <div class="col-lg-6 shadow py-5 rounded bg-white">
                     <div class="m-4">
                         <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">
-                            Pansement
+                            Soins généraux
                         </h5>
                         <h1 class="display-4">
-                            Soins Médicaux Personnalisés pour Votre Bien-être Quotidien
+                            Consultations médicales complètes
                         </h1>
                     </div>
                     <p class="about m-4">
-                        Nos services incluent le nettoyage minutieux de la plaie, l'application de pansements appropriés, et l'éducation du patient sur les soins à domicile. Nous surveillons attentivement les signes d'infection et d'autres complications, intervenant rapidement si nécessaire. En plus des soins en clinique, nous offrons des visites à domicile pour les patients ayant des besoins spéciaux ou des difficultés à se déplacer. Notre approche centrée sur le patient assure que chaque personne reçoit des soins adaptés à ses besoins spécifiques, favorisant une guérison optimale.
+                        Nous mettons un point d'honneur à fournir des soins holistiques, en prenant en compte votre bien-être physique, mental et émotionnel. Nos services incluent également des examens de dépistage pour détecter les maladies à un stade précoce, des vaccinations pour protéger contre les infections, et des conseils préventifs pour maintenir une bonne santé. En travaillant avec vous, nous établissons des plans de soins personnalisés qui répondent à vos besoins spécifiques et à vos objectifs de santé. La prévention étant au cœur de notre approche, nous vous offrons des recommandations pour un mode de vie sain et des stratégies pour éviter les maladies courantes.
                     </p>
                 </div>
-                <div class="col-lg-6 mb-5 mb-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100 images">
-                        <img class="position-absolute w-100 h-100 rounded" src="{{ asset('images/soin.png ') }}"
+                <div class="col-lg-6 mb-5 mb-lg-0 position-relative mb-5" style="min-height: 500px;">
+                    <div class="position-absolute serviceleft h-100">
+                        <img class="w-100 h-100 rounded boxshadowleft" src="{{ asset('images/soin.png ') }}"
                              style="object-fit: cover;" alt="">
                     </div>
                 </div>
@@ -82,7 +82,7 @@
     <!-- About End -->
 
     <!-- Appointment Start -->
-    <div class="container-fluid bg-primary my-5 py-5">
+    <div class="container-fluid bg-primary my-5 pt-5">
         <div class="container py-5">
             <div class="row gx-5">
                 <div class="col-lg-6 mb-5 mb-lg-0 mt-5">

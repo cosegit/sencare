@@ -2,7 +2,7 @@
 {% block service %}active{% endblock %}
 {% block body %}
     <!-- Header Start -->
-    <div class="container-fluid py-5 mb-5 page-header-care">
+    <div class="container-fluid py-5 mb-5 page-header-soins">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
@@ -30,13 +30,13 @@
     <div class="container-fluid py-5 mt-5">
         <div class="container">
             <div class="row gx-5">
-                <div class="col-lg-6 mb-5 mb-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded" src="{{ asset('images/soins.jpg') }}"
+                <div class="col-lg-6 position-relative mb-5 mb-lg-0 " style="min-height: 500px;">
+                    <div class="position-absolute serviceright h-100">
+                        <img class="w-100 h-100 boxshadowright rounded" src="{{ asset('images/soins.jpg') }}"
                              style="object-fit: cover;" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 py-5 shadow">
+                <div class="col-lg-6 py-5 shadow bg-white rounded">
                     <div class="m-4">
                         <h5 class="d-inline-block text-primary border-bottom border-5">
                             Soins généraux
@@ -57,22 +57,22 @@
     <div class="container-fluid py-5 mt-5">
         <div class="container">
             <div class="row gx-5">
-                <div class="col-lg-6 shadow py-5">
+                <div class="col-lg-6 shadow py-5 rounded bg-white">
                     <div class="m-4">
                         <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">
                             Soins généraux
                         </h5>
                         <h1 class="display-4">
-                            Soins Médicaux Personnalisés pour Votre Bien-être Quotidien
+                            Consultations médicales complètes
                         </h1>
                     </div>
                     <p class="about m-4">
                         Nous mettons un point d'honneur à fournir des soins holistiques, en prenant en compte votre bien-être physique, mental et émotionnel. Nos services incluent également des examens de dépistage pour détecter les maladies à un stade précoce, des vaccinations pour protéger contre les infections, et des conseils préventifs pour maintenir une bonne santé. En travaillant avec vous, nous établissons des plans de soins personnalisés qui répondent à vos besoins spécifiques et à vos objectifs de santé. La prévention étant au cœur de notre approche, nous vous offrons des recommandations pour un mode de vie sain et des stratégies pour éviter les maladies courantes.
                     </p>
                 </div>
-                <div class="col-lg-6 mb-5 mb-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100 images">
-                        <img class="position-absolute w-100 h-100 rounded" src="{{ asset('images/soin.png ') }}"
+                <div class="col-lg-6 mb-5 mb-lg-0 position-relative mb-5" style="min-height: 500px;">
+                    <div class="position-absolute serviceleft h-100">
+                        <img class="w-100 h-100 rounded boxshadowleft" src="{{ asset('images/soin.png ') }}"
                              style="object-fit: cover;" alt="">
                     </div>
                 </div>
@@ -82,7 +82,7 @@
     <!-- About End -->
 
     <!-- Appointment Start -->
-    <div class="container-fluid bg-primary my-5 py-5">
+    <div class="container-fluid bg-primary my-5 pt-5">
         <div class="container py-5">
             <div class="row gx-5">
                 <div class="col-lg-6 mb-5 mb-lg-0 mt-5">
