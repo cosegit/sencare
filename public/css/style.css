@@ -41,7 +41,7 @@
     padding-bottom: 3rem !important;
 }
 .page-header-soins{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header_soins.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header_soins.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,7 +57,7 @@
     padding-bottom: 3rem !important;
 }
 .page-header-specialite{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header_specialiste.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header_specialite.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,7 +73,7 @@
     padding-bottom: 3rem !important;
 }
 .page-header-service{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header_service.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header_service.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
