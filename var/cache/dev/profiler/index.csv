@@ -1234,3 +1234,6 @@ e164ca,127.0.0.1,GET,http://localhost:8000/Specialistes,1716987192,,200,request
 f8bd24,127.0.0.1,GET,http://localhost:8000/,1716987252,,200,request
 e67f8a,127.0.0.1,GET,http://localhost:8000/,1716987327,,200,request
 6927f9,127.0.0.1,GET,http://localhost:8000/,1716987368,,200,request
+906d5a,127.0.0.1,GET,http://localhost:8000/,1716987730,,200,request
+9fb7f7,127.0.0.1,GET,http://localhost:8000/,1716987730,,200,request
+749f41,127.0.0.1,GET,http://localhost:8000/About,1716987739,,200,request
