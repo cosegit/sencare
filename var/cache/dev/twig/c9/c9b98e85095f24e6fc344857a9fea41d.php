@@ -194,7 +194,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                             </div>
                             <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
                                 <div class=\"mt-auto p-4\">
-                                    <h3>FATOU DIOP</h3>
+                                    <h3>Patrice Gueye</h3>
                                     <h6 class=\"fw-normal fst-italic text-primary mb-4\">Medecin General</h6>
                                     <p class=\"m-0\"></p>
                                 </div>
@@ -341,7 +341,7 @@ class __TwigTemplate_74da6b90648a693098a61ca8876f7c9e extends Template
                             </div>
                             <div class=\"col-12 col-sm-7 h-100 d-flex flex-column\">
                                 <div class=\"mt-auto p-4\">
-                                    <h3>FATOU DIOP</h3>
+                                    <h3>Patrice Gueye</h3>
                                     <h6 class=\"fw-normal fst-italic text-primary mb-4\">Medecin General</h6>
                                     <p class=\"m-0\"></p>
                                 </div>

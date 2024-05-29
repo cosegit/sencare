@@ -10,19 +10,21 @@
          data-bs-pause="false">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
+                    aria-current="true" aria-label="Slide 1">
+            </button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
+                    aria-label="Slide 2">
+            </button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+                    aria-label="Slide 3">
+            </button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item position-relative active" data-bs-interval="5000">
-                <div class="carousel-img">
-                    <img src="{{ asset('images/slide_1.avif') }}" alt=""
-                         class="img-fluid w-100 animated fadIn position-absolute">
+                <div class="carousel-img slide_1 animated fadIn">
+
                 </div>
-                <div class="container-fluid py-5">
+                <div class="container-fluid">
                     <div class="carousel-overlay">
                         <div class="container py-5">
                             <div class="row justify-content-start text-carousel position-absolute">
@@ -31,13 +33,9 @@
                                         style="border-color: rgba(256, 256, 256, .3) !important;">
                                         Soins à domicile.
                                     </h5>
-                                    <h1 class="display-1 carou text-white mb-md-4 animated zoomIn delay-1s">La meilleure
-                                        solution de soins de santé chez vous.</h1>
-                                    {#                            <div class="pt-2">#}
-                                    {#                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Find Doctor</a>#}
-                                    {#                                <a href=""#}
-                                    {#                                   class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Appointment</a>#}
-                                    {#                            </div>#}
+                                    <h1 class="display-1 carou text-white mb-md-4 animated zoomIn delay-1s">
+                                        La meilleure solution de soins de santé chez vous.
+                                    </h1>
                                 </div>
                             </div>
                         </div>
@@ -45,11 +43,10 @@
                 </div>
             </div>
             <div class="carousel-item position-relative" data-bs-interval="5000">
-                <div class="carousel-img">
-                    <img src="{{ asset('images/slide_2.avif') }}" alt=""
-                         class="img-fluid w-100 animated fadIn position-absolute">
+                <div class="carousel-img slide_2 animated fadIn">
+
                 </div>
-                <div class="container-fluid py-5">
+                <div class="container-fluid">
                     <div class="carousel-overlay">
                         <div class="container py-5">
                             <div class="row justify-content-start text-carousel position-absolute">
@@ -61,11 +58,6 @@
                                     <h1 class="display-1 carou text-white mb-md-4 animated zoomIn delay-1s">
                                         Votre oasis de bien-être et de soins de qualité.
                                     </h1>
-                                    {#                            <div class="pt-2">#}
-                                    {#                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Find Doctor</a>#}
-                                    {#                                <a href=""#}
-                                    {#                                   class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Appointment</a>#}
-                                    {#                            </div>#}
                                 </div>
                             </div>
                         </div>
@@ -73,11 +65,10 @@
                 </div>
             </div>
             <div class="carousel-item position-relative" data-bs-interval="5000">
-                <div class="carousel-img">
-                    <img src="{{ asset('images/slide_3.avif') }}" alt=""
-                         class="img-fluid w-100 animated fadIn position-absolute">
+                <div class="carousel-img slide_3 animated fadIn">
+
                 </div>
-                <div class="container-fluid py-5">
+                <div class="container-fluid">
                     <div class="carousel-overlay">
                         <div class="container py-5">
                             <div class="row justify-content-start text-carousel position-absolute">
@@ -89,11 +80,6 @@
                                     <h1 class="display-1 carou text-white mb-md-4 animated zoomIn delay-1s">
                                         Votre santé entre des mains expertes et bienveillantes.
                                     </h1>
-                                    {#                            <div class="pt-2">#}
-                                    {#                                <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Find Doctor</a>#}
-                                    {#                                <a href=""#}
-                                    {#                                   class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2 animated zoomIn delay-2s">Appointment</a>#}
-                                    {#                            </div>#}
                                 </div>
                             </div>
                         </div>
@@ -412,8 +398,8 @@
                         </div>
                         <div class="col-12 col-sm-7 h-100 d-flex flex-column">
                             <div class="mt-auto p-4">
-                                <h3>Doctor Name</h3>
-                                <h6 class="fw-normal fst-italic text-primary mb-4">Cardiology Specialist</h6>
+                                <h3>Samba Fall</h3>
+                                <h6 class="fw-normal fst-italic text-primary mb-4">Specialiste en cardiology</h6>
                                 <p class="m-0">Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum
                                     dolor</p>
                             </div>
@@ -435,8 +421,8 @@
                         </div>
                         <div class="col-12 col-sm-7 h-100 d-flex flex-column">
                             <div class="mt-auto p-4">
-                                <h3>Doctor Name</h3>
-                                <h6 class="fw-normal fst-italic text-primary mb-4">Cardiology Specialist</h6>
+                                <h3>Anta Diop</h3>
+                                <h6 class="fw-normal fst-italic text-primary mb-4">Cancerologue</h6>
                                 <p class="m-0">Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum
                                     dolor</p>
                             </div>
@@ -458,8 +444,8 @@
                         </div>
                         <div class="col-12 col-sm-7 h-100 d-flex flex-column">
                             <div class="mt-auto p-4">
-                                <h3>Doctor Name</h3>
-                                <h6 class="fw-normal fst-italic text-primary mb-4">Cardiology Specialist</h6>
+                                <h3>Patrice Gueye</h3>
+                                <h6 class="fw-normal fst-italic text-primary mb-4">Medecin General</h6>
                                 <p class="m-0">Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum
                                     dolor</p>
                             </div>

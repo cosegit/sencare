@@ -88,7 +88,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
 
         // line 4
         yield "    <!-- Header Start -->
-    <div class=\"container-fluid py-5 mb-5 page-header-care\">
+    <div class=\"container-fluid py-5 mb-5 page-header-about\">
         <div class=\"container py-5\">
             <div class=\"row justify-content-center\">
                 <div class=\"col-lg-10 text-center\">
@@ -251,7 +251,7 @@ class __TwigTemplate_dab167b14dc84f8d65a3759a0a8ff7bb extends Template
 {% block About %}active{% endblock %}
 {% block body %}
     <!-- Header Start -->
-    <div class=\"container-fluid py-5 mb-5 page-header-care\">
+    <div class=\"container-fluid py-5 mb-5 page-header-about\">
         <div class=\"container py-5\">
             <div class=\"row justify-content-center\">
                 <div class=\"col-lg-10 text-center\">
