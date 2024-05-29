@@ -105,7 +105,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
         </div>
         <div class=\"carousel-inner\">
             <div class=\"carousel-item position-relative active\" data-bs-interval=\"5000\">
-                <div class=\"carousel-img slide_1 animated fadIn\">
+                <div class=\"carousel-img slide_2 animated fadIn\">
 
                 </div>
                 <div class=\"container-fluid\">
@@ -127,7 +127,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 </div>
             </div>
             <div class=\"carousel-item position-relative\" data-bs-interval=\"5000\">
-                <div class=\"carousel-img slide_2 animated fadIn\">
+                <div class=\"carousel-img slide_1 animated fadIn\">
 
                 </div>
                 <div class=\"container-fluid\">
@@ -717,7 +717,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
         </div>
         <div class=\"carousel-inner\">
             <div class=\"carousel-item position-relative active\" data-bs-interval=\"5000\">
-                <div class=\"carousel-img slide_1 animated fadIn\">
+                <div class=\"carousel-img slide_2 animated fadIn\">
 
                 </div>
                 <div class=\"container-fluid\">
@@ -739,7 +739,7 @@ class __TwigTemplate_322d3cb8e48f14051c1eadf8492e715e extends Template
                 </div>
             </div>
             <div class=\"carousel-item position-relative\" data-bs-interval=\"5000\">
-                <div class=\"carousel-img slide_2 animated fadIn\">
+                <div class=\"carousel-img slide_1 animated fadIn\">
 
                 </div>
                 <div class=\"container-fluid\">

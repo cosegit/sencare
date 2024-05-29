@@ -23,6 +23,9 @@
     background: url(../images/slide_3.avif);
 }
 
+.display-1{
+    margin: 0 !important;
+}
 .display-4 {
     font-size: 2.5rem !important;
 }
@@ -319,11 +322,11 @@ a {
     }
 
     .carousel-img.slide_1 {
-        background-image: url(../images/slide_mob_1.avif);
+        background-image: url(../images/slide_mob_2.avif);
     }
 
     .carousel-img.slide_2 {
-        background-image: url(../images/slide_mob_2.avif);
+        background-image: url(../images/slide_mob_1.avif);
     }
 
     .carousel-img.slide_3 {
